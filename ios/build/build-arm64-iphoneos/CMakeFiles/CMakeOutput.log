@@ -1,0 +1,1408 @@
+The target system is: iOS - 6.0 - arm64
+The host system is: Darwin - 17.5.0 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: -fembed-bitcode
+Id flags:  
+
+The output was:
+0
+=== BUILD TARGET CompilerIdCXX OF PROJECT CompilerIdCXX WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX.hmap
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+
+Create product structure
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.xctest
+
+CompileC CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=11.3 -g -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/include -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/DerivedSources/arm64 -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/DerivedSources -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -MMD -MT dependencies -MF /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.dia -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o
+
+Ld CompilerIdCXX.xctest/CompilerIdCXX normal arm64
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX
+    export IPHONEOS_DEPLOYMENT_TARGET=11.3
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList -miphoneos-version-min=11.3 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_lto.o -framework XCTest -Xlinker -dependency_info -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_dependency_info.dat -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX
+
+GenerateDSYMFile CompilerIdCXX.xctest.dSYM CompilerIdCXX.xctest/CompilerIdCXX
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.xctest.dSYM
+
+PhaseScriptExecution Run\ Script CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX
+    /bin/sh -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+CURRENT_ARCH=arm64
+
+Touch CompilerIdCXX.xctest
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /usr/bin/touch -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.xctest
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.xctest/CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: -fembed-bitcode
+Id flags:  
+
+The output was:
+0
+=== BUILD TARGET CompilerIdC OF PROJECT CompilerIdC WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-generated-files.hmap
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-project-headers.hmap
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC.hmap
+
+Create product structure
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.xctest
+
+CompileC CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o CMakeCCompilerId.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=11.3 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC.hmap -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/include -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/DerivedSources/arm64 -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/DerivedSources -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -MMD -MT dependencies -MF /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.d --serialize-diagnostics /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.dia -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CMakeCCompilerId.c -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o
+
+Ld CompilerIdC.xctest/CompilerIdC normal arm64
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC
+    export IPHONEOS_DEPLOYMENT_TARGET=11.3
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList -miphoneos-version-min=11.3 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_lto.o -framework XCTest -Xlinker -dependency_info -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_dependency_info.dat -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.xctest/CompilerIdC
+
+GenerateDSYMFile CompilerIdC.xctest.dSYM CompilerIdC.xctest/CompilerIdC
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.xctest/CompilerIdC -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.xctest.dSYM
+
+PhaseScriptExecution Run\ Script CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC
+    /bin/sh -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+CURRENT_ARCH=arm64
+
+Touch CompilerIdC.xctest
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /usr/bin/touch -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.xctest
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.xctest/CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.xctest/CompilerIdC"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/xcodebuild_wrapper" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_51725" "-configuration" "Debug"
+Build settings from command line:
+    ARCHS = arm64
+    IPHONEOS_DEPLOYMENT_TARGET = 6.0
+    SDKROOT = iphoneos11.3
+
+=== BUILD TARGET cmTC_51725 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_51725" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_51725.app
+
+ProcessInfoPlistFile Debug/cmTC_51725.app/Info.plist CMakeFiles/cmTC_51725.dir/Info.plist
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-infoPlistUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_51725.dir/Info.plist -genpkginfo /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_51725.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_51725.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=6.0 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -fembed-bitcode-marker -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/DerivedSources/arm64 -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -stdlib=libc++ -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual -stdlib=libc++ -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual -fPIE -MMD -MT dependencies -MF /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/CMakeCXXCompilerABI.o
+
+Ld Debug/cmTC_51725.app/cmTC_51725 normal arm64
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=6.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725.LinkFileList -miphoneos-version-min=6.0 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725_lto.o -Xlinker -no_deduplicate -fembed-bitcode-marker -v -Xlinker -dependency_info -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725_dependency_info.dat -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_51725.app/cmTC_51725
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: aarch64-apple-darwin17.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: libstdc++ is deprecated; move to libc++ with a minimum deployment target of iOS 7 [-Wdeprecated]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 6.0.0 -bitcode_bundle -bitcode_process_mode marker -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_51725.app/cmTC_51725 -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725.LinkFileList -object_path_lto /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725_lto.o -no_deduplicate -dependency_info /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725_dependency_info.dat -lstdc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug
+
+GenerateDSYMFile Debug/cmTC_51725.app.dSYM Debug/cmTC_51725.app/cmTC_51725
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_51725.app/cmTC_51725 -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_51725.app.dSYM
+
+Touch Debug/cmTC_51725.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /usr/bin/touch -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_51725.app
+
+Validate Debug/cmTC_51725.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_51725.app
+
+** BUILD SUCCEEDED **
+
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/xcodebuild_wrapper" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_51725" "-configuration" "Debug"]
+  ignore line: [Build settings from command line:]
+  ignore line: [    ARCHS = arm64]
+  ignore line: [    IPHONEOS_DEPLOYMENT_TARGET = 6.0]
+  ignore line: [    SDKROOT = iphoneos11.3]
+  ignore line: []
+  ignore line: [=== BUILD TARGET cmTC_51725 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: [Code Signing Warning: "cmTC_51725" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64]
+  ignore line: [write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725.LinkFileList]
+  ignore line: []
+  ignore line: [Create product structure]
+  ignore line: [/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_51725.app]
+  ignore line: []
+  ignore line: [ProcessInfoPlistFile Debug/cmTC_51725.app/Info.plist CMakeFiles/cmTC_51725.dir/Info.plist]
+  ignore line: [    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp]
+  ignore line: [    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"]
+  ignore line: [    builtin-infoPlistUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_51725.dir/Info.plist -genpkginfo /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_51725.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_51725.app/Info.plist]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=6.0 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -fembed-bitcode-marker -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/DerivedSources/arm64 -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -stdlib=libc++ -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual -stdlib=libc++ -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual -fPIE -MMD -MT dependencies -MF /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/CMakeCXXCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTC_51725.app/cmTC_51725 normal arm64]
+  ignore line: [    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp]
+  ignore line: [    export IPHONEOS_DEPLOYMENT_TARGET=6.0]
+  ignore line: [    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725.LinkFileList -miphoneos-version-min=6.0 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725_lto.o -Xlinker -no_deduplicate -fembed-bitcode-marker -v -Xlinker -dependency_info -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725_dependency_info.dat -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_51725.app/cmTC_51725]
+  ignore line: [Apple LLVM version 9.1.0 (clang-902.0.39.1)]
+  ignore line: [Target: aarch64-apple-darwin17.5.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: libstdc++ is deprecated]
+  ignore line: [ move to libc++ with a minimum deployment target of iOS 7 [-Wdeprecated]]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 6.0.0 -bitcode_bundle -bitcode_process_mode marker -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_51725.app/cmTC_51725 -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725.LinkFileList -object_path_lto /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725_lto.o -no_deduplicate -dependency_info /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725_dependency_info.dat -lstdc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 6.0.0 -bitcode_bundle -bitcode_process_mode marker -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_51725.app/cmTC_51725 -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725.LinkFileList -object_path_lto /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725_lto.o -no_deduplicate -dependency_info /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725_dependency_info.dat -lstdc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 6.0.0 -bitcode_bundle -bitcode_process_mode marker -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_51725.app/cmTC_51725 -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725.LinkFileList -object_path_lto /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725_lto.o -no_deduplicate -dependency_info /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725_dependency_info.dat -lstdc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-dead_strip] ==> ignore
+    arg [-iphoneos_version_min] ==> ignore
+    arg [6.0.0] ==> ignore
+    arg [-bitcode_bundle] ==> ignore
+    arg [-bitcode_process_mode] ==> ignore
+    arg [marker] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_51725.app/cmTC_51725] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725.LinkFileList] ==> ignore
+    arg [-object_path_lto] ==> ignore
+    arg [/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725_lto.o] ==> ignore
+    arg [-no_deduplicate] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_51725.build/Objects-normal/arm64/cmTC_51725_dependency_info.dat] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a]
+  implicit libs: [stdc++]
+  implicit dirs: []
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/xcodebuild_wrapper" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_ef095" "-configuration" "Debug"
+Build settings from command line:
+    ARCHS = arm64
+    IPHONEOS_DEPLOYMENT_TARGET = 6.0
+    SDKROOT = iphoneos11.3
+
+=== BUILD TARGET cmTC_ef095 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_ef095" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ef095.build/Objects-normal/arm64
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ef095.build/Objects-normal/arm64/cmTC_ef095.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_ef095.app
+
+ProcessInfoPlistFile Debug/cmTC_ef095.app/Info.plist CMakeFiles/cmTC_ef095.dir/Info.plist
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-infoPlistUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_ef095.dir/Info.plist -genpkginfo /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_ef095.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_ef095.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ef095.build/Objects-normal/arm64/feature_tests.o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/feature_tests.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=6.0 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -fembed-bitcode-marker -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ef095.build/DerivedSources/arm64 -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ef095.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -stdlib=libc++ -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual -stdlib=libc++ -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual -fPIE -std=c++1z -MMD -MT dependencies -MF /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ef095.build/Objects-normal/arm64/feature_tests.d --serialize-diagnostics /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ef095.build/Objects-normal/arm64/feature_tests.dia -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/feature_tests.cxx -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ef095.build/Objects-normal/arm64/feature_tests.o
+
+Ld Debug/cmTC_ef095.app/cmTC_ef095 normal arm64
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=6.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ef095.build/Objects-normal/arm64/cmTC_ef095.LinkFileList -miphoneos-version-min=6.0 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ef095.build/Objects-normal/arm64/cmTC_ef095_lto.o -Xlinker -no_deduplicate -fembed-bitcode-marker -Xlinker -dependency_info -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ef095.build/Objects-normal/arm64/cmTC_ef095_dependency_info.dat -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_ef095.app/cmTC_ef095
+clang: warning: libstdc++ is deprecated; move to libc++ with a minimum deployment target of iOS 7 [-Wdeprecated]
+
+GenerateDSYMFile Debug/cmTC_ef095.app.dSYM Debug/cmTC_ef095.app/cmTC_ef095
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_ef095.app/cmTC_ef095 -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_ef095.app.dSYM
+
+Touch Debug/cmTC_ef095.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /usr/bin/touch -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_ef095.app
+
+Validate Debug/cmTC_ef095.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_ef095.app
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/xcodebuild_wrapper" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_30fdd" "-configuration" "Debug"
+Build settings from command line:
+    ARCHS = arm64
+    IPHONEOS_DEPLOYMENT_TARGET = 6.0
+    SDKROOT = iphoneos11.3
+
+=== BUILD TARGET cmTC_30fdd OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_30fdd" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_30fdd.build/Objects-normal/arm64
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_30fdd.build/Objects-normal/arm64/cmTC_30fdd.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_30fdd.app
+
+ProcessInfoPlistFile Debug/cmTC_30fdd.app/Info.plist CMakeFiles/cmTC_30fdd.dir/Info.plist
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-infoPlistUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_30fdd.dir/Info.plist -genpkginfo /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_30fdd.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_30fdd.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_30fdd.build/Objects-normal/arm64/feature_tests.o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/feature_tests.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=6.0 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -fembed-bitcode-marker -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_30fdd.build/DerivedSources/arm64 -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_30fdd.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -stdlib=libc++ -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual -stdlib=libc++ -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual -fPIE -std=c++14 -MMD -MT dependencies -MF /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_30fdd.build/Objects-normal/arm64/feature_tests.d --serialize-diagnostics /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_30fdd.build/Objects-normal/arm64/feature_tests.dia -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/feature_tests.cxx -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_30fdd.build/Objects-normal/arm64/feature_tests.o
+
+Ld Debug/cmTC_30fdd.app/cmTC_30fdd normal arm64
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=6.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_30fdd.build/Objects-normal/arm64/cmTC_30fdd.LinkFileList -miphoneos-version-min=6.0 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_30fdd.build/Objects-normal/arm64/cmTC_30fdd_lto.o -Xlinker -no_deduplicate -fembed-bitcode-marker -Xlinker -dependency_info -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_30fdd.build/Objects-normal/arm64/cmTC_30fdd_dependency_info.dat -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_30fdd.app/cmTC_30fdd
+clang: warning: libstdc++ is deprecated; move to libc++ with a minimum deployment target of iOS 7 [-Wdeprecated]
+
+GenerateDSYMFile Debug/cmTC_30fdd.app.dSYM Debug/cmTC_30fdd.app/cmTC_30fdd
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_30fdd.app/cmTC_30fdd -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_30fdd.app.dSYM
+
+Touch Debug/cmTC_30fdd.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /usr/bin/touch -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_30fdd.app
+
+Validate Debug/cmTC_30fdd.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_30fdd.app
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/xcodebuild_wrapper" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_af638" "-configuration" "Debug"
+Build settings from command line:
+    ARCHS = arm64
+    IPHONEOS_DEPLOYMENT_TARGET = 6.0
+    SDKROOT = iphoneos11.3
+
+=== BUILD TARGET cmTC_af638 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_af638" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_af638.build/Objects-normal/arm64
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_af638.build/Objects-normal/arm64/cmTC_af638.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_af638.app
+
+ProcessInfoPlistFile Debug/cmTC_af638.app/Info.plist CMakeFiles/cmTC_af638.dir/Info.plist
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-infoPlistUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_af638.dir/Info.plist -genpkginfo /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_af638.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_af638.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_af638.build/Objects-normal/arm64/feature_tests.o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/feature_tests.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=6.0 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -fembed-bitcode-marker -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_af638.build/DerivedSources/arm64 -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_af638.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -stdlib=libc++ -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual -stdlib=libc++ -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual -fPIE -std=c++11 -MMD -MT dependencies -MF /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_af638.build/Objects-normal/arm64/feature_tests.d --serialize-diagnostics /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_af638.build/Objects-normal/arm64/feature_tests.dia -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/feature_tests.cxx -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_af638.build/Objects-normal/arm64/feature_tests.o
+
+Ld Debug/cmTC_af638.app/cmTC_af638 normal arm64
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=6.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_af638.build/Objects-normal/arm64/cmTC_af638.LinkFileList -miphoneos-version-min=6.0 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_af638.build/Objects-normal/arm64/cmTC_af638_lto.o -Xlinker -no_deduplicate -fembed-bitcode-marker -Xlinker -dependency_info -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_af638.build/Objects-normal/arm64/cmTC_af638_dependency_info.dat -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_af638.app/cmTC_af638
+clang: warning: libstdc++ is deprecated; move to libc++ with a minimum deployment target of iOS 7 [-Wdeprecated]
+
+GenerateDSYMFile Debug/cmTC_af638.app.dSYM Debug/cmTC_af638.app/cmTC_af638
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_af638.app/cmTC_af638 -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_af638.app.dSYM
+
+Touch Debug/cmTC_af638.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /usr/bin/touch -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_af638.app
+
+Validate Debug/cmTC_af638.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_af638.app
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/xcodebuild_wrapper" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_0242f" "-configuration" "Debug"
+Build settings from command line:
+    ARCHS = arm64
+    IPHONEOS_DEPLOYMENT_TARGET = 6.0
+    SDKROOT = iphoneos11.3
+
+=== BUILD TARGET cmTC_0242f OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_0242f" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0242f.build/Objects-normal/arm64
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0242f.build/Objects-normal/arm64/cmTC_0242f.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_0242f.app
+
+ProcessInfoPlistFile Debug/cmTC_0242f.app/Info.plist CMakeFiles/cmTC_0242f.dir/Info.plist
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-infoPlistUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_0242f.dir/Info.plist -genpkginfo /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_0242f.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_0242f.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0242f.build/Objects-normal/arm64/feature_tests.o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/feature_tests.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=6.0 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -fembed-bitcode-marker -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0242f.build/DerivedSources/arm64 -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0242f.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -stdlib=libc++ -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual -stdlib=libc++ -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual -fPIE -std=c++98 -MMD -MT dependencies -MF /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0242f.build/Objects-normal/arm64/feature_tests.d --serialize-diagnostics /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0242f.build/Objects-normal/arm64/feature_tests.dia -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/feature_tests.cxx -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0242f.build/Objects-normal/arm64/feature_tests.o
+
+Ld Debug/cmTC_0242f.app/cmTC_0242f normal arm64
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=6.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0242f.build/Objects-normal/arm64/cmTC_0242f.LinkFileList -miphoneos-version-min=6.0 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0242f.build/Objects-normal/arm64/cmTC_0242f_lto.o -Xlinker -no_deduplicate -fembed-bitcode-marker -Xlinker -dependency_info -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0242f.build/Objects-normal/arm64/cmTC_0242f_dependency_info.dat -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_0242f.app/cmTC_0242f
+clang: warning: libstdc++ is deprecated; move to libc++ with a minimum deployment target of iOS 7 [-Wdeprecated]
+
+GenerateDSYMFile Debug/cmTC_0242f.app.dSYM Debug/cmTC_0242f.app/cmTC_0242f
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_0242f.app/cmTC_0242f -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_0242f.app.dSYM
+
+Touch Debug/cmTC_0242f.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /usr/bin/touch -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_0242f.app
+
+Validate Debug/cmTC_0242f.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_0242f.app
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/xcodebuild_wrapper" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_6971e" "-configuration" "Debug"
+Build settings from command line:
+    ARCHS = arm64
+    IPHONEOS_DEPLOYMENT_TARGET = 6.0
+    SDKROOT = iphoneos11.3
+
+=== BUILD TARGET cmTC_6971e OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_6971e" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_6971e.app
+
+ProcessInfoPlistFile Debug/cmTC_6971e.app/Info.plist CMakeFiles/cmTC_6971e.dir/Info.plist
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-infoPlistUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_6971e.dir/Info.plist -genpkginfo /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_6971e.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_6971e.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=6.0 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -fembed-bitcode-marker -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/DerivedSources/arm64 -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -fPIE -MMD -MT dependencies -MF /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/CMakeCCompilerABI.o
+
+Ld Debug/cmTC_6971e.app/cmTC_6971e normal arm64
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=6.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e.LinkFileList -miphoneos-version-min=6.0 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e_lto.o -Xlinker -no_deduplicate -fembed-bitcode-marker -v -Xlinker -dependency_info -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e_dependency_info.dat -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_6971e.app/cmTC_6971e
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: aarch64-apple-darwin17.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 6.0.0 -bitcode_bundle -bitcode_process_mode marker -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_6971e.app/cmTC_6971e -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e.LinkFileList -object_path_lto /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e_lto.o -no_deduplicate -dependency_info /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug
+
+GenerateDSYMFile Debug/cmTC_6971e.app.dSYM Debug/cmTC_6971e.app/cmTC_6971e
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_6971e.app/cmTC_6971e -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_6971e.app.dSYM
+
+Touch Debug/cmTC_6971e.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /usr/bin/touch -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_6971e.app
+
+Validate Debug/cmTC_6971e.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_6971e.app
+
+** BUILD SUCCEEDED **
+
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/xcodebuild_wrapper" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_6971e" "-configuration" "Debug"]
+  ignore line: [Build settings from command line:]
+  ignore line: [    ARCHS = arm64]
+  ignore line: [    IPHONEOS_DEPLOYMENT_TARGET = 6.0]
+  ignore line: [    SDKROOT = iphoneos11.3]
+  ignore line: []
+  ignore line: [=== BUILD TARGET cmTC_6971e OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: [Code Signing Warning: "cmTC_6971e" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64]
+  ignore line: [write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e.LinkFileList]
+  ignore line: []
+  ignore line: [Create product structure]
+  ignore line: [/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_6971e.app]
+  ignore line: []
+  ignore line: [ProcessInfoPlistFile Debug/cmTC_6971e.app/Info.plist CMakeFiles/cmTC_6971e.dir/Info.plist]
+  ignore line: [    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp]
+  ignore line: [    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"]
+  ignore line: [    builtin-infoPlistUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_6971e.dir/Info.plist -genpkginfo /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_6971e.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_6971e.app/Info.plist]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=6.0 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -fembed-bitcode-marker -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/DerivedSources/arm64 -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -fPIE -MMD -MT dependencies -MF /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/CMakeCCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTC_6971e.app/cmTC_6971e normal arm64]
+  ignore line: [    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp]
+  ignore line: [    export IPHONEOS_DEPLOYMENT_TARGET=6.0]
+  ignore line: [    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e.LinkFileList -miphoneos-version-min=6.0 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e_lto.o -Xlinker -no_deduplicate -fembed-bitcode-marker -v -Xlinker -dependency_info -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e_dependency_info.dat -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_6971e.app/cmTC_6971e]
+  ignore line: [Apple LLVM version 9.1.0 (clang-902.0.39.1)]
+  ignore line: [Target: aarch64-apple-darwin17.5.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 6.0.0 -bitcode_bundle -bitcode_process_mode marker -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_6971e.app/cmTC_6971e -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e.LinkFileList -object_path_lto /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e_lto.o -no_deduplicate -dependency_info /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 6.0.0 -bitcode_bundle -bitcode_process_mode marker -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_6971e.app/cmTC_6971e -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e.LinkFileList -object_path_lto /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e_lto.o -no_deduplicate -dependency_info /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 6.0.0 -bitcode_bundle -bitcode_process_mode marker -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_6971e.app/cmTC_6971e -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e.LinkFileList -object_path_lto /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e_lto.o -no_deduplicate -dependency_info /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-dead_strip] ==> ignore
+    arg [-iphoneos_version_min] ==> ignore
+    arg [6.0.0] ==> ignore
+    arg [-bitcode_bundle] ==> ignore
+    arg [-bitcode_process_mode] ==> ignore
+    arg [marker] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_6971e.app/cmTC_6971e] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e.LinkFileList] ==> ignore
+    arg [-object_path_lto] ==> ignore
+    arg [/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e_lto.o] ==> ignore
+    arg [-no_deduplicate] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6971e.build/Objects-normal/arm64/cmTC_6971e_dependency_info.dat] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a]
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/xcodebuild_wrapper" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_80c00" "-configuration" "Debug"
+Build settings from command line:
+    ARCHS = arm64
+    IPHONEOS_DEPLOYMENT_TARGET = 6.0
+    SDKROOT = iphoneos11.3
+
+=== BUILD TARGET cmTC_80c00 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_80c00" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_80c00.build/Objects-normal/arm64
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_80c00.build/Objects-normal/arm64/cmTC_80c00.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_80c00.app
+
+ProcessInfoPlistFile Debug/cmTC_80c00.app/Info.plist CMakeFiles/cmTC_80c00.dir/Info.plist
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-infoPlistUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_80c00.dir/Info.plist -genpkginfo /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_80c00.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_80c00.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_80c00.build/Objects-normal/arm64/feature_tests.o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/feature_tests.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=6.0 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -fembed-bitcode-marker -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_80c00.build/DerivedSources/arm64 -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_80c00.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -fPIE -std=c11 -MMD -MT dependencies -MF /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_80c00.build/Objects-normal/arm64/feature_tests.d --serialize-diagnostics /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_80c00.build/Objects-normal/arm64/feature_tests.dia -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/feature_tests.c -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_80c00.build/Objects-normal/arm64/feature_tests.o
+
+Ld Debug/cmTC_80c00.app/cmTC_80c00 normal arm64
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=6.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_80c00.build/Objects-normal/arm64/cmTC_80c00.LinkFileList -miphoneos-version-min=6.0 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_80c00.build/Objects-normal/arm64/cmTC_80c00_lto.o -Xlinker -no_deduplicate -fembed-bitcode-marker -Xlinker -dependency_info -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_80c00.build/Objects-normal/arm64/cmTC_80c00_dependency_info.dat -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_80c00.app/cmTC_80c00
+
+GenerateDSYMFile Debug/cmTC_80c00.app.dSYM Debug/cmTC_80c00.app/cmTC_80c00
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_80c00.app/cmTC_80c00 -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_80c00.app.dSYM
+
+Touch Debug/cmTC_80c00.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /usr/bin/touch -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_80c00.app
+
+Validate Debug/cmTC_80c00.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_80c00.app
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/xcodebuild_wrapper" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_830ff" "-configuration" "Debug"
+Build settings from command line:
+    ARCHS = arm64
+    IPHONEOS_DEPLOYMENT_TARGET = 6.0
+    SDKROOT = iphoneos11.3
+
+=== BUILD TARGET cmTC_830ff OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_830ff" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_830ff.build/Objects-normal/arm64
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_830ff.build/Objects-normal/arm64/cmTC_830ff.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_830ff.app
+
+ProcessInfoPlistFile Debug/cmTC_830ff.app/Info.plist CMakeFiles/cmTC_830ff.dir/Info.plist
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-infoPlistUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_830ff.dir/Info.plist -genpkginfo /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_830ff.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_830ff.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_830ff.build/Objects-normal/arm64/feature_tests.o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/feature_tests.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=6.0 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -fembed-bitcode-marker -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_830ff.build/DerivedSources/arm64 -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_830ff.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -fPIE -std=c99 -MMD -MT dependencies -MF /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_830ff.build/Objects-normal/arm64/feature_tests.d --serialize-diagnostics /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_830ff.build/Objects-normal/arm64/feature_tests.dia -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/feature_tests.c -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_830ff.build/Objects-normal/arm64/feature_tests.o
+
+Ld Debug/cmTC_830ff.app/cmTC_830ff normal arm64
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=6.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_830ff.build/Objects-normal/arm64/cmTC_830ff.LinkFileList -miphoneos-version-min=6.0 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_830ff.build/Objects-normal/arm64/cmTC_830ff_lto.o -Xlinker -no_deduplicate -fembed-bitcode-marker -Xlinker -dependency_info -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_830ff.build/Objects-normal/arm64/cmTC_830ff_dependency_info.dat -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_830ff.app/cmTC_830ff
+
+GenerateDSYMFile Debug/cmTC_830ff.app.dSYM Debug/cmTC_830ff.app/cmTC_830ff
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_830ff.app/cmTC_830ff -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_830ff.app.dSYM
+
+Touch Debug/cmTC_830ff.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /usr/bin/touch -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_830ff.app
+
+Validate Debug/cmTC_830ff.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_830ff.app
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/xcodebuild_wrapper" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_9f832" "-configuration" "Debug"
+Build settings from command line:
+    ARCHS = arm64
+    IPHONEOS_DEPLOYMENT_TARGET = 6.0
+    SDKROOT = iphoneos11.3
+
+=== BUILD TARGET cmTC_9f832 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_9f832" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_9f832.build/Objects-normal/arm64
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_9f832.build/Objects-normal/arm64/cmTC_9f832.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_9f832.app
+
+ProcessInfoPlistFile Debug/cmTC_9f832.app/Info.plist CMakeFiles/cmTC_9f832.dir/Info.plist
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-infoPlistUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_9f832.dir/Info.plist -genpkginfo /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_9f832.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_9f832.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_9f832.build/Objects-normal/arm64/feature_tests.o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/feature_tests.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=6.0 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -fembed-bitcode-marker -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_9f832.build/DerivedSources/arm64 -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_9f832.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -fPIE -std=c90 -MMD -MT dependencies -MF /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_9f832.build/Objects-normal/arm64/feature_tests.d --serialize-diagnostics /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_9f832.build/Objects-normal/arm64/feature_tests.dia -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/feature_tests.c -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_9f832.build/Objects-normal/arm64/feature_tests.o
+
+Ld Debug/cmTC_9f832.app/cmTC_9f832 normal arm64
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=6.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_9f832.build/Objects-normal/arm64/cmTC_9f832.LinkFileList -miphoneos-version-min=6.0 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_9f832.build/Objects-normal/arm64/cmTC_9f832_lto.o -Xlinker -no_deduplicate -fembed-bitcode-marker -Xlinker -dependency_info -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_9f832.build/Objects-normal/arm64/cmTC_9f832_dependency_info.dat -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_9f832.app/cmTC_9f832
+
+GenerateDSYMFile Debug/cmTC_9f832.app.dSYM Debug/cmTC_9f832.app/cmTC_9f832
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_9f832.app/cmTC_9f832 -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_9f832.app.dSYM
+
+Touch Debug/cmTC_9f832.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /usr/bin/touch -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_9f832.app
+
+Validate Debug/cmTC_9f832.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_9f832.app
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/xcodebuild_wrapper" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_8c4e8" "-configuration" "Release"
+Build settings from command line:
+    ARCHS = arm64
+    IPHONEOS_DEPLOYMENT_TARGET = 6.0
+    SDKROOT = iphoneos11.3
+
+=== BUILD TARGET cmTC_8c4e8 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Release ===
+
+Check dependencies
+Code Signing Warning: "cmTC_8c4e8" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8c4e8.build/Objects-normal/arm64
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8c4e8.build/Objects-normal/arm64/cmTC_8c4e8.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_8c4e8.app
+
+ProcessInfoPlistFile Release/cmTC_8c4e8.app/Info.plist CMakeFiles/cmTC_8c4e8.dir/Info.plist
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-infoPlistUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_8c4e8.dir/Info.plist -genpkginfo /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_8c4e8.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_8c4e8.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8c4e8.build/Objects-normal/arm64/CheckSymbolExists.o CheckSymbolExists.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=6.0 -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -fembed-bitcode-marker -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/include -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8c4e8.build/DerivedSources/arm64 -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8c4e8.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release -fembed-bitcode -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -DNDEBUG -fPIE -MMD -MT dependencies -MF /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8c4e8.build/Objects-normal/arm64/CheckSymbolExists.d --serialize-diagnostics /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8c4e8.build/Objects-normal/arm64/CheckSymbolExists.dia -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CheckSymbolExists.c -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8c4e8.build/Objects-normal/arm64/CheckSymbolExists.o
+
+Ld Release/cmTC_8c4e8.app/cmTC_8c4e8 normal arm64
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=6.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8c4e8.build/Objects-normal/arm64/cmTC_8c4e8.LinkFileList -miphoneos-version-min=6.0 -dead_strip -fembed-bitcode-marker -Xlinker -dependency_info -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8c4e8.build/Objects-normal/arm64/cmTC_8c4e8_dependency_info.dat -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_8c4e8.app/cmTC_8c4e8
+
+Touch Release/cmTC_8c4e8.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /usr/bin/touch -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_8c4e8.app
+
+Validate Release/cmTC_8c4e8.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_8c4e8.app
+
+** BUILD SUCCEEDED **
+
+
+File /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/xcodebuild_wrapper" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_20c38" "-configuration" "Release"
+Build settings from command line:
+    ARCHS = arm64
+    IPHONEOS_DEPLOYMENT_TARGET = 6.0
+    SDKROOT = iphoneos11.3
+
+=== BUILD TARGET cmTC_20c38 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Release ===
+
+Check dependencies
+Code Signing Warning: "cmTC_20c38" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_20c38.build/Objects-normal/arm64
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_20c38.build/Objects-normal/arm64/cmTC_20c38.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_20c38.app
+
+ProcessInfoPlistFile Release/cmTC_20c38.app/Info.plist CMakeFiles/cmTC_20c38.dir/Info.plist
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-infoPlistUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_20c38.dir/Info.plist -genpkginfo /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_20c38.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_20c38.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_20c38.build/Objects-normal/arm64/CheckFunctionExists.o /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CheckFunctionExists.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=6.0 -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -fembed-bitcode-marker -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/include -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_20c38.build/DerivedSources/arm64 -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_20c38.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release -fembed-bitcode -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -DCHECK_FUNCTION_EXISTS=fseeko -DNDEBUG -fPIE -MMD -MT dependencies -MF /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_20c38.build/Objects-normal/arm64/CheckFunctionExists.d --serialize-diagnostics /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_20c38.build/Objects-normal/arm64/CheckFunctionExists.dia -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CheckFunctionExists.c -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_20c38.build/Objects-normal/arm64/CheckFunctionExists.o
+
+Ld Release/cmTC_20c38.app/cmTC_20c38 normal arm64
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=6.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_20c38.build/Objects-normal/arm64/cmTC_20c38.LinkFileList -miphoneos-version-min=6.0 -dead_strip -fembed-bitcode-marker -Xlinker -dependency_info -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_20c38.build/Objects-normal/arm64/cmTC_20c38_dependency_info.dat -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_20c38.app/cmTC_20c38
+
+Touch Release/cmTC_20c38.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /usr/bin/touch -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_20c38.app
+
+Validate Release/cmTC_20c38.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_20c38.app
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/xcodebuild_wrapper" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_8e444" "-configuration" "Release"
+Build settings from command line:
+    ARCHS = arm64
+    IPHONEOS_DEPLOYMENT_TARGET = 6.0
+    SDKROOT = iphoneos11.3
+
+=== BUILD TARGET cmTC_8e444 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Release ===
+
+Check dependencies
+Code Signing Warning: "cmTC_8e444" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8e444.build/Objects-normal/arm64
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8e444.build/Objects-normal/arm64/cmTC_8e444.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_8e444.app
+
+ProcessInfoPlistFile Release/cmTC_8e444.app/Info.plist CMakeFiles/cmTC_8e444.dir/Info.plist
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-infoPlistUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_8e444.dir/Info.plist -genpkginfo /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_8e444.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_8e444.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8e444.build/Objects-normal/arm64/CheckIncludeFile.o CheckIncludeFile.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=6.0 -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -fembed-bitcode-marker -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/include -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8e444.build/DerivedSources/arm64 -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8e444.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release -fembed-bitcode -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -DNDEBUG -fPIE -MMD -MT dependencies -MF /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8e444.build/Objects-normal/arm64/CheckIncludeFile.d --serialize-diagnostics /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8e444.build/Objects-normal/arm64/CheckIncludeFile.dia -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8e444.build/Objects-normal/arm64/CheckIncludeFile.o
+
+Ld Release/cmTC_8e444.app/cmTC_8e444 normal arm64
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=6.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8e444.build/Objects-normal/arm64/cmTC_8e444.LinkFileList -miphoneos-version-min=6.0 -dead_strip -fembed-bitcode-marker -Xlinker -dependency_info -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8e444.build/Objects-normal/arm64/cmTC_8e444_dependency_info.dat -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_8e444.app/cmTC_8e444
+
+Touch Release/cmTC_8e444.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /usr/bin/touch -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_8e444.app
+
+Validate Release/cmTC_8e444.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_8e444.app
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/xcodebuild_wrapper" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_8b3f0" "-configuration" "Release"
+Build settings from command line:
+    ARCHS = arm64
+    IPHONEOS_DEPLOYMENT_TARGET = 6.0
+    SDKROOT = iphoneos11.3
+
+=== BUILD TARGET cmTC_8b3f0 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Release ===
+
+Check dependencies
+Code Signing Warning: "cmTC_8b3f0" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8b3f0.build/Objects-normal/arm64
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8b3f0.build/Objects-normal/arm64/cmTC_8b3f0.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_8b3f0.app
+
+ProcessInfoPlistFile Release/cmTC_8b3f0.app/Info.plist CMakeFiles/cmTC_8b3f0.dir/Info.plist
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-infoPlistUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_8b3f0.dir/Info.plist -genpkginfo /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_8b3f0.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_8b3f0.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8b3f0.build/Objects-normal/arm64/CheckIncludeFile.o CheckIncludeFile.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=6.0 -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -fembed-bitcode-marker -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/include -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8b3f0.build/DerivedSources/arm64 -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8b3f0.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release -fembed-bitcode -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -DNDEBUG -fPIE -MMD -MT dependencies -MF /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8b3f0.build/Objects-normal/arm64/CheckIncludeFile.d --serialize-diagnostics /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8b3f0.build/Objects-normal/arm64/CheckIncludeFile.dia -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8b3f0.build/Objects-normal/arm64/CheckIncludeFile.o
+
+Ld Release/cmTC_8b3f0.app/cmTC_8b3f0 normal arm64
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=6.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8b3f0.build/Objects-normal/arm64/cmTC_8b3f0.LinkFileList -miphoneos-version-min=6.0 -dead_strip -fembed-bitcode-marker -Xlinker -dependency_info -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_8b3f0.build/Objects-normal/arm64/cmTC_8b3f0_dependency_info.dat -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_8b3f0.app/cmTC_8b3f0
+
+Touch Release/cmTC_8b3f0.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /usr/bin/touch -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_8b3f0.app
+
+Validate Release/cmTC_8b3f0.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_8b3f0.app
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/xcodebuild_wrapper" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_42f4e" "-configuration" "Release"
+Build settings from command line:
+    ARCHS = arm64
+    IPHONEOS_DEPLOYMENT_TARGET = 6.0
+    SDKROOT = iphoneos11.3
+
+=== BUILD TARGET cmTC_42f4e OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Release ===
+
+Check dependencies
+Code Signing Warning: "cmTC_42f4e" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_42f4e.build/Objects-normal/arm64
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_42f4e.build/Objects-normal/arm64/cmTC_42f4e.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_42f4e.app
+
+ProcessInfoPlistFile Release/cmTC_42f4e.app/Info.plist CMakeFiles/cmTC_42f4e.dir/Info.plist
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-infoPlistUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_42f4e.dir/Info.plist -genpkginfo /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_42f4e.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_42f4e.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_42f4e.build/Objects-normal/arm64/CheckIncludeFile.o CheckIncludeFile.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=6.0 -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -fembed-bitcode-marker -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/include -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_42f4e.build/DerivedSources/arm64 -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_42f4e.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release -fembed-bitcode -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -DNDEBUG -fPIE -MMD -MT dependencies -MF /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_42f4e.build/Objects-normal/arm64/CheckIncludeFile.d --serialize-diagnostics /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_42f4e.build/Objects-normal/arm64/CheckIncludeFile.dia -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_42f4e.build/Objects-normal/arm64/CheckIncludeFile.o
+
+Ld Release/cmTC_42f4e.app/cmTC_42f4e normal arm64
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=6.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_42f4e.build/Objects-normal/arm64/cmTC_42f4e.LinkFileList -miphoneos-version-min=6.0 -dead_strip -fembed-bitcode-marker -Xlinker -dependency_info -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_42f4e.build/Objects-normal/arm64/cmTC_42f4e_dependency_info.dat -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_42f4e.app/cmTC_42f4e
+
+Touch Release/cmTC_42f4e.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /usr/bin/touch -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_42f4e.app
+
+Validate Release/cmTC_42f4e.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_42f4e.app
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/xcodebuild_wrapper" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_e3ccc" "-configuration" "Release"
+Build settings from command line:
+    ARCHS = arm64
+    IPHONEOS_DEPLOYMENT_TARGET = 6.0
+    SDKROOT = iphoneos11.3
+
+=== BUILD TARGET cmTC_e3ccc OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Release ===
+
+Check dependencies
+Code Signing Warning: "cmTC_e3ccc" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_e3ccc.build/Objects-normal/arm64
+write-file /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_e3ccc.build/Objects-normal/arm64/cmTC_e3ccc.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_e3ccc.app
+
+ProcessInfoPlistFile Release/cmTC_e3ccc.app/Info.plist CMakeFiles/cmTC_e3ccc.dir/Info.plist
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-infoPlistUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e3ccc.dir/Info.plist -genpkginfo /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_e3ccc.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_e3ccc.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_e3ccc.build/Objects-normal/arm64/CheckIncludeFile.o CheckIncludeFile.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=6.0 -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -fembed-bitcode-marker -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/include -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_e3ccc.build/DerivedSources/arm64 -I/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_e3ccc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release -fembed-bitcode -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -DNDEBUG -fPIE -MMD -MT dependencies -MF /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_e3ccc.build/Objects-normal/arm64/CheckIncludeFile.d --serialize-diagnostics /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_e3ccc.build/Objects-normal/arm64/CheckIncludeFile.dia -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_e3ccc.build/Objects-normal/arm64/CheckIncludeFile.o
+
+Ld Release/cmTC_e3ccc.app/cmTC_e3ccc normal arm64
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=6.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -L/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release -F/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release -filelist /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_e3ccc.build/Objects-normal/arm64/cmTC_e3ccc.LinkFileList -miphoneos-version-min=6.0 -dead_strip -fembed-bitcode-marker -Xlinker -dependency_info -Xlinker /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release-iphoneos/cmTC_e3ccc.build/Objects-normal/arm64/cmTC_e3ccc_dependency_info.dat -o /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_e3ccc.app/cmTC_e3ccc
+
+Touch Release/cmTC_e3ccc.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /usr/bin/touch -c /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_e3ccc.app
+
+Validate Release/cmTC_e3ccc.app
+    cd /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/CMakeFiles/CMakeTmp/Release/cmTC_e3ccc.app
+
+** BUILD SUCCEEDED **
+
+
+

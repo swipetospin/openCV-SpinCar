@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		145F09A13C144813B35217E1 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 425595D7CE214CBDB6FE1C19 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				8708F3CF42FE44CF9F5A0433 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				F557FF3FB610403DB6328BDD /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		2AF684AB82A647A88B25CC0A /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9ED6F10EC1F44D26A5D083E4 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				7CBC9A5C83EE456C97C218D4 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				D409D489315C414096648529 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		2FBEAEE482344198BFC927B9 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 22DC992F24B64EF98330A2AA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				782D5C6CABB5423A8EF430E3 /* CMake Rules */,
+			);
+			dependencies = (
+				5BC455BBC0DF437696E1E5D0 /* PBXTargetDependency */,
+				67DE94E8B9C942C69848E17E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		64B4E2BFA32C4A0B96E02A2E /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 91608E915FD54B0789CD3DD0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				D1B160C6FCDC444EB0E44D32 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E98A0E20FACB474F915243D1 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0E71100445DA4A31854A79AB /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				222D9BC460154ED48CC87A0C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04AAFDBCF59A4B508D5093CB /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdcoefct.c */ = {isa = PBXBuildFile; fileRef = 0394FDDDF9EC42289F10B252 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdcoefct.c */; };
+		05D595ACBC5542E4A43C8ED3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jquant1.c */ = {isa = PBXBuildFile; fileRef = 68E5F7FBC62B40E1AB1873F7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jquant1.c */; };
+		0B15CD9C59934759BB761308 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdpostct.c */ = {isa = PBXBuildFile; fileRef = D7F3075E39DC40E39FF67CA0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdpostct.c */; };
+		0BB2EE02070C42569177A3E3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdapimin.c */ = {isa = PBXBuildFile; fileRef = 842BE7129165412A8455255A /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdapimin.c */; };
+		0DDC2C2609044FE59297892A /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jconfig.h */ = {isa = PBXBuildFile; fileRef = 6F3E489DC45842459A5779BF /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jconfig.h */; };
+		156A1E4C57B6452BB057765C /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jfdctflt.c */ = {isa = PBXBuildFile; fileRef = 89C242F18D1644F0AD57BEB3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jfdctflt.c */; };
+		1A673EF53BC642AF905B9031 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcapistd.c */ = {isa = PBXBuildFile; fileRef = 1074A69265F94231B93C8832 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcapistd.c */; };
+		2724C2DDFE044095AAA454D6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmainct.c */ = {isa = PBXBuildFile; fileRef = 72B024285DCB4531B414DF4D /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmainct.c */; };
+		2C0DA511D257442BA56C5364 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdapistd.c */ = {isa = PBXBuildFile; fileRef = 47224950832B4717B21350C8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdapistd.c */; };
+		2E50564C8C3A4210A4BACF3C /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdtrans.c */ = {isa = PBXBuildFile; fileRef = C3DDCFFCF8CD4446A8E54994 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdtrans.c */; };
+		385A663F3FEE4D59926E10CF /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdinput.c */ = {isa = PBXBuildFile; fileRef = E6D547BC7BB94701BC0A4D5D /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdinput.c */; };
+		45D6A059FED64C7CA0BCF001 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jmemsys.h */ = {isa = PBXBuildFile; fileRef = D1C74FCE89644549B9902126 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jmemsys.h */; };
+		4CA5BF3A515441D8B14A80AF /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jmemmgr.c */ = {isa = PBXBuildFile; fileRef = E70A32D8E10A44B1B4345CC3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jmemmgr.c */; };
+		54BA1389A60F41B994544C08 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcsample.c */ = {isa = PBXBuildFile; fileRef = 61690788525E4EDA87DF6FCA /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcsample.c */; };
+		55F8AE8793D8490994A9DBBF /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcprepct.c */ = {isa = PBXBuildFile; fileRef = 143050611F614E7FB57F3514 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcprepct.c */; };
+		58543328584941CDA5ADE8A0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmaster.c */ = {isa = PBXBuildFile; fileRef = 1DFD78F101A34ED5B3516BCB /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmaster.c */; };
+		5AFE99A97D9C4E6A9FFA23DD /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jinclude.h */ = {isa = PBXBuildFile; fileRef = A527CF7CC4944C9381566768 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jinclude.h */; };
+		5C9A854041FC40C1ADB03F90 /* /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = D574098D94B141C982E65BEC /* /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/Info.plist */; };
+		5D38195A24FA431E8308057F /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdatasrc.c */ = {isa = PBXBuildFile; fileRef = C586D434086D475A9FF23FC1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdatasrc.c */; };
+		5D750F7734CE44C0AC7730C2 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jidctfst.c */ = {isa = PBXBuildFile; fileRef = 107C4A1BBDB04BD08CACE776 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jidctfst.c */; };
+		6140CF1DA4834FA6A260C0F0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcarith.c */ = {isa = PBXBuildFile; fileRef = 0920D0927F924D88A788FF1B /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcarith.c */; };
+		6E3BBB9A30DA4B94A60DE961 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcparam.c */ = {isa = PBXBuildFile; fileRef = 115F5B86C5A444E9BD8D6D33 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcparam.c */; };
+		6EC8140262234B6CA8B6E746 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jaricom.c */ = {isa = PBXBuildFile; fileRef = 10BC79D27DB947259CEFFA87 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jaricom.c */; };
+		712B470A23674851BFABF774 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdarith.c */ = {isa = PBXBuildFile; fileRef = 3A49EDFA0236408599E20294 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdarith.c */; };
+		7BE629AD8B574495A162DC1C /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jpegint.h */ = {isa = PBXBuildFile; fileRef = 0EDD2F758B43423FBFFD53B8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jpegint.h */; };
+		7EF878108F894204B93AB83A /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmarker.c */ = {isa = PBXBuildFile; fileRef = 2F3C26B2FA7D4FC49A1AD930 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmarker.c */; };
+		82535D3345374A6B90170180 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jmorecfg.h */ = {isa = PBXBuildFile; fileRef = C8922A1440294861B28F4571 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jmorecfg.h */; };
+		8501E40266C945818C1B8670 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jversion.h */ = {isa = PBXBuildFile; fileRef = 0FB93519B7EC44308895AD23 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jversion.h */; };
+		868517CF4B6141AE82493932 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jutils.c */ = {isa = PBXBuildFile; fileRef = 8930EA1AA4534FBA84CFD83E /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jutils.c */; };
+		898B47D1E9FF45DC9B195CCC /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdsample.c */ = {isa = PBXBuildFile; fileRef = 5B2108160A8945CA9A0CB75D /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdsample.c */; };
+		8F21624DC33F4556A953CA92 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jfdctint.c */ = {isa = PBXBuildFile; fileRef = 23A0C1913E4C482FA0F5C783 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jfdctint.c */; };
+		92954A37876D4E248D19042A /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jddctmgr.c */ = {isa = PBXBuildFile; fileRef = B3FC4411959F477CA3E13C9C /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jddctmgr.c */; };
+		951F1562B01849D383EE899B /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jccoefct.c */ = {isa = PBXBuildFile; fileRef = 2F37DD6815D545B68E322067 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jccoefct.c */; };
+		9711DB7A77CA4583930F4995 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jctrans.c */ = {isa = PBXBuildFile; fileRef = AB474008BCC14768B256681A /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jctrans.c */; };
+		99D288D07D8C4624A2FFDC2B /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdhuff.c */ = {isa = PBXBuildFile; fileRef = 5EA72F8151744D3080C0E66B /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdhuff.c */; };
+		9A7AED14E61C4901A92FF099 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcmaster.c */ = {isa = PBXBuildFile; fileRef = 0574FB5718B74F6B87B743D6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcmaster.c */; };
+		A445458EA5A345CFA951E637 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdct.h */ = {isa = PBXBuildFile; fileRef = 24783A33E5E64E53900C2950 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdct.h */; };
+		A4A74385140946BDB7D0F2C2 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jerror.h */ = {isa = PBXBuildFile; fileRef = 1277698EDAF84E16980DBC45 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jerror.h */; };
+		A67951D4309343A6819DBDB3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jfdctfst.c */ = {isa = PBXBuildFile; fileRef = AE82BD8531B64D31A5C5090C /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jfdctfst.c */; };
+		AAA3424D7B564DF3BCFF335A /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jmemnobs.c */ = {isa = PBXBuildFile; fileRef = 7091474436A241ACB7EE0EB4 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jmemnobs.c */; };
+		AFFEC9B569674677BFF7D2D0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcmarker.c */ = {isa = PBXBuildFile; fileRef = FAAD67813DF54DC7AB6DE9A0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcmarker.c */; };
+		B02173F148A946E1A23F812F /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jccolor.c */ = {isa = PBXBuildFile; fileRef = 47068543EC96492CA48769C7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jccolor.c */; };
+		B7BE0FC10CBD473AB2931802 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcdctmgr.c */ = {isa = PBXBuildFile; fileRef = B59573D838114C428B0DAEFB /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcdctmgr.c */; settings = {COMPILER_FLAGS = "-O1"; }; };
+		BDA2BFB741704391A2A79CCA /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jchuff.c */ = {isa = PBXBuildFile; fileRef = D05BF242EF594BC19C6EE301 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jchuff.c */; };
+		C612AB174A094CEBB57F9006 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdatadst.c */ = {isa = PBXBuildFile; fileRef = AD6248ADB01043F4B2EAED10 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdatadst.c */; };
+		C808C74A24C8435B9800589D /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmerge.c */ = {isa = PBXBuildFile; fileRef = 0EB8138A24C74C3294DDA5AF /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmerge.c */; };
+		C99178A95A3F440A92B8394B /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcapimin.c */ = {isa = PBXBuildFile; fileRef = A66FB507BF884D8482742C3A /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcapimin.c */; };
+		D1FA5A14BED8427B91D7750F /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BA38FFF0631A4608B5988F4C /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/CMakeLists.txt */; };
+		D303AE7A8CE64366BE7D36CB /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcmainct.c */ = {isa = PBXBuildFile; fileRef = 276542A953D444C3859E6CAD /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcmainct.c */; };
+		D6764D8B30F94801A14AE1E7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jquant2.c */ = {isa = PBXBuildFile; fileRef = DDD7E95C2BC34937908E6FC8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jquant2.c */; };
+		D9D6B4C978914CCA94D400FA /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jidctflt.c */ = {isa = PBXBuildFile; fileRef = B0A893FC81A548DBBCE6F2DD /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jidctflt.c */; };
+		DAFCE9F88DDD4FDFA08C4B33 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jpeglib.h */ = {isa = PBXBuildFile; fileRef = 815F7ED25A2D49D5BEEDFB4B /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jpeglib.h */; };
+		E0BEC85D1ED543F29ED585FD /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcomapi.c */ = {isa = PBXBuildFile; fileRef = 495E11EC9423474CB7FCEBFE /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcomapi.c */; };
+		E1666DE61B664F608AF7688C /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdcolor.c */ = {isa = PBXBuildFile; fileRef = CB5A05C7DABC43A3813F48A9 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdcolor.c */; };
+		E78759A8A8C94BF8A9322F5B /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jerror.c */ = {isa = PBXBuildFile; fileRef = F329CB0E939D44699918493A /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jerror.c */; };
+		E9AEB6776C1F4C4191A97E54 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jidctint.c */ = {isa = PBXBuildFile; fileRef = 29E5AC0F3B7D448297CF3281 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jidctint.c */; };
+		FD687C9D03D0404C8DB17DD4 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcinit.c */ = {isa = PBXBuildFile; fileRef = A190CE5CB7F742BF9B7789A7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcinit.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2675B35FD7FA43B9915F4EBB /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		F929115FA8FF4A3FA3766061 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		415A8068ECA0420AB99C673C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C34A2275523F4B048EE683BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FBEAEE482344198BFC927B9;
+			remoteInfo = ALL_BUILD;
+		};
+		49ED05B898194A81A5C7E8F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C34A2275523F4B048EE683BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64B4E2BFA32C4A0B96E02A2E;
+			remoteInfo = ZERO_CHECK;
+		};
+		AAE9B42F9B984B0F879A2B5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C34A2275523F4B048EE683BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64B4E2BFA32C4A0B96E02A2E;
+			remoteInfo = ZERO_CHECK;
+		};
+		D34C34D9611F4D3587AB8E2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C34A2275523F4B048EE683BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C308CADB97504506850AF5E7;
+			remoteInfo = libjpeg;
+		};
+		D7F4FC9BF0864AE2A8D04E8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C34A2275523F4B048EE683BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FBEAEE482344198BFC927B9;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0394FDDDF9EC42289F10B252 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdcoefct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdcoefct.c; path = jdcoefct.c; sourceTree = SOURCE_ROOT; };
+		0574FB5718B74F6B87B743D6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcmaster.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcmaster.c; path = jcmaster.c; sourceTree = SOURCE_ROOT; };
+		0920D0927F924D88A788FF1B /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcarith.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcarith.c; path = jcarith.c; sourceTree = SOURCE_ROOT; };
+		0EB8138A24C74C3294DDA5AF /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmerge.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmerge.c; path = jdmerge.c; sourceTree = SOURCE_ROOT; };
+		0EDD2F758B43423FBFFD53B8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jpegint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpegint.h; path = jpegint.h; sourceTree = SOURCE_ROOT; };
+		0FB93519B7EC44308895AD23 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jversion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jversion.h; path = jversion.h; sourceTree = SOURCE_ROOT; };
+		1074A69265F94231B93C8832 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcapistd.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcapistd.c; path = jcapistd.c; sourceTree = SOURCE_ROOT; };
+		107C4A1BBDB04BD08CACE776 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jidctfst.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jidctfst.c; path = jidctfst.c; sourceTree = SOURCE_ROOT; };
+		10BC79D27DB947259CEFFA87 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jaricom.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jaricom.c; path = jaricom.c; sourceTree = SOURCE_ROOT; };
+		115F5B86C5A444E9BD8D6D33 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcparam.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcparam.c; path = jcparam.c; sourceTree = SOURCE_ROOT; };
+		1277698EDAF84E16980DBC45 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jerror.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jerror.h; path = jerror.h; sourceTree = SOURCE_ROOT; };
+		143050611F614E7FB57F3514 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcprepct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcprepct.c; path = jcprepct.c; sourceTree = SOURCE_ROOT; };
+		1DFD78F101A34ED5B3516BCB /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmaster.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmaster.c; path = jdmaster.c; sourceTree = SOURCE_ROOT; };
+		23A0C1913E4C482FA0F5C783 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jfdctint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jfdctint.c; path = jfdctint.c; sourceTree = SOURCE_ROOT; };
+		24783A33E5E64E53900C2950 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jdct.h; path = jdct.h; sourceTree = SOURCE_ROOT; };
+		276542A953D444C3859E6CAD /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcmainct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcmainct.c; path = jcmainct.c; sourceTree = SOURCE_ROOT; };
+		29E5AC0F3B7D448297CF3281 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jidctint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jidctint.c; path = jidctint.c; sourceTree = SOURCE_ROOT; };
+		2F37DD6815D545B68E322067 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jccoefct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jccoefct.c; path = jccoefct.c; sourceTree = SOURCE_ROOT; };
+		2F3C26B2FA7D4FC49A1AD930 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmarker.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmarker.c; path = jdmarker.c; sourceTree = SOURCE_ROOT; };
+		309BEB33E1A24F019229C8F2 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3A49EDFA0236408599E20294 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdarith.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdarith.c; path = jdarith.c; sourceTree = SOURCE_ROOT; };
+		47068543EC96492CA48769C7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jccolor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jccolor.c; path = jccolor.c; sourceTree = SOURCE_ROOT; };
+		47224950832B4717B21350C8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdapistd.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdapistd.c; path = jdapistd.c; sourceTree = SOURCE_ROOT; };
+		495E11EC9423474CB7FCEBFE /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcomapi.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcomapi.c; path = jcomapi.c; sourceTree = SOURCE_ROOT; };
+		5B2108160A8945CA9A0CB75D /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdsample.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdsample.c; path = jdsample.c; sourceTree = SOURCE_ROOT; };
+		5EA72F8151744D3080C0E66B /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdhuff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdhuff.c; path = jdhuff.c; sourceTree = SOURCE_ROOT; };
+		61690788525E4EDA87DF6FCA /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcsample.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcsample.c; path = jcsample.c; sourceTree = SOURCE_ROOT; };
+		68E5F7FBC62B40E1AB1873F7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jquant1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jquant1.c; path = jquant1.c; sourceTree = SOURCE_ROOT; };
+		6F3E489DC45842459A5779BF /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jconfig.h; path = jconfig.h; sourceTree = SOURCE_ROOT; };
+		7091474436A241ACB7EE0EB4 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jmemnobs.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jmemnobs.c; path = jmemnobs.c; sourceTree = SOURCE_ROOT; };
+		72B024285DCB4531B414DF4D /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmainct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmainct.c; path = jdmainct.c; sourceTree = SOURCE_ROOT; };
+		815F7ED25A2D49D5BEEDFB4B /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jpeglib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpeglib.h; path = jpeglib.h; sourceTree = SOURCE_ROOT; };
+		842BE7129165412A8455255A /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdapimin.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdapimin.c; path = jdapimin.c; sourceTree = SOURCE_ROOT; };
+		8930EA1AA4534FBA84CFD83E /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jutils.c; path = jutils.c; sourceTree = SOURCE_ROOT; };
+		89C242F18D1644F0AD57BEB3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jfdctflt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jfdctflt.c; path = jfdctflt.c; sourceTree = SOURCE_ROOT; };
+		A190CE5CB7F742BF9B7789A7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcinit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcinit.c; path = jcinit.c; sourceTree = SOURCE_ROOT; };
+		A527CF7CC4944C9381566768 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jinclude.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jinclude.h; path = jinclude.h; sourceTree = SOURCE_ROOT; };
+		A66FB507BF884D8482742C3A /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcapimin.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcapimin.c; path = jcapimin.c; sourceTree = SOURCE_ROOT; };
+		AB474008BCC14768B256681A /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jctrans.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jctrans.c; path = jctrans.c; sourceTree = SOURCE_ROOT; };
+		AD6248ADB01043F4B2EAED10 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdatadst.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdatadst.c; path = jdatadst.c; sourceTree = SOURCE_ROOT; };
+		AE82BD8531B64D31A5C5090C /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jfdctfst.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jfdctfst.c; path = jfdctfst.c; sourceTree = SOURCE_ROOT; };
+		B0A893FC81A548DBBCE6F2DD /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jidctflt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jidctflt.c; path = jidctflt.c; sourceTree = SOURCE_ROOT; };
+		B3FC4411959F477CA3E13C9C /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jddctmgr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jddctmgr.c; path = jddctmgr.c; sourceTree = SOURCE_ROOT; };
+		B59573D838114C428B0DAEFB /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcdctmgr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcdctmgr.c; path = jcdctmgr.c; sourceTree = SOURCE_ROOT; };
+		BA38FFF0631A4608B5988F4C /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C3DDCFFCF8CD4446A8E54994 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdtrans.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdtrans.c; path = jdtrans.c; sourceTree = SOURCE_ROOT; };
+		C586D434086D475A9FF23FC1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdatasrc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdatasrc.c; path = jdatasrc.c; sourceTree = SOURCE_ROOT; };
+		C8922A1440294861B28F4571 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jmorecfg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jmorecfg.h; path = jmorecfg.h; sourceTree = SOURCE_ROOT; };
+		CB5A05C7DABC43A3813F48A9 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdcolor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdcolor.c; path = jdcolor.c; sourceTree = SOURCE_ROOT; };
+		D05BF242EF594BC19C6EE301 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jchuff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jchuff.c; path = jchuff.c; sourceTree = SOURCE_ROOT; };
+		D1C74FCE89644549B9902126 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jmemsys.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jmemsys.h; path = jmemsys.h; sourceTree = SOURCE_ROOT; };
+		D574098D94B141C982E65BEC /* /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../../ios/build/build-arm64-iphoneos/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		D7F3075E39DC40E39FF67CA0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdpostct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdpostct.c; path = jdpostct.c; sourceTree = SOURCE_ROOT; };
+		DDD7E95C2BC34937908E6FC8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jquant2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jquant2.c; path = jquant2.c; sourceTree = SOURCE_ROOT; };
+		E6D547BC7BB94701BC0A4D5D /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdinput.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdinput.c; path = jdinput.c; sourceTree = SOURCE_ROOT; };
+		E70A32D8E10A44B1B4345CC3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jmemmgr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jmemmgr.c; path = jmemmgr.c; sourceTree = SOURCE_ROOT; };
+		EDCE31B5936D46A79338F574 /* libjpeg */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibjpeg.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F329CB0E939D44699918493A /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jerror.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jerror.c; path = jerror.c; sourceTree = SOURCE_ROOT; };
+		FAAD67813DF54DC7AB6DE9A0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcmarker.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcmarker.c; path = jcmarker.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0C5E46F2F5D549D4AA0C3CE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDCE31B5936D46A79338F574 /* libjpeg */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DDF1675EED7495E8B983850 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D574098D94B141C982E65BEC /* /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		28FF5C021EBA4CEBAAF8C4B4 /* libjpeg */ = {
+			isa = PBXGroup;
+			children = (
+				8E79E8C1F3E044ED8957FABE /* Source Files */,
+				8EEA5C298CA54D31927B9C8D /* Header Files */,
+				0DDF1675EED7495E8B983850 /* Resources */,
+				BA38FFF0631A4608B5988F4C /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/CMakeLists.txt */,
+			);
+			name = libjpeg;
+			sourceTree = "<group>";
+		};
+		8E79E8C1F3E044ED8957FABE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				10BC79D27DB947259CEFFA87 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jaricom.c */,
+				A66FB507BF884D8482742C3A /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcapimin.c */,
+				1074A69265F94231B93C8832 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcapistd.c */,
+				0920D0927F924D88A788FF1B /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcarith.c */,
+				2F37DD6815D545B68E322067 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jccoefct.c */,
+				47068543EC96492CA48769C7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jccolor.c */,
+				B59573D838114C428B0DAEFB /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcdctmgr.c */,
+				D05BF242EF594BC19C6EE301 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jchuff.c */,
+				A190CE5CB7F742BF9B7789A7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcinit.c */,
+				276542A953D444C3859E6CAD /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcmainct.c */,
+				FAAD67813DF54DC7AB6DE9A0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcmarker.c */,
+				0574FB5718B74F6B87B743D6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcmaster.c */,
+				495E11EC9423474CB7FCEBFE /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcomapi.c */,
+				115F5B86C5A444E9BD8D6D33 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcparam.c */,
+				143050611F614E7FB57F3514 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcprepct.c */,
+				61690788525E4EDA87DF6FCA /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcsample.c */,
+				AB474008BCC14768B256681A /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jctrans.c */,
+				842BE7129165412A8455255A /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdapimin.c */,
+				47224950832B4717B21350C8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdapistd.c */,
+				3A49EDFA0236408599E20294 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdarith.c */,
+				AD6248ADB01043F4B2EAED10 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdatadst.c */,
+				C586D434086D475A9FF23FC1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdatasrc.c */,
+				0394FDDDF9EC42289F10B252 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdcoefct.c */,
+				CB5A05C7DABC43A3813F48A9 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdcolor.c */,
+				B3FC4411959F477CA3E13C9C /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jddctmgr.c */,
+				5EA72F8151744D3080C0E66B /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdhuff.c */,
+				E6D547BC7BB94701BC0A4D5D /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdinput.c */,
+				72B024285DCB4531B414DF4D /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmainct.c */,
+				2F3C26B2FA7D4FC49A1AD930 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmarker.c */,
+				1DFD78F101A34ED5B3516BCB /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmaster.c */,
+				0EB8138A24C74C3294DDA5AF /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmerge.c */,
+				D7F3075E39DC40E39FF67CA0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdpostct.c */,
+				5B2108160A8945CA9A0CB75D /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdsample.c */,
+				C3DDCFFCF8CD4446A8E54994 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdtrans.c */,
+				F329CB0E939D44699918493A /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jerror.c */,
+				89C242F18D1644F0AD57BEB3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jfdctflt.c */,
+				AE82BD8531B64D31A5C5090C /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jfdctfst.c */,
+				23A0C1913E4C482FA0F5C783 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jfdctint.c */,
+				B0A893FC81A548DBBCE6F2DD /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jidctflt.c */,
+				107C4A1BBDB04BD08CACE776 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jidctfst.c */,
+				29E5AC0F3B7D448297CF3281 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jidctint.c */,
+				E70A32D8E10A44B1B4345CC3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jmemmgr.c */,
+				7091474436A241ACB7EE0EB4 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jmemnobs.c */,
+				68E5F7FBC62B40E1AB1873F7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jquant1.c */,
+				DDD7E95C2BC34937908E6FC8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jquant2.c */,
+				8930EA1AA4534FBA84CFD83E /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jutils.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8EEA5C298CA54D31927B9C8D /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F3E489DC45842459A5779BF /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jconfig.h */,
+				24783A33E5E64E53900C2950 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdct.h */,
+				1277698EDAF84E16980DBC45 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jerror.h */,
+				A527CF7CC4944C9381566768 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jinclude.h */,
+				D1C74FCE89644549B9902126 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jmemsys.h */,
+				C8922A1440294861B28F4571 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jmorecfg.h */,
+				0EDD2F758B43423FBFFD53B8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jpegint.h */,
+				815F7ED25A2D49D5BEEDFB4B /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jpeglib.h */,
+				0FB93519B7EC44308895AD23 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jversion.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A04B465174F54D27B654B49A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B1AC7CF9FF804CCB8671F820 /* CMake Rules */,
+				309BEB33E1A24F019229C8F2 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		A44488E9992148B9AEEAAB73 = {
+			isa = PBXGroup;
+			children = (
+				D864E3E3D5BC4408A62C06FE /* 3rdparty */,
+				A04B465174F54D27B654B49A /* ALL_BUILD */,
+				0C5E46F2F5D549D4AA0C3CE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1AC7CF9FF804CCB8671F820 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D864E3E3D5BC4408A62C06FE /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				28FF5C021EBA4CEBAAF8C4B4 /* libjpeg */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C308CADB97504506850AF5E7 /* libjpeg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0E1B966739347FB9EFDA8C8 /* Build configuration list for PBXNativeTarget "libjpeg" */;
+			buildPhases = (
+				59D13CDF6F4E4EC1A1F84753 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E35313219EBC47CE8EF23B72 /* PBXTargetDependency */,
+			);
+			name = libjpeg;
+			productName = libjpeg;
+			productReference = EDCE31B5936D46A79338F574 /* libjpeg */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C34A2275523F4B048EE683BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2A75BC3F1F234F598648E30E /* Build configuration list for PBXProject "libjpeg" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				F929115FA8FF4A3FA3766061 /* Debug */,
+				2675B35FD7FA43B9915F4EBB /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = A44488E9992148B9AEEAAB73;
+			projectDirPath = /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg;
+			projectRoot = "";
+			targets = (
+				2FBEAEE482344198BFC927B9 /* ALL_BUILD */,
+				E98A0E20FACB474F915243D1 /* RUN_TESTS */,
+				64B4E2BFA32C4A0B96E02A2E /* ZERO_CHECK */,
+				2AF684AB82A647A88B25CC0A /* install */,
+				C308CADB97504506850AF5E7 /* libjpeg */,
+				145F09A13C144813B35217E1 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		222D9BC460154ED48CC87A0C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg -f /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		45D7A8044F5F47E2AE961588 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		65418156B002402289D54C0C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		782D5C6CABB5423A8EF430E3 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg -f /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		7CBC9A5C83EE456C97C218D4 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg -f /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		8708F3CF42FE44CF9F5A0433 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg -f /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B13395DD008D46A6AA439631 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D1B160C6FCDC444EB0E44D32 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg -f /Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		DCB1AD849037471B9C1981D7 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EE16F46C8E874A9899EE954F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59D13CDF6F4E4EC1A1F84753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC8140262234B6CA8B6E746 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jaricom.c */,
+				C99178A95A3F440A92B8394B /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcapimin.c */,
+				1A673EF53BC642AF905B9031 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcapistd.c */,
+				6140CF1DA4834FA6A260C0F0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcarith.c */,
+				951F1562B01849D383EE899B /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jccoefct.c */,
+				B02173F148A946E1A23F812F /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jccolor.c */,
+				B7BE0FC10CBD473AB2931802 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcdctmgr.c */,
+				BDA2BFB741704391A2A79CCA /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jchuff.c */,
+				FD687C9D03D0404C8DB17DD4 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcinit.c */,
+				D303AE7A8CE64366BE7D36CB /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcmainct.c */,
+				AFFEC9B569674677BFF7D2D0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcmarker.c */,
+				9A7AED14E61C4901A92FF099 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcmaster.c */,
+				E0BEC85D1ED543F29ED585FD /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcomapi.c */,
+				6E3BBB9A30DA4B94A60DE961 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcparam.c */,
+				55F8AE8793D8490994A9DBBF /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcprepct.c */,
+				54BA1389A60F41B994544C08 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jcsample.c */,
+				9711DB7A77CA4583930F4995 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jctrans.c */,
+				0BB2EE02070C42569177A3E3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdapimin.c */,
+				2C0DA511D257442BA56C5364 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdapistd.c */,
+				712B470A23674851BFABF774 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdarith.c */,
+				C612AB174A094CEBB57F9006 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdatadst.c */,
+				5D38195A24FA431E8308057F /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdatasrc.c */,
+				04AAFDBCF59A4B508D5093CB /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdcoefct.c */,
+				E1666DE61B664F608AF7688C /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdcolor.c */,
+				92954A37876D4E248D19042A /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jddctmgr.c */,
+				99D288D07D8C4624A2FFDC2B /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdhuff.c */,
+				385A663F3FEE4D59926E10CF /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdinput.c */,
+				2724C2DDFE044095AAA454D6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmainct.c */,
+				7EF878108F894204B93AB83A /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmarker.c */,
+				58543328584941CDA5ADE8A0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmaster.c */,
+				C808C74A24C8435B9800589D /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdmerge.c */,
+				0B15CD9C59934759BB761308 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdpostct.c */,
+				898B47D1E9FF45DC9B195CCC /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdsample.c */,
+				2E50564C8C3A4210A4BACF3C /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jdtrans.c */,
+				E78759A8A8C94BF8A9322F5B /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jerror.c */,
+				156A1E4C57B6452BB057765C /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jfdctflt.c */,
+				A67951D4309343A6819DBDB3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jfdctfst.c */,
+				8F21624DC33F4556A953CA92 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jfdctint.c */,
+				D9D6B4C978914CCA94D400FA /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jidctflt.c */,
+				5D750F7734CE44C0AC7730C2 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jidctfst.c */,
+				E9AEB6776C1F4C4191A97E54 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jidctint.c */,
+				4CA5BF3A515441D8B14A80AF /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jmemmgr.c */,
+				AAA3424D7B564DF3BCFF335A /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jmemnobs.c */,
+				05D595ACBC5542E4A43C8ED3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jquant1.c */,
+				D6764D8B30F94801A14AE1E7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jquant2.c */,
+				868517CF4B6141AE82493932 /* /Users/ameerspincar/Documents/opencv/3rdparty/libjpeg/jutils.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BC455BBC0DF437696E1E5D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64B4E2BFA32C4A0B96E02A2E /* ZERO_CHECK */;
+			targetProxy = AAE9B42F9B984B0F879A2B5F /* PBXContainerItemProxy */;
+		};
+		67DE94E8B9C942C69848E17E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C308CADB97504506850AF5E7 /* libjpeg */;
+			targetProxy = D34C34D9611F4D3587AB8E2A /* PBXContainerItemProxy */;
+		};
+		D409D489315C414096648529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FBEAEE482344198BFC927B9 /* ALL_BUILD */;
+			targetProxy = 415A8068ECA0420AB99C673C /* PBXContainerItemProxy */;
+		};
+		E35313219EBC47CE8EF23B72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64B4E2BFA32C4A0B96E02A2E /* ZERO_CHECK */;
+			targetProxy = 49ED05B898194A81A5C7E8F3 /* PBXContainerItemProxy */;
+		};
+		F557FF3FB610403DB6328BDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FBEAEE482344198BFC927B9 /* ALL_BUILD */;
+			targetProxy = D7F4FC9BF0864AE2A8D04E8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		053ACB0338A849D2A5AD700D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		0C1B164E9FEC4CE0A9E21636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		0F0A4871593544C589C0E676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2AA4BF81C4904CB2AD1FEB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ameerspincar/Documents/opencv/3rdparty/libjpeg);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fembed-bitcode -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body    -Wno-cast-align -Wno-shadow -Wno-unused -Wno-shift-negative-value -Wno-unused-parameter     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libjpeg;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		35C22047A21344A281BE1614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4C469B11FE584B35927D12ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ameerspincar/Documents/opencv/3rdparty/libjpeg);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fembed-bitcode -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body    -Wno-cast-align -Wno-shadow -Wno-unused -Wno-shift-negative-value -Wno-unused-parameter         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libjpeg;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		70B4A637676A48EBB18C56D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		82B535990979424F890CCE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C85175C09589488EB937D758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C91D2543574B48C690569718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg/build";
+			};
+			name = Release;
+		};
+		CB64B4CF577E49AA9B318749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D1DE3D8855994468AC4030CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D243079757744B55B6D69EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		EC3A6848AEF54BF990726F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-arm64-iphoneos/3rdparty/libjpeg/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E71100445DA4A31854A79AB /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0A4871593544C589C0E676 /* Debug */,
+				70B4A637676A48EBB18C56D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		22DC992F24B64EF98330A2AA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85175C09589488EB937D758 /* Debug */,
+				82B535990979424F890CCE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2A75BC3F1F234F598648E30E /* Build configuration list for PBXProject "libjpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3A6848AEF54BF990726F12 /* Debug */,
+				C91D2543574B48C690569718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		425595D7CE214CBDB6FE1C19 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C22047A21344A281BE1614 /* Debug */,
+				D1DE3D8855994468AC4030CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		91608E915FD54B0789CD3DD0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053ACB0338A849D2A5AD700D /* Debug */,
+				D243079757744B55B6D69EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9ED6F10EC1F44D26A5D083E4 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1B164E9FEC4CE0A9E21636 /* Debug */,
+				CB64B4CF577E49AA9B318749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B0E1B966739347FB9EFDA8C8 /* Build configuration list for PBXNativeTarget "libjpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C469B11FE584B35927D12ED /* Debug */,
+				2AA4BF81C4904CB2AD1FEB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C34A2275523F4B048EE683BA /* Project object */;
+}

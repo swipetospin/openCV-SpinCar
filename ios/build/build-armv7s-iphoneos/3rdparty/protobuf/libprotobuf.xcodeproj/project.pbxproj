@@ -1,0 +1,1085 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		27D5F77052F24B55B9EC65D9 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A8F4E69C6A8346B9872010BF /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				C0B90E5762164758A35C7426 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		B44081B35FD64E91B3E13E5A /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EDE031C98AA941D79836CE9E /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				9AD4227715A2440292C10059 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				7BC82DA331E2431187F38D4F /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		C37263ADC61A462F826CB2ED /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 61662C924030446C9CA60CC0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				BF13A121DE33418F9A7FE618 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		EBEB5FC2153B4F5487D24959 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 89D14AA135F04E66BB6E1C06 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				FF099E361B544FF5AAF3C2EF /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				A1B9084CAA3E4434B8B493A9 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		F6436296EE4C468DBCCF0FEB /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FC9F18928992494A8F1CB820 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				BDE38C0573A446628770C06E /* CMake Rules */,
+			);
+			dependencies = (
+				FB0EE6D24C464873A5A03E95 /* PBXTargetDependency */,
+				0705FBEDBDED420DAFAD3033 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		029C2D10DBCD400AAE1D73F5 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */ = {isa = PBXBuildFile; fileRef = 30B534D83C14426A8CFD81AA /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */; };
+		06F58089F3A14BA799895CE0 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/any.pb.cc */ = {isa = PBXBuildFile; fileRef = E026429FFF174841B767F7D6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/any.pb.cc */; };
+		0FE9479F432441E396B3EB80 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */ = {isa = PBXBuildFile; fileRef = 5B1D8E600CF440B789B42645 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */; };
+		1B927CF0FE7B4A14B43250FC /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */ = {isa = PBXBuildFile; fileRef = 2793C6A08D974E10B44257DA /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */; };
+		1E943936F87D46A592779E3A /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */ = {isa = PBXBuildFile; fileRef = 3DF9E2644D774877918BAC8B /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */; };
+		2142AAFD57814664BEAF61AA /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */ = {isa = PBXBuildFile; fileRef = DCF2289569444407935DBC45 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */; };
+		21D5AF1CE4814209AEE589BD /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */ = {isa = PBXBuildFile; fileRef = E9D3C6DFC0A74BD4AA366458 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */; };
+		24430AFA3A994565B0A7B2D6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */ = {isa = PBXBuildFile; fileRef = 2AB8EF93CFE14A6CA9B44262 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */; };
+		26644FA285B9469187A2657B /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */ = {isa = PBXBuildFile; fileRef = D72E2666B5764E119C49971E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */; };
+		271A4B69EB234CD09CB187A4 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */ = {isa = PBXBuildFile; fileRef = 4CB9DA7DA9DC4FBB9BE414F8 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */; };
+		2948E8EEBBBE4BB9AD9D43C6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven_lite.cc */ = {isa = PBXBuildFile; fileRef = 38D81E0C6A7248888F37B1D0 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven_lite.cc */; };
+		2D79AE17E2A7435CA1C65DBC /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/any.cc */ = {isa = PBXBuildFile; fileRef = A1E6B6AA890A4E43A67DDA61 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/any.cc */; };
+		33017AB58FF94C42A3CB950F /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */ = {isa = PBXBuildFile; fileRef = 64EB913E5B3843D596F913A2 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */; };
+		37FABCDB76834605BEA3FFC0 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/text_format.cc */ = {isa = PBXBuildFile; fileRef = FBF886CCA3AF475AB216D292 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/text_format.cc */; };
+		38F317B0B0D740E8A1BED902 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0B6244E6F1624788B25C2D2A /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/CMakeLists.txt */; };
+		42C1EF9113D343C9BF15782F /* /Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = F694F817A56749799F29EEE8 /* /Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist */; };
+		4432CEAD2F564E5B9ABE53F3 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */ = {isa = PBXBuildFile; fileRef = EC33C337EA8D4A0A9E8E92E3 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */; };
+		46A74CD1DCD44A549AB03AC6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/extension_set.cc */ = {isa = PBXBuildFile; fileRef = 86508D9F9C234C91BDCB6BA4 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/extension_set.cc */; };
+		482EDD6031A44B0E90BE5E31 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */ = {isa = PBXBuildFile; fileRef = 0030E23BAAA64A558CFF26EC /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */; };
+		489B909812F846299232B750 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/delimited_message_util.cc */ = {isa = PBXBuildFile; fileRef = 35272EDBAFED4FF5BEC6A2C9 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/delimited_message_util.cc */; };
+		48A90C6BDA1B4999AFCEB7A9 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */ = {isa = PBXBuildFile; fileRef = 211C9929BAF34561A4E0A22A /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */; };
+		49FA6B284FA346208DA10F90 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/api.pb.cc */ = {isa = PBXBuildFile; fileRef = 4E12442D461D499EA502A312 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/api.pb.cc */; };
+		4CC71D7FB2C84ED0AED1F85E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */ = {isa = PBXBuildFile; fileRef = F4E300A2E0594FD29C55F397 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */; };
+		5308360B14314D25BC42F407 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/arenastring.cc */ = {isa = PBXBuildFile; fileRef = 1A22EE07E3144A7EAA732C60 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/arenastring.cc */; };
+		53C72BAC1C6C4B3193CBA70B /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */ = {isa = PBXBuildFile; fileRef = A2D17D0A3DFD4C2BB1A14447 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */; };
+		5E8341DAA805492DAC2AA403 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */ = {isa = PBXBuildFile; fileRef = A7B462F48EF94F6F950B3F1A /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */; };
+		6511140CF054402CB51001FE /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/service.cc */ = {isa = PBXBuildFile; fileRef = 375B081454CF4D3A87E873D6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/service.cc */; };
+		6696DE0BF2ED4AEDA045DFF9 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */ = {isa = PBXBuildFile; fileRef = 93DA0B44B9174445881B8EF2 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */; };
+		687B76EAEA0B4CC4986074FF /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */ = {isa = PBXBuildFile; fileRef = 8F6021A6E2B24B63B78072F5 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */; };
+		6A3DD3E6295745D2BE15EE5E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */ = {isa = PBXBuildFile; fileRef = 85CB46A159E742E4A61B3A60 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */; };
+		6FBD86A521414028AD5CD282 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */ = {isa = PBXBuildFile; fileRef = A2447F1E932D40F59D1180B1 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */; };
+		7885A224819147B19B867D5E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */ = {isa = PBXBuildFile; fileRef = 4CF7421339AA471EABCCD044 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */; };
+		7DA862F8AA294803AAE8B7FF /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */ = {isa = PBXBuildFile; fileRef = 8C3E40D0A5A54227A2D1A730 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */; };
+		83CF1A137268443CB399E3BC /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */ = {isa = PBXBuildFile; fileRef = C92BF24AF9C94BF0BCD3FBF8 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */; };
+		878ADB40C2EB4FCAA977C487 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */ = {isa = PBXBuildFile; fileRef = 461136B1F262493FBA41C812 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */; };
+		87CF229D3BE845A69F64E793 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/wire_format.cc */ = {isa = PBXBuildFile; fileRef = 6A761C115B85457E8F962F62 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/wire_format.cc */; };
+		89453DAABBE748CD96CDE9E1 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */ = {isa = PBXBuildFile; fileRef = A5977603DAAD4504BB1D0539 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */; };
+		899EB678215A455DB9714BFF /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */ = {isa = PBXBuildFile; fileRef = F7A8768B49D84C4299C3BEA6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */; };
+		89C295B374274636BC966580 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/message.cc */ = {isa = PBXBuildFile; fileRef = F3B7FE3980844633B7534C44 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/message.cc */; };
+		8CFCFD1DFD19400AA62DD28A /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */ = {isa = PBXBuildFile; fileRef = 792B1BEEB8514FDB95E5DF52 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */; };
+		8E25AB1594F44A1FA3EEE12E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */ = {isa = PBXBuildFile; fileRef = DAB22F17931849C8BF27C72E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */; };
+		910D0ECE51DA46D5B8ED000E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */ = {isa = PBXBuildFile; fileRef = DFB12F6FF0FE43F7ADDF40BB /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */; };
+		928BC8F022B9479B9417D0AE /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */ = {isa = PBXBuildFile; fileRef = A668374DB0444009BBA0BFA8 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */; };
+		97743D44BC3944CBA7E852F7 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */ = {isa = PBXBuildFile; fileRef = 6B724B09C9D145E6AC61C872 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */; };
+		97F392FF52C943BF92E4CDEB /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */ = {isa = PBXBuildFile; fileRef = 94B4B59CB08142AC97B282A7 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */; };
+		9DEAD8E0DD924C5A82F92E97 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/printer.cc */ = {isa = PBXBuildFile; fileRef = C073BB0886964D95811DBAAE /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/printer.cc */; };
+		9F72593773EE4EBABCC69A58 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */ = {isa = PBXBuildFile; fileRef = 18388B3C8D5F41A4A4F49D00 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */; };
+		A84F93BD8203431BA35A415D /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */ = {isa = PBXBuildFile; fileRef = 6BCE6BB01AEC43869B306244 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */; };
+		A95284DACBFA4AF98783A823 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.cc */ = {isa = PBXBuildFile; fileRef = FCA3333B8C8E4C21B7B12E95 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.cc */; };
+		AB487D0DE0954E7B93EC79C1 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */ = {isa = PBXBuildFile; fileRef = 1D678115BA824422AD8CC987 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */; };
+		B075748053FE4C3C8C7773CC /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven.cc */ = {isa = PBXBuildFile; fileRef = 405D0EA2E60D418ABE814C14 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven.cc */; };
+		BBA8A8593C33404D811E9AA5 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */ = {isa = PBXBuildFile; fileRef = 9466668A7AAF4A038D6D8909 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */; };
+		BC6B6FE754A248C38AE7D378 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */ = {isa = PBXBuildFile; fileRef = D87B9A76614344FA92FB4EA8 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */; };
+		BD510AD7371C46DEBED1D4AE /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */ = {isa = PBXBuildFile; fileRef = 1BD1EB999DB346DEA3964C8E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */; };
+		C149E1C8773C4DE9BBE26ADD /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/message_lite.cc */ = {isa = PBXBuildFile; fileRef = C23885FDA42D494784C8DCEE /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/message_lite.cc */; };
+		C1B5430D648A473CBEA62AEE /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */ = {isa = PBXBuildFile; fileRef = D5449C460198420A92D10E76 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */; };
+		C1EFB95CA38647709D08B646 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */ = {isa = PBXBuildFile; fileRef = 226C6B9455824D5A8D0D19CC /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */; };
+		C63E13CA1C2642CE85C47BA3 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */ = {isa = PBXBuildFile; fileRef = 2D3069227132408F9D86DBCF /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */; };
+		C9642C02065D43A388F84F27 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/map_field.cc */ = {isa = PBXBuildFile; fileRef = BB98CB0232B74A4FB6D614F5 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/map_field.cc */; };
+		CB3E03468D6A48F69BF8C950 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/io_win32.cc */ = {isa = PBXBuildFile; fileRef = FB0F5F0B195A44308EE48933 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/io_win32.cc */; };
+		CD513090517047B286EDAA6E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */ = {isa = PBXBuildFile; fileRef = 16A99967D05F4BC3998C8D2E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */; };
+		CD8DC4DE08634D719147E4D6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */ = {isa = PBXBuildFile; fileRef = C1C8BD7578C14B35B5338B26 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */; };
+		D26B7153AE0D4FBC8795932F /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */ = {isa = PBXBuildFile; fileRef = 01E09F7E5F1646418A3DB93F /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */; };
+		D6E3471CFDA641FD8AA42E0B /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */ = {isa = PBXBuildFile; fileRef = A64691FF7B0541E19CDC0AE4 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */; };
+		DBD3FCAC4489450082269571 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */ = {isa = PBXBuildFile; fileRef = 15DF5BA285A64C329D328513 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */; };
+		DF13E90C9C2E4D5E98A619B4 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */ = {isa = PBXBuildFile; fileRef = AC2685E4874F4A5F93943657 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */; };
+		E6FEE83E50B74B0FB1B80824 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */ = {isa = PBXBuildFile; fileRef = D2DA46495B044FF59E17EF9C /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */; };
+		E932AB15EB3A47E7A6B23D88 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/arena.cc */ = {isa = PBXBuildFile; fileRef = 61C1970221104BC0910ADBE4 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/arena.cc */; };
+		EA13EB6C8B1948CCA735B345 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */ = {isa = PBXBuildFile; fileRef = B76B02B6C2854362B90B29C3 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */; };
+		EB43C4109E954B158D0290D1 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */ = {isa = PBXBuildFile; fileRef = DF643A86CA724B068B0E784A /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */; };
+		F0CB3B10B1294ED386F8B61E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */ = {isa = PBXBuildFile; fileRef = 4FE0B93331E54FA4B35E6BB6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */; };
+		F10E887F36204947850ED0D7 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */ = {isa = PBXBuildFile; fileRef = FF9D41283FD84F6F83FB9AD1 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */; };
+		F4758C42D0824478B472D525 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */ = {isa = PBXBuildFile; fileRef = 8A15FC61B4C44F2188B4B75C /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */; };
+		F96E4D38D0234044A44CA668 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */ = {isa = PBXBuildFile; fileRef = FB318B6D1ADB47A995FC268D /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */; };
+		FB83E681584D4B8AA189ED03 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */ = {isa = PBXBuildFile; fileRef = E579577B38CC4A7EA9FE3954 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */; };
+		FC3F8ABEFCB0455FA92039A0 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */ = {isa = PBXBuildFile; fileRef = 770DF019C0AD41D9B27B16DD /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */; };
+		FCCE5EF463B24134933163CE /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/type.pb.cc */ = {isa = PBXBuildFile; fileRef = 482A79E37FBA40B8851F806D /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/type.pb.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		72A83055000345928D3FA63E /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D2A81CB80D7E4E12AE50E370 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		419950D71E784936B182D958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9AC6709CA1244338B0C68D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6436296EE4C468DBCCF0FEB;
+			remoteInfo = ALL_BUILD;
+		};
+		6989DA7B7B9B4D4684C97389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9AC6709CA1244338B0C68D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 173D854DE7344FEA8731C02E;
+			remoteInfo = libprotobuf;
+		};
+		88C9379BDEBB4393A9FDC353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9AC6709CA1244338B0C68D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C37263ADC61A462F826CB2ED;
+			remoteInfo = ZERO_CHECK;
+		};
+		DB2BDC8A365A4F35B30D41EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9AC6709CA1244338B0C68D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6436296EE4C468DBCCF0FEB;
+			remoteInfo = ALL_BUILD;
+		};
+		F4567A59A507455B9ADB2F4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9AC6709CA1244338B0C68D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C37263ADC61A462F826CB2ED;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0030E23BAAA64A558CFF26EC /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = time_util.cc; path = src/google/protobuf/util/time_util.cc; sourceTree = SOURCE_ROOT; };
+		01E09F7E5F1646418A3DB93F /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = time.cc; path = src/google/protobuf/stubs/time.cc; sourceTree = SOURCE_ROOT; };
+		0B6244E6F1624788B25C2D2A /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		15DF5BA285A64C329D328513 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = object_writer.cc; path = src/google/protobuf/util/internal/object_writer.cc; sourceTree = SOURCE_ROOT; };
+		16A99967D05F4BC3998C8D2E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringprintf.cc; path = src/google/protobuf/stubs/stringprintf.cc; sourceTree = SOURCE_ROOT; };
+		18388B3C8D5F41A4A4F49D00 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timestamp.pb.cc; path = src/google/protobuf/timestamp.pb.cc; sourceTree = SOURCE_ROOT; };
+		1A22EE07E3144A7EAA732C60 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/arenastring.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arenastring.cc; path = src/google/protobuf/arenastring.cc; sourceTree = SOURCE_ROOT; };
+		1BD1EB999DB346DEA3964C8E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = type_resolver_util.cc; path = src/google/protobuf/util/type_resolver_util.cc; sourceTree = SOURCE_ROOT; };
+		1D678115BA824422AD8CC987 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unknown_field_set.cc; path = src/google/protobuf/unknown_field_set.cc; sourceTree = SOURCE_ROOT; };
+		211C9929BAF34561A4E0A22A /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = substitute.cc; path = src/google/protobuf/stubs/substitute.cc; sourceTree = SOURCE_ROOT; };
+		226C6B9455824D5A8D0D19CC /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = generated_message_reflection.cc; path = src/google/protobuf/generated_message_reflection.cc; sourceTree = SOURCE_ROOT; };
+		2793C6A08D974E10B44257DA /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = field_mask.pb.cc; path = src/google/protobuf/field_mask.pb.cc; sourceTree = SOURCE_ROOT; };
+		2AB8EF93CFE14A6CA9B44262 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_escaping.cc; path = src/google/protobuf/util/internal/json_escaping.cc; sourceTree = SOURCE_ROOT; };
+		2D3069227132408F9D86DBCF /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = int128.cc; path = src/google/protobuf/stubs/int128.cc; sourceTree = SOURCE_ROOT; };
+		30B534D83C14426A8CFD81AA /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mathlimits.cc; path = src/google/protobuf/stubs/mathlimits.cc; sourceTree = SOURCE_ROOT; };
+		35272EDBAFED4FF5BEC6A2C9 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/delimited_message_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = delimited_message_util.cc; path = src/google/protobuf/util/delimited_message_util.cc; sourceTree = SOURCE_ROOT; };
+		375B081454CF4D3A87E873D6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/service.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = service.cc; path = src/google/protobuf/service.cc; sourceTree = SOURCE_ROOT; };
+		38D81E0C6A7248888F37B1D0 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = generated_message_table_driven_lite.cc; path = src/google/protobuf/generated_message_table_driven_lite.cc; sourceTree = SOURCE_ROOT; };
+		3B5AE5091D5C40EE80E19033 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3DF9E2644D774877918BAC8B /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = structurally_valid.cc; path = src/google/protobuf/stubs/structurally_valid.cc; sourceTree = SOURCE_ROOT; };
+		405D0EA2E60D418ABE814C14 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = generated_message_table_driven.cc; path = src/google/protobuf/generated_message_table_driven.cc; sourceTree = SOURCE_ROOT; };
+		461136B1F262493FBA41C812 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = field_mask_util.cc; path = src/google/protobuf/util/field_mask_util.cc; sourceTree = SOURCE_ROOT; };
+		482A79E37FBA40B8851F806D /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/type.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = type.pb.cc; path = src/google/protobuf/type.pb.cc; sourceTree = SOURCE_ROOT; };
+		4CB9DA7DA9DC4FBB9BE414F8 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zero_copy_stream_impl_lite.cc; path = src/google/protobuf/io/zero_copy_stream_impl_lite.cc; sourceTree = SOURCE_ROOT; };
+		4CF7421339AA471EABCCD044 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = struct.pb.cc; path = src/google/protobuf/struct.pb.cc; sourceTree = SOURCE_ROOT; };
+		4E12442D461D499EA502A312 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/api.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = api.pb.cc; path = src/google/protobuf/api.pb.cc; sourceTree = SOURCE_ROOT; };
+		4FE0B93331E54FA4B35E6BB6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = datapiece.cc; path = src/google/protobuf/util/internal/datapiece.cc; sourceTree = SOURCE_ROOT; };
+		5B1D8E600CF440B789B42645 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utility.cc; path = src/google/protobuf/util/internal/utility.cc; sourceTree = SOURCE_ROOT; };
+		61C1970221104BC0910ADBE4 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/arena.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arena.cc; path = src/google/protobuf/arena.cc; sourceTree = SOURCE_ROOT; };
+		64EB913E5B3843D596F913A2 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = status.cc; path = src/google/protobuf/stubs/status.cc; sourceTree = SOURCE_ROOT; };
+		6559C3A7C9F0460CB76046E0 /* libprotobuf */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibprotobuf.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A761C115B85457E8F962F62 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/wire_format.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wire_format.cc; path = src/google/protobuf/wire_format.cc; sourceTree = SOURCE_ROOT; };
+		6B724B09C9D145E6AC61C872 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_util.cc; path = src/google/protobuf/util/json_util.cc; sourceTree = SOURCE_ROOT; };
+		6BCE6BB01AEC43869B306244 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zero_copy_stream_impl.cc; path = src/google/protobuf/io/zero_copy_stream_impl.cc; sourceTree = SOURCE_ROOT; };
+		770DF019C0AD41D9B27B16DD /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = source_context.pb.cc; path = src/google/protobuf/source_context.pb.cc; sourceTree = SOURCE_ROOT; };
+		792B1BEEB8514FDB95E5DF52 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor_database.cc; path = src/google/protobuf/descriptor_database.cc; sourceTree = SOURCE_ROOT; };
+		85CB46A159E742E4A61B3A60 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = strutil.cc; path = src/google/protobuf/stubs/strutil.cc; sourceTree = SOURCE_ROOT; };
+		86508D9F9C234C91BDCB6BA4 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/extension_set.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = extension_set.cc; path = src/google/protobuf/extension_set.cc; sourceTree = SOURCE_ROOT; };
+		8A15FC61B4C44F2188B4B75C /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = message_differencer.cc; path = src/google/protobuf/util/message_differencer.cc; sourceTree = SOURCE_ROOT; };
+		8C3E40D0A5A54227A2D1A730 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = atomicops_internals_x86_gcc.cc; path = src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc; sourceTree = SOURCE_ROOT; };
+		8F6021A6E2B24B63B78072F5 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = empty.pb.cc; path = src/google/protobuf/empty.pb.cc; sourceTree = SOURCE_ROOT; };
+		93DA0B44B9174445881B8EF2 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_objectwriter.cc; path = src/google/protobuf/util/internal/json_objectwriter.cc; sourceTree = SOURCE_ROOT; };
+		9466668A7AAF4A038D6D8909 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = field_comparator.cc; path = src/google/protobuf/util/field_comparator.cc; sourceTree = SOURCE_ROOT; };
+		94B4B59CB08142AC97B282A7 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = protostream_objectwriter.cc; path = src/google/protobuf/util/internal/protostream_objectwriter.cc; sourceTree = SOURCE_ROOT; };
+		A1E6B6AA890A4E43A67DDA61 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/any.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = any.cc; path = src/google/protobuf/any.cc; sourceTree = SOURCE_ROOT; };
+		A2447F1E932D40F59D1180B1 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor.pb.cc; path = src/google/protobuf/descriptor.pb.cc; sourceTree = SOURCE_ROOT; };
+		A2D17D0A3DFD4C2BB1A14447 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = repeated_field.cc; path = src/google/protobuf/repeated_field.cc; sourceTree = SOURCE_ROOT; };
+		A5977603DAAD4504BB1D0539 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = proto_writer.cc; path = src/google/protobuf/util/internal/proto_writer.cc; sourceTree = SOURCE_ROOT; };
+		A64691FF7B0541E19CDC0AE4 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = generated_message_util.cc; path = src/google/protobuf/generated_message_util.cc; sourceTree = SOURCE_ROOT; };
+		A668374DB0444009BBA0BFA8 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = duration.pb.cc; path = src/google/protobuf/duration.pb.cc; sourceTree = SOURCE_ROOT; };
+		A7B462F48EF94F6F950B3F1A /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wire_format_lite.cc; path = src/google/protobuf/wire_format_lite.cc; sourceTree = SOURCE_ROOT; };
+		AC2685E4874F4A5F93943657 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dynamic_message.cc; path = src/google/protobuf/dynamic_message.cc; sourceTree = SOURCE_ROOT; };
+		B76B02B6C2854362B90B29C3 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = default_value_objectwriter.cc; path = src/google/protobuf/util/internal/default_value_objectwriter.cc; sourceTree = SOURCE_ROOT; };
+		BB98CB0232B74A4FB6D614F5 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/map_field.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = map_field.cc; path = src/google/protobuf/map_field.cc; sourceTree = SOURCE_ROOT; };
+		C073BB0886964D95811DBAAE /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/printer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = printer.cc; path = src/google/protobuf/io/printer.cc; sourceTree = SOURCE_ROOT; };
+		C1C8BD7578C14B35B5338B26 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gzip_stream.cc; path = src/google/protobuf/io/gzip_stream.cc; sourceTree = SOURCE_ROOT; };
+		C23885FDA42D494784C8DCEE /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/message_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = message_lite.cc; path = src/google/protobuf/message_lite.cc; sourceTree = SOURCE_ROOT; };
+		C92BF24AF9C94BF0BCD3FBF8 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = coded_stream.cc; path = src/google/protobuf/io/coded_stream.cc; sourceTree = SOURCE_ROOT; };
+		D2DA46495B044FF59E17EF9C /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = common.cc; path = src/google/protobuf/stubs/common.cc; sourceTree = SOURCE_ROOT; };
+		D5449C460198420A92D10E76 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wrappers.pb.cc; path = src/google/protobuf/wrappers.pb.cc; sourceTree = SOURCE_ROOT; };
+		D72E2666B5764E119C49971E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zero_copy_stream.cc; path = src/google/protobuf/io/zero_copy_stream.cc; sourceTree = SOURCE_ROOT; };
+		D87B9A76614344FA92FB4EA8 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = statusor.cc; path = src/google/protobuf/stubs/statusor.cc; sourceTree = SOURCE_ROOT; };
+		DAB22F17931849C8BF27C72E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = field_mask_utility.cc; path = src/google/protobuf/util/internal/field_mask_utility.cc; sourceTree = SOURCE_ROOT; };
+		DCF2289569444407935DBC45 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_stream_parser.cc; path = src/google/protobuf/util/internal/json_stream_parser.cc; sourceTree = SOURCE_ROOT; };
+		DF643A86CA724B068B0E784A /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = strtod.cc; path = src/google/protobuf/io/strtod.cc; sourceTree = SOURCE_ROOT; };
+		DFB12F6FF0FE43F7ADDF40BB /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = protostream_objectsource.cc; path = src/google/protobuf/util/internal/protostream_objectsource.cc; sourceTree = SOURCE_ROOT; };
+		E026429FFF174841B767F7D6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/any.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = any.pb.cc; path = src/google/protobuf/any.pb.cc; sourceTree = SOURCE_ROOT; };
+		E579577B38CC4A7EA9FE3954 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = reflection_ops.cc; path = src/google/protobuf/reflection_ops.cc; sourceTree = SOURCE_ROOT; };
+		E9D3C6DFC0A74BD4AA366458 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tokenizer.cc; path = src/google/protobuf/io/tokenizer.cc; sourceTree = SOURCE_ROOT; };
+		EC33C337EA8D4A0A9E8E92E3 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = once.cc; path = src/google/protobuf/stubs/once.cc; sourceTree = SOURCE_ROOT; };
+		F3B7FE3980844633B7534C44 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/message.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = message.cc; path = src/google/protobuf/message.cc; sourceTree = SOURCE_ROOT; };
+		F4E300A2E0594FD29C55F397 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringpiece.cc; path = src/google/protobuf/stubs/stringpiece.cc; sourceTree = SOURCE_ROOT; };
+		F694F817A56749799F29EEE8 /* /Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../../ios/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		F7A8768B49D84C4299C3BEA6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = type_info.cc; path = src/google/protobuf/util/internal/type_info.cc; sourceTree = SOURCE_ROOT; };
+		FB0F5F0B195A44308EE48933 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/io_win32.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = io_win32.cc; path = src/google/protobuf/stubs/io_win32.cc; sourceTree = SOURCE_ROOT; };
+		FB318B6D1ADB47A995FC268D /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bytestream.cc; path = src/google/protobuf/stubs/bytestream.cc; sourceTree = SOURCE_ROOT; };
+		FBF886CCA3AF475AB216D292 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/text_format.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = text_format.cc; path = src/google/protobuf/text_format.cc; sourceTree = SOURCE_ROOT; };
+		FCA3333B8C8E4C21B7B12E95 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor.cc; path = src/google/protobuf/descriptor.cc; sourceTree = SOURCE_ROOT; };
+		FF9D41283FD84F6F83FB9AD1 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = extension_set_heavy.cc; path = src/google/protobuf/extension_set_heavy.cc; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3FC52912C15C40A3AB568F56 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F694F817A56749799F29EEE8 /* /Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		74201ABC978D491AB044DE72 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				E2419308E0624EE28147656C /* CMake Rules */,
+				3B5AE5091D5C40EE80E19033 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		88AB4715968E4884B45400A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6559C3A7C9F0460CB76046E0 /* libprotobuf */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AB7D671B65B46898B0D44BD = {
+			isa = PBXGroup;
+			children = (
+				EB72E5C233B845A6A76A31D3 /* 3rdparty */,
+				74201ABC978D491AB044DE72 /* ALL_BUILD */,
+				88AB4715968E4884B45400A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97C2223CF34A45ECA7B36AAE /* libprotobuf */ = {
+			isa = PBXGroup;
+			children = (
+				F37C3335118D4D6F95BA8630 /* Source Files */,
+				3FC52912C15C40A3AB568F56 /* Resources */,
+				0B6244E6F1624788B25C2D2A /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/CMakeLists.txt */,
+			);
+			name = libprotobuf;
+			sourceTree = "<group>";
+		};
+		E2419308E0624EE28147656C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		EB72E5C233B845A6A76A31D3 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				97C2223CF34A45ECA7B36AAE /* libprotobuf */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		F37C3335118D4D6F95BA8630 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1E6B6AA890A4E43A67DDA61 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/any.cc */,
+				E026429FFF174841B767F7D6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/any.pb.cc */,
+				4E12442D461D499EA502A312 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/api.pb.cc */,
+				61C1970221104BC0910ADBE4 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/arena.cc */,
+				1A22EE07E3144A7EAA732C60 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/arenastring.cc */,
+				FCA3333B8C8E4C21B7B12E95 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.cc */,
+				A2447F1E932D40F59D1180B1 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */,
+				792B1BEEB8514FDB95E5DF52 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */,
+				A668374DB0444009BBA0BFA8 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */,
+				AC2685E4874F4A5F93943657 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */,
+				8F6021A6E2B24B63B78072F5 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */,
+				86508D9F9C234C91BDCB6BA4 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/extension_set.cc */,
+				FF9D41283FD84F6F83FB9AD1 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */,
+				2793C6A08D974E10B44257DA /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */,
+				226C6B9455824D5A8D0D19CC /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */,
+				405D0EA2E60D418ABE814C14 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven.cc */,
+				38D81E0C6A7248888F37B1D0 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven_lite.cc */,
+				A64691FF7B0541E19CDC0AE4 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */,
+				C92BF24AF9C94BF0BCD3FBF8 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */,
+				C1C8BD7578C14B35B5338B26 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */,
+				C073BB0886964D95811DBAAE /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/printer.cc */,
+				DF643A86CA724B068B0E784A /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */,
+				E9D3C6DFC0A74BD4AA366458 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */,
+				D72E2666B5764E119C49971E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */,
+				6BCE6BB01AEC43869B306244 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */,
+				4CB9DA7DA9DC4FBB9BE414F8 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */,
+				BB98CB0232B74A4FB6D614F5 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/map_field.cc */,
+				F3B7FE3980844633B7534C44 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/message.cc */,
+				C23885FDA42D494784C8DCEE /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/message_lite.cc */,
+				E579577B38CC4A7EA9FE3954 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */,
+				A2D17D0A3DFD4C2BB1A14447 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */,
+				375B081454CF4D3A87E873D6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/service.cc */,
+				770DF019C0AD41D9B27B16DD /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */,
+				4CF7421339AA471EABCCD044 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */,
+				8C3E40D0A5A54227A2D1A730 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */,
+				FB318B6D1ADB47A995FC268D /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */,
+				D2DA46495B044FF59E17EF9C /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */,
+				2D3069227132408F9D86DBCF /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */,
+				FB0F5F0B195A44308EE48933 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/io_win32.cc */,
+				30B534D83C14426A8CFD81AA /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */,
+				EC33C337EA8D4A0A9E8E92E3 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */,
+				64EB913E5B3843D596F913A2 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */,
+				D87B9A76614344FA92FB4EA8 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */,
+				F4E300A2E0594FD29C55F397 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */,
+				16A99967D05F4BC3998C8D2E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */,
+				3DF9E2644D774877918BAC8B /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */,
+				85CB46A159E742E4A61B3A60 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */,
+				211C9929BAF34561A4E0A22A /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */,
+				01E09F7E5F1646418A3DB93F /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */,
+				FBF886CCA3AF475AB216D292 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/text_format.cc */,
+				18388B3C8D5F41A4A4F49D00 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */,
+				482A79E37FBA40B8851F806D /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/type.pb.cc */,
+				1D678115BA824422AD8CC987 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */,
+				35272EDBAFED4FF5BEC6A2C9 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/delimited_message_util.cc */,
+				9466668A7AAF4A038D6D8909 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */,
+				461136B1F262493FBA41C812 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */,
+				4FE0B93331E54FA4B35E6BB6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */,
+				B76B02B6C2854362B90B29C3 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */,
+				DAB22F17931849C8BF27C72E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */,
+				2AB8EF93CFE14A6CA9B44262 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */,
+				93DA0B44B9174445881B8EF2 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */,
+				DCF2289569444407935DBC45 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */,
+				15DF5BA285A64C329D328513 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */,
+				A5977603DAAD4504BB1D0539 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */,
+				DFB12F6FF0FE43F7ADDF40BB /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */,
+				94B4B59CB08142AC97B282A7 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */,
+				F7A8768B49D84C4299C3BEA6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */,
+				5B1D8E600CF440B789B42645 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */,
+				6B724B09C9D145E6AC61C872 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */,
+				8A15FC61B4C44F2188B4B75C /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */,
+				0030E23BAAA64A558CFF26EC /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */,
+				1BD1EB999DB346DEA3964C8E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */,
+				6A761C115B85457E8F962F62 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/wire_format.cc */,
+				A7B462F48EF94F6F950B3F1A /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */,
+				D5449C460198420A92D10E76 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		173D854DE7344FEA8731C02E /* libprotobuf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF0CBC1AB8E4F9A8735F99A /* Build configuration list for PBXNativeTarget "libprotobuf" */;
+			buildPhases = (
+				C71ED93541BB412CBD912E5E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A641B1CE58DC43BCBE04E4A6 /* PBXTargetDependency */,
+			);
+			name = libprotobuf;
+			productName = libprotobuf;
+			productReference = 6559C3A7C9F0460CB76046E0 /* libprotobuf */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9AC6709CA1244338B0C68D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 19C35589189648C38B2432FB /* Build configuration list for PBXProject "libprotobuf" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				72A83055000345928D3FA63E /* Debug */,
+				D2A81CB80D7E4E12AE50E370 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 8AB7D671B65B46898B0D44BD;
+			projectDirPath = /Users/ameerspincar/Documents/opencv/3rdparty/protobuf;
+			projectRoot = "";
+			targets = (
+				F6436296EE4C468DBCCF0FEB /* ALL_BUILD */,
+				27D5F77052F24B55B9EC65D9 /* RUN_TESTS */,
+				C37263ADC61A462F826CB2ED /* ZERO_CHECK */,
+				B44081B35FD64E91B3E13E5A /* install */,
+				173D854DE7344FEA8731C02E /* libprotobuf */,
+				EBEB5FC2153B4F5487D24959 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		075E7302240B490DBCD3D304 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1CD8F7A346E04891907F8A4D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		92434576CE4F49B78B8CF321 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9AD4227715A2440292C10059 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf -f /Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		BDE38C0573A446628770C06E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf -f /Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		BF13A121DE33418F9A7FE618 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf -f /Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C0B90E5762164758A35C7426 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf -f /Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		CC5014227E174E56B1C9C73B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		DADE057E749C4998A2D9197D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FF099E361B544FF5AAF3C2EF /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf -f /Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C71ED93541BB412CBD912E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D79AE17E2A7435CA1C65DBC /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/any.cc */,
+				06F58089F3A14BA799895CE0 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/any.pb.cc */,
+				49FA6B284FA346208DA10F90 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/api.pb.cc */,
+				E932AB15EB3A47E7A6B23D88 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/arena.cc */,
+				5308360B14314D25BC42F407 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/arenastring.cc */,
+				A95284DACBFA4AF98783A823 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.cc */,
+				6FBD86A521414028AD5CD282 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */,
+				8CFCFD1DFD19400AA62DD28A /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */,
+				928BC8F022B9479B9417D0AE /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */,
+				DF13E90C9C2E4D5E98A619B4 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */,
+				687B76EAEA0B4CC4986074FF /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */,
+				46A74CD1DCD44A549AB03AC6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/extension_set.cc */,
+				F10E887F36204947850ED0D7 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */,
+				1B927CF0FE7B4A14B43250FC /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */,
+				C1EFB95CA38647709D08B646 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */,
+				B075748053FE4C3C8C7773CC /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven.cc */,
+				2948E8EEBBBE4BB9AD9D43C6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven_lite.cc */,
+				D6E3471CFDA641FD8AA42E0B /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */,
+				83CF1A137268443CB399E3BC /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */,
+				CD8DC4DE08634D719147E4D6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */,
+				9DEAD8E0DD924C5A82F92E97 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/printer.cc */,
+				EB43C4109E954B158D0290D1 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */,
+				21D5AF1CE4814209AEE589BD /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */,
+				26644FA285B9469187A2657B /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */,
+				A84F93BD8203431BA35A415D /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */,
+				271A4B69EB234CD09CB187A4 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */,
+				C9642C02065D43A388F84F27 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/map_field.cc */,
+				89C295B374274636BC966580 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/message.cc */,
+				C149E1C8773C4DE9BBE26ADD /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/message_lite.cc */,
+				FB83E681584D4B8AA189ED03 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */,
+				53C72BAC1C6C4B3193CBA70B /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */,
+				6511140CF054402CB51001FE /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/service.cc */,
+				FC3F8ABEFCB0455FA92039A0 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */,
+				7885A224819147B19B867D5E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */,
+				7DA862F8AA294803AAE8B7FF /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */,
+				F96E4D38D0234044A44CA668 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */,
+				E6FEE83E50B74B0FB1B80824 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */,
+				C63E13CA1C2642CE85C47BA3 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */,
+				CB3E03468D6A48F69BF8C950 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/io_win32.cc */,
+				029C2D10DBCD400AAE1D73F5 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */,
+				4432CEAD2F564E5B9ABE53F3 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */,
+				33017AB58FF94C42A3CB950F /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */,
+				BC6B6FE754A248C38AE7D378 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */,
+				4CC71D7FB2C84ED0AED1F85E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */,
+				CD513090517047B286EDAA6E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */,
+				1E943936F87D46A592779E3A /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */,
+				6A3DD3E6295745D2BE15EE5E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */,
+				48A90C6BDA1B4999AFCEB7A9 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */,
+				D26B7153AE0D4FBC8795932F /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */,
+				37FABCDB76834605BEA3FFC0 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/text_format.cc */,
+				9F72593773EE4EBABCC69A58 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */,
+				FCCE5EF463B24134933163CE /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/type.pb.cc */,
+				AB487D0DE0954E7B93EC79C1 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */,
+				489B909812F846299232B750 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/delimited_message_util.cc */,
+				BBA8A8593C33404D811E9AA5 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */,
+				878ADB40C2EB4FCAA977C487 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */,
+				F0CB3B10B1294ED386F8B61E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */,
+				EA13EB6C8B1948CCA735B345 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */,
+				8E25AB1594F44A1FA3EEE12E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */,
+				24430AFA3A994565B0A7B2D6 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */,
+				6696DE0BF2ED4AEDA045DFF9 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */,
+				2142AAFD57814664BEAF61AA /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */,
+				DBD3FCAC4489450082269571 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */,
+				89453DAABBE748CD96CDE9E1 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */,
+				910D0ECE51DA46D5B8ED000E /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */,
+				97F392FF52C943BF92E4CDEB /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */,
+				899EB678215A455DB9714BFF /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */,
+				0FE9479F432441E396B3EB80 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */,
+				97743D44BC3944CBA7E852F7 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */,
+				F4758C42D0824478B472D525 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */,
+				482EDD6031A44B0E90BE5E31 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */,
+				BD510AD7371C46DEBED1D4AE /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */,
+				87CF229D3BE845A69F64E793 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/wire_format.cc */,
+				5E8341DAA805492DAC2AA403 /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */,
+				C1B5430D648A473CBEA62AEE /* /Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0705FBEDBDED420DAFAD3033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 173D854DE7344FEA8731C02E /* libprotobuf */;
+			targetProxy = 6989DA7B7B9B4D4684C97389 /* PBXContainerItemProxy */;
+		};
+		7BC82DA331E2431187F38D4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6436296EE4C468DBCCF0FEB /* ALL_BUILD */;
+			targetProxy = DB2BDC8A365A4F35B30D41EF /* PBXContainerItemProxy */;
+		};
+		A1B9084CAA3E4434B8B493A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6436296EE4C468DBCCF0FEB /* ALL_BUILD */;
+			targetProxy = 419950D71E784936B182D958 /* PBXContainerItemProxy */;
+		};
+		A641B1CE58DC43BCBE04E4A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C37263ADC61A462F826CB2ED /* ZERO_CHECK */;
+			targetProxy = 88C9379BDEBB4393A9FDC353 /* PBXContainerItemProxy */;
+		};
+		FB0EE6D24C464873A5A03E95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C37263ADC61A462F826CB2ED /* ZERO_CHECK */;
+			targetProxy = F4567A59A507455B9ADB2F4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D1A258A6918424F99144B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'HAVE_PTHREAD=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fembed-bitcode -stdlib=libc++ -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual -stdlib=libc++ -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual -stdlib=libc++ -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -mfpu=neon -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32 -Wno-invalid-offsetof -Wno-inconsistent-missing-override         -DDEBUG -D_DEBUG -fPIC '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libprotobuf;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos",/Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		488D3A0F34B64FC28FD5BD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		65FBF18208A1439CA8719652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6B8FECB539BD48D4B739B332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		72339BC1FC3F4B8998BD11C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		72A0BDDF9C68436AA56FDA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf/build";
+			};
+			name = Release;
+		};
+		828BA8EC75EA4044BF827FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		831CFD3115BC48A5A6042DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		981E623C332D450489CBFEB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B582D5CEAC4D4E87883A13C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'HAVE_PTHREAD=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fembed-bitcode -stdlib=libc++ -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual -stdlib=libc++ -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual -stdlib=libc++ -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -mfpu=neon -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32 -Wno-invalid-offsetof -Wno-inconsistent-missing-override -DNDEBUG     -ffast-math  -DNDEBUG -fPIC '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libprotobuf;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos",/Users/ameerspincar/Documents/opencv/3rdparty/protobuf/src);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BC0D725F294446958DA57625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C6A804E77EA44C7EB17AE70F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf/build";
+			};
+			name = Debug;
+		};
+		E2D00F0488E04C018C5719FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EB69235CB32642F28B405264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19C35589189648C38B2432FB /* Build configuration list for PBXProject "libprotobuf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A804E77EA44C7EB17AE70F /* Debug */,
+				72A0BDDF9C68436AA56FDA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4DF0CBC1AB8E4F9A8735F99A /* Build configuration list for PBXNativeTarget "libprotobuf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1A258A6918424F99144B5B /* Debug */,
+				B582D5CEAC4D4E87883A13C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		61662C924030446C9CA60CC0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981E623C332D450489CBFEB6 /* Debug */,
+				EB69235CB32642F28B405264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		89D14AA135F04E66BB6E1C06 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D00F0488E04C018C5719FC /* Debug */,
+				488D3A0F34B64FC28FD5BD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A8F4E69C6A8346B9872010BF /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0D725F294446958DA57625 /* Debug */,
+				72339BC1FC3F4B8998BD11C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EDE031C98AA941D79836CE9E /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8FECB539BD48D4B739B332 /* Debug */,
+				65FBF18208A1439CA8719652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FC9F18928992494A8F1CB820 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831CFD3115BC48A5A6042DBF /* Debug */,
+				828BA8EC75EA4044BF827FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9AC6709CA1244338B0C68D4 /* Project object */;
+}

@@ -1,0 +1,1388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1F8D0B933CA540479DB39426 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C1122534C13C48D5A99192A1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				5BC0C7DD272B456AA65229D1 /* CMake Rules */,
+			);
+			dependencies = (
+				AAE3E2057C4F45F0A41B934F /* PBXTargetDependency */,
+				B35C43331FE3454A84423AC3 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		5B24F72EAAC546719498FBAC /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1CA3BF7851F940E6917B4BD7 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				3AF34BD5AF6E4BD2BE22A430 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				72AA3100640446ADA5874256 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		86B3817457384F1186027A72 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4DF43643BE11434BB3787244 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				0DF7E664F796474EB4D62168 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				697C5E56B2834A8B875AC54C /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		B8932E779E3E453AAE681213 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D077510762AF42599F30DAE4 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				8F665B21B4FE47E286E21622 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		F923EB758E864A328CA69ACE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9CA5CEA01D6E4499AD804FBC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				7850A151E62A4D61859BE036 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03FB09FF53D44566BA0606C3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = ACA637D6B0B44E1B9C3816F9 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_mips_dsp_r2.c */; };
+		045032770D81462A8827CA39 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_mips32.c */ = {isa = PBXBuildFile; fileRef = D78E31C2B60A4836BBF97F5C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_mips32.c */; };
+		077F0DA964924C6DA85D0FCE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8_dec.h */ = {isa = PBXBuildFile; fileRef = 37061A79F0D04E5FA4C322EE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8_dec.h */; };
+		088292EDE6184DBD84D266CB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_avx2.c */ = {isa = PBXBuildFile; fileRef = 2EB71426F20D40FFA0FC2969 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_avx2.c */; };
+		094ACFFDDA984D18A7623C48 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/io_dec.c */ = {isa = PBXBuildFile; fileRef = E1496B2EBFD2461B9A87358C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/io_dec.c */; };
+		10112653282D4BE9A5CE4625 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/demux.h */ = {isa = PBXBuildFile; fileRef = 0CAA0ECF418D45A9AB3E577C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/demux.h */; };
+		126CF617B6264B43BA66F079 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_reader_utils.c */ = {isa = PBXBuildFile; fileRef = 507C5A4BA9E64BA39BD66CCF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_reader_utils.c */; };
+		1815CF1A74BB44BEAFCAB5E8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv.h */ = {isa = PBXBuildFile; fileRef = 5619B629EB554E809E79A934 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv.h */; };
+		1C172AC8BD49496BBFEC9388 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_neon.c */ = {isa = PBXBuildFile; fileRef = 7F7AA77FCD4649AB82D7CB4D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_neon.c */; };
+		1D416B02FAFD450FAA2C16DF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_neon.c */ = {isa = PBXBuildFile; fileRef = 345CB39EB60B468FBD2C8498 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_neon.c */; };
+		1D6ECE303D2B49D48FB4A882 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/mux_types.h */ = {isa = PBXBuildFile; fileRef = 74F95852352646929AA3E46A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/mux_types.h */; };
+		1DD2635952E44DAAB3E8189F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/backward_references_enc.h */ = {isa = PBXBuildFile; fileRef = 5799DEAC87284D81B3838E0A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/backward_references_enc.h */; };
+		200AC1B224234ED1AD2F10EB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/quant_levels_utils.c */ = {isa = PBXBuildFile; fileRef = 8F4DC3B62D1041DB9842CE06 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/quant_levels_utils.c */; };
+		21D53D339C064AC5BDFFA5D3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/endian_inl_utils.h */ = {isa = PBXBuildFile; fileRef = 85F31C6F8C054401BCE0196F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/endian_inl_utils.h */; };
+		21E368E68BDE4B1585E396B2 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/cost_enc.c */ = {isa = PBXBuildFile; fileRef = 1E42785BCABB49A080909BE6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/cost_enc.c */; };
+		24EF6C24D055450083803D1C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/huffman_encode_utils.c */ = {isa = PBXBuildFile; fileRef = FADB12E59C874750B8C2247D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/huffman_encode_utils.c */; };
+		26FF5815DA3847879F637D37 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_neon.c */ = {isa = PBXBuildFile; fileRef = 2CE0A6942B8842289106EC75 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_neon.c */; };
+		2734A62898034FA4ADEFE606 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_sse2.c */ = {isa = PBXBuildFile; fileRef = A7E7F45800644107BB35C526 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_sse2.c */; };
+		2E05CBB014D549ADA04EA978 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_enc.c */ = {isa = PBXBuildFile; fileRef = 6F3E2DF3662A4BD6939160F8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_enc.c */; };
+		305B8E6B2650448CB095EF94 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_msa.c */ = {isa = PBXBuildFile; fileRef = 079D921306A34F3A84147F1F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_msa.c */; };
+		30ECB96EE9224D00A28D3143 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_mips32.c */ = {isa = PBXBuildFile; fileRef = 116BCFFE26FD4939AC997EDD /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_mips32.c */; };
+		31E3B946140845CDACD4AA8C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/ssim_sse2.c */ = {isa = PBXBuildFile; fileRef = C956EF33424540B596A8F8E2 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/ssim_sse2.c */; };
+		33611E469775422785E91691 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc.c */ = {isa = PBXBuildFile; fileRef = C40B6C9630D14D6CBB9C82B1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc.c */; };
+		35937E4603714EF7BCAA7550 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/quant_dec.c */ = {isa = PBXBuildFile; fileRef = A8A50433181D49BAAA41E8BB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/quant_dec.c */; };
+		3620CBBA378A41D48FD02BCE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_sse2.c */ = {isa = PBXBuildFile; fileRef = 95647835E47F4CA9AD67A145 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_sse2.c */; };
+		365149C525E9485194E66A7C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_psnr_enc.c */ = {isa = PBXBuildFile; fileRef = 736396B9C71F429DA54736AC /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_psnr_enc.c */; };
+		378D9D23ABA44B63AAA2402A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/format_constants.h */ = {isa = PBXBuildFile; fileRef = 71E1A7CB51604F1696B8844A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/format_constants.h */; };
+		39274D63D0FA47DC84906C08 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/common_dec.h */ = {isa = PBXBuildFile; fileRef = 4534A00D62134670A4C65935 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/common_dec.h */; };
+		3E251BDA0B2D4AE584EE3E50 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_sse2.c */ = {isa = PBXBuildFile; fileRef = 36234104446943D087E488A1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_sse2.c */; };
+		3F5C3395CF6E42758FD8B0F4 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = ADC743DBCA8D405BAF6680FE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_mips_dsp_r2.c */; };
+		4033EA405C43404685F735C4 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_msa.c */ = {isa = PBXBuildFile; fileRef = 2060D4BF944C4FD78EDDFCF1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_msa.c */; };
+		41FB0BB061174BE699244399 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/backward_references_cost_enc.c */ = {isa = PBXBuildFile; fileRef = 23154A50C79C41B6BBBD94C1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/backward_references_cost_enc.c */; };
+		422CCC322C444DC4A8684E76 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 0B3FAE2A62FE47D4834BABB3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_mips_dsp_r2.c */; };
+		4284C6745851441E960E1FAE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/histogram_enc.c */ = {isa = PBXBuildFile; fileRef = 98B0EC80EAF84648BAE2EDF3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/histogram_enc.c */; };
+		437DA01D4D694A5B8907E9B4 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/color_cache_utils.h */ = {isa = PBXBuildFile; fileRef = 2ADA008C682F4E29833AED1D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/color_cache_utils.h */; };
+		44ECE81E521D450DACB893E6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/quant_levels_dec_utils.c */ = {isa = PBXBuildFile; fileRef = 88E823792E0B46B28E5F3E73 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/quant_levels_dec_utils.c */; };
+		450565214F55431B9361BEF2 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_neon.c */ = {isa = PBXBuildFile; fileRef = 1E5D30F176B94E4EB82D2496 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_neon.c */; };
+		45A347F0C079414399072EBD /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_csp_enc.c */ = {isa = PBXBuildFile; fileRef = EA86F6A812FA42C1AE83E136 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_csp_enc.c */; };
+		4634939BC2CB4B719AED3A46 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/rescaler_utils.c */ = {isa = PBXBuildFile; fileRef = 74773EFC0D944F2194A53C6A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/rescaler_utils.c */; };
+		499FC3AF479441CAA0AE98E9 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/webpi_dec.h */ = {isa = PBXBuildFile; fileRef = 7B8FCE1E01834654950F5791 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/webpi_dec.h */; };
+		49AE865D4E854C8185370AA7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_sse2.c */ = {isa = PBXBuildFile; fileRef = 89DF8457DA2A4E33B0E0525E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_sse2.c */; };
+		4EA6165AA2E9442989506D37 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_sse41.c */ = {isa = PBXBuildFile; fileRef = 7FEA9802BB714B75863AC0CE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_sse41.c */; };
+		4FCE6AB1731C4C059A7E6BE6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_neon.c */ = {isa = PBXBuildFile; fileRef = 8B3BF521A991450495F751B6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_neon.c */; };
+		51145D406A8D41F58424D001 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/tree_dec.c */ = {isa = PBXBuildFile; fileRef = 48858EE7AD6541DCA0D84EE0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/tree_dec.c */; };
+		51A377992FC74F2791C3DFEB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless.h */ = {isa = PBXBuildFile; fileRef = DF948DC2D36C4D16BFBF73D1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless.h */; };
+		52401979794E4B53842EE678 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/delta_palettization_enc.c */ = {isa = PBXBuildFile; fileRef = 8AFDEF830F8E43D29B065822 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/delta_palettization_enc.c */; };
+		52F5B30CD9744FF1B59051A0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/webp_dec.c */ = {isa = PBXBuildFile; fileRef = 6FDA6040612143C7BF23E3B1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/webp_dec.c */; };
+		57538D6E01364218B809AF11 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost.c */ = {isa = PBXBuildFile; fileRef = 0310715330344C46AE138E88 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost.c */; };
+		575BEEF5828B4D76933218E4 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_neon.c */ = {isa = PBXBuildFile; fileRef = 8FEF52E48B4D4F8CB9FF7D2C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_neon.c */; };
+		58AE9E63847240128FB9F8A5 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8i_dec.h */ = {isa = PBXBuildFile; fileRef = 9F7B4D320EE8433FAFDCFD61 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8i_dec.h */; };
+		5A8EAD3C049B4CEF92136AA7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost_sse2.c */ = {isa = PBXBuildFile; fileRef = 2CA8631F1BD746F482BEDA8E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost_sse2.c */; };
+		5AD5531881264DE7B103CD2E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/muxread.c */ = {isa = PBXBuildFile; fileRef = 61893F364AD744EE85063B61 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/muxread.c */; };
+		5CBE5DDD845240119313CFAE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/msa_macro.h */ = {isa = PBXBuildFile; fileRef = 9958962DD9894F3FB63F9A32 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/msa_macro.h */; };
+		5D6DCA9D0F4749F7B60554BD /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/analysis_enc.c */ = {isa = PBXBuildFile; fileRef = 0ADC52B4B95A403B8B7BBCAD /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/analysis_enc.c */; };
+		5DB34331BAF64344BEE2FC29 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_sse2.c */ = {isa = PBXBuildFile; fileRef = 8CBC0788A90E4CD3944D0158 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_sse2.c */; };
+		5EC1984C20AF4A0A81A2AD2E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/thread_utils.c */ = {isa = PBXBuildFile; fileRef = 8F6B537FF7404E949AE51C33 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/thread_utils.c */; };
+		5FB5E1FDB25E475BB03E099A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 6A104E35534C4D748940DA89 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_mips_dsp_r2.c */; };
+		60B6911E72D741E58D947E9A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/predictor_enc.c */ = {isa = PBXBuildFile; fileRef = E64883F5FA8541659AEC2C5D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/predictor_enc.c */; };
+		618669E1901B4D1993F6065D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_msa.c */ = {isa = PBXBuildFile; fileRef = 89581DFFCEE8450EB648DC04 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_msa.c */; };
+		61F7B0E6AFF840D690E9F664 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/histogram_enc.h */ = {isa = PBXBuildFile; fileRef = 568201D8F9814231AD5AC264 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/histogram_enc.h */; };
+		649B6ABF869F413583EC7774 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_msa.c */ = {isa = PBXBuildFile; fileRef = 82EEE38ED0D74C3FB55CA02C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_msa.c */; };
+		649EC783523D4819BE53B0EC /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling.c */ = {isa = PBXBuildFile; fileRef = 47AF67A9085B4946978F176A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling.c */; };
+		66953D44BB46446DAECD2A8A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_tools_enc.c */ = {isa = PBXBuildFile; fileRef = D83A83226DE749AC85392217 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_tools_enc.c */; };
+		66C2437F6B52452DA6E91702 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 98A66F1342FC4A5EAAD52AD8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_mips_dsp_r2.c */; };
+		670775E471484785B29264DE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/frame_enc.c */ = {isa = PBXBuildFile; fileRef = 9FA4F8BDC98B4D3A8C8F1D91 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/frame_enc.c */; };
+		6A69CF3F263743219D0A88A8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_sse41.c */ = {isa = PBXBuildFile; fileRef = 976E4265FB3840109A29CD2C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_sse41.c */; };
+		6B7257968BF04080A8DD6C85 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 7D88B72BBAE84D21BFAC93D0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_mips_dsp_r2.c */; };
+		6EC6DBFC02D84FEF92C9F068 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/buffer_dec.c */ = {isa = PBXBuildFile; fileRef = E8FA61C0330E4B0A82671D3E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/buffer_dec.c */; };
+		6F4851B9140D4DF0A493B606 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/vp8li_enc.h */ = {isa = PBXBuildFile; fileRef = CDC297A21CA8461D9A7AD529 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/vp8li_enc.h */; };
+		7166DB26DA124E50A467012A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/types.h */ = {isa = PBXBuildFile; fileRef = 5902B93A9377436BA8B91350 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/types.h */; };
+		768FFE2B66C6452F8013DAFB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/quant_levels_utils.h */ = {isa = PBXBuildFile; fileRef = 8EF208EDA83C4ACCA7D90DF8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/quant_levels_utils.h */; };
+		7741BF38716F4E318789D8D1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/quant_levels_dec_utils.h */ = {isa = PBXBuildFile; fileRef = D7705BF35E8F4670B9993DBF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/quant_levels_dec_utils.h */; };
+		7794CDEEF2E94BDAA0702B6E /* /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp/CMakeFiles/libwebp.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 850E67F075E94539834E2B12 /* /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp/CMakeFiles/libwebp.dir/Info.plist */; };
+		786A33BD380E441E92D48B1F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_sse2.c */ = {isa = PBXBuildFile; fileRef = 5AB4442A5FE848BEA2342259 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_sse2.c */; };
+		78AE065565834D3A9F302B04 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8l_dec.c */ = {isa = PBXBuildFile; fileRef = 25C81CAA02E74BF8863A1B92 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8l_dec.c */; };
+		79A9BC424CDB42F78C07DD6A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_sse2.c */ = {isa = PBXBuildFile; fileRef = 72C009C2DEC645E08E23D397 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_sse2.c */; };
+		7F98034D255C405D91D40C1A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_clip_tables.c */ = {isa = PBXBuildFile; fileRef = 5AE9265E68524043BA65EF10 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_clip_tables.c */; };
+		82147A73049C478AA5698C9A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/filters_utils.c */ = {isa = PBXBuildFile; fileRef = C79FEC524B02416BBE6B9116 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/filters_utils.c */; };
+		8335A845832C4C2FAF36EC30 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/demux/demux.c */ = {isa = PBXBuildFile; fileRef = 9F0001277BEC45D6BDD01564 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/demux/demux.c */; };
+		849481F5E3DC408D92DA0849 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_sse41.c */ = {isa = PBXBuildFile; fileRef = 0432314AFE6245E7BCBB33DC /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_sse41.c */; };
+		84BFAB65BB0B42F9B1D7D7CF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_neon.c */ = {isa = PBXBuildFile; fileRef = 075E1B6A262541A9B9B6EBDF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_neon.c */; };
+		8F10992E118D423E8B518913 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/syntax_enc.c */ = {isa = PBXBuildFile; fileRef = 6877127BB539499681BDFEE7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/syntax_enc.c */; };
+		8F42E4B98B81415D93FF6C62 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 280053DF62F1429A9C849413 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_mips_dsp_r2.c */; };
+		8FFFF30103404C6A96B3228B /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/alphai_dec.h */ = {isa = PBXBuildFile; fileRef = 2C50FB2166B847A18EA9F47F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/alphai_dec.h */; };
+		90EAE06BBCC646CFB3C0F8EF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 5455272876DB45B1A3EF1489 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_mips_dsp_r2.c */; };
+		914B34B7859442F9AA81FE67 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_mips32.c */ = {isa = PBXBuildFile; fileRef = 4E9687B6AABF4D7D821100FD /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_mips32.c */; };
+		9173F0159A7A42F48B16A5F8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/delta_palettization_enc.h */ = {isa = PBXBuildFile; fileRef = 9A17B8FA90B344C89DF42619 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/delta_palettization_enc.h */; };
+		91ABDAE09AFD49F899D26B8A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/idec_dec.c */ = {isa = PBXBuildFile; fileRef = E012978210C74991A853ECDE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/idec_dec.c */; };
+		924AB618ABEA4D268FB2B187 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler.c */ = {isa = PBXBuildFile; fileRef = A56B00481F974CA28C8933F7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler.c */; };
+		92A38682AF1F4D83840D3C8C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/filter_enc.c */ = {isa = PBXBuildFile; fileRef = 5F19773F2BF54DCBA74270AF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/filter_enc.c */; };
+		93EEE30A78CD4AC0B91F0CDA /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/frame_dec.c */ = {isa = PBXBuildFile; fileRef = ADEA330DDF724529A3BAB9E6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/frame_dec.c */; };
+		964A7643241E41B9A1089723 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost_mips32.c */ = {isa = PBXBuildFile; fileRef = A0EAF33D79DE4973B56784D3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost_mips32.c */; };
+		970406E99823482993C108D6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/vp8l_enc.c */ = {isa = PBXBuildFile; fileRef = 6D84DEF2BAD04DBBB1EDD5AF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/vp8l_enc.c */; };
+		97C965587DD24BC3A7922FF7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/rescaler_utils.h */ = {isa = PBXBuildFile; fileRef = 857FF810C3434DE48B7E13C2 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/rescaler_utils.h */; };
+		9A318377EA8A45B182028FEC /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/webp_enc.c */ = {isa = PBXBuildFile; fileRef = 105FDA2C517B4109985E94EC /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/webp_enc.c */; };
+		9ADC4CD29B65496BAFAA0291 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/demux/anim_decode.c */ = {isa = PBXBuildFile; fileRef = D0DD84C3A1804CDE995169A6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/demux/anim_decode.c */; };
+		9B9474700E204152AE7F6936 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/huffman_encode_utils.h */ = {isa = PBXBuildFile; fileRef = 969902FEC60E44D89503C07D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/huffman_encode_utils.h */; };
+		9CAF1EBCF61946AABB9B5E9B /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_writer_utils.c */ = {isa = PBXBuildFile; fileRef = 6AE12978F1814EE6971D164D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_writer_utils.c */; };
+		9D429CFFD0C74D999005D787 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/decode.h */ = {isa = PBXBuildFile; fileRef = 1F8A91A33BAC4A84A1BDC696 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/decode.h */; };
+		9E7583AADDAD463D95988167 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/argb_sse2.c */ = {isa = PBXBuildFile; fileRef = F0212C8770244734B187836C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/argb_sse2.c */; };
+		A0A1C1A6DF6B4FA2930754FC /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_rescale_enc.c */ = {isa = PBXBuildFile; fileRef = F8A63620E0314800838DAAAF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_rescale_enc.c */; };
+		A55FA37253AD46F89CCC6A02 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/muxedit.c */ = {isa = PBXBuildFile; fileRef = 4E571B6F6BBA40E796BA3186 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/muxedit.c */; };
+		A5D8E590CA6D40E48B8F9107 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/encode.h */ = {isa = PBXBuildFile; fileRef = BE0B8EC298334C25B80DC684 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/encode.h */; };
+		A6C3812CE1024F9FB4CAF0DF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/random_utils.c */ = {isa = PBXBuildFile; fileRef = 0FDBABBB357F4291A3C0972F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/random_utils.c */; };
+		A7F9B16F27B24F1D8564B4B1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/alpha_dec.c */ = {isa = PBXBuildFile; fileRef = DBF014DDC5F14E4697E0A8E4 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/alpha_dec.c */; };
+		A930D500433148F69CFCAC55 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/argb_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 3BBF5B1970BF4C8BBBACEE11 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/argb_mips_dsp_r2.c */; };
+		AA3C15B22F354A51868DC8FE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc.c */ = {isa = PBXBuildFile; fileRef = 2EF2D3DBDEF34D31B4498E43 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc.c */; };
+		AD063A6673B54532BCD8280A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 4C7A8394766544B2ADA8CCC6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost_mips_dsp_r2.c */; };
+		ADA44AC6F099472EB27468EB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_writer_utils.h */ = {isa = PBXBuildFile; fileRef = 4FA7FE3B905E43139DE0C74A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_writer_utils.h */; };
+		B13EE15C494F43B7B6AA82DC /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing.c */ = {isa = PBXBuildFile; fileRef = 43AF7135736F4C4A8D8710CA /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing.c */; };
+		B19DE013186944A1A1CB9930 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/utils.h */ = {isa = PBXBuildFile; fileRef = E44751972CE54B52AF2FE351 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/utils.h */; };
+		B516BE428F394BAA99B16B9F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cpu.c */ = {isa = PBXBuildFile; fileRef = 7F4E02BDD277405C8BAF1315 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cpu.c */; };
+		B79BFF7480EE40CC93EBFBD0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_reader_inl_utils.h */ = {isa = PBXBuildFile; fileRef = AB51B7C5D97148EF821E709B /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_reader_inl_utils.h */; };
+		B7C4BC25020A4D8EB4AF7059 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_neon.c */ = {isa = PBXBuildFile; fileRef = B0C3C24032D94D60B97DDF85 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_neon.c */; };
+		BAFBD76EA68F43A9A1CBD9DF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_msa.c */ = {isa = PBXBuildFile; fileRef = 3AE5C7CE7A8B4E05B9C22AF5 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_msa.c */; };
+		BDBBA4FD26244B3DA50CE964 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_reader_utils.h */ = {isa = PBXBuildFile; fileRef = A2F2B91AF7D94E4AA2650B3A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_reader_utils.h */; };
+		BE3573375D4142CBBE16C787 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/anim_encode.c */ = {isa = PBXBuildFile; fileRef = DFB0A402D07A478CB88F3FDD /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/anim_encode.c */; };
+		BEED0AB23A2D44F98B57C433 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/near_lossless_enc.c */ = {isa = PBXBuildFile; fileRef = 6B34D7A3FBC7418F87BD3771 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/near_lossless_enc.c */; };
+		C1F4B08668974DFF8199C115 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_neon.c */ = {isa = PBXBuildFile; fileRef = CBED2AFBEA8647D78D4D9466 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_neon.c */; };
+		C6BD0F37BFCA4E6B8A6D75F9 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AF9D170FFA4C4359A925A09C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/CMakeLists.txt */; };
+		C758A274648D49138EEEC7D0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv.c */ = {isa = PBXBuildFile; fileRef = B69AD91434A34FA8A2904870 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv.c */; };
+		C8D8263FF57C4085B8093401 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_msa.c */ = {isa = PBXBuildFile; fileRef = 6CDB6D6A08C54FD1B20BAEB0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_msa.c */; };
+		C9A4A9D17A004763A6A24763 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/tree_enc.c */ = {isa = PBXBuildFile; fileRef = CB328CD76D9D4C1BABB45136 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/tree_enc.c */; };
+		CB67E5AB51A34470BF5D55FB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/muxinternal.c */ = {isa = PBXBuildFile; fileRef = 0DFE3450FB3943BAA2DA890F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/muxinternal.c */; };
+		CCECD9F167BD4ECFB3AA4C69 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/ssim.c */ = {isa = PBXBuildFile; fileRef = E591CAE8B1C043CD9A2FDDD3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/ssim.c */; };
+		CF0748708EB64B7799BFC2AC /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/backward_references_enc.c */ = {isa = PBXBuildFile; fileRef = DB0D754E6D5349E895697F11 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/backward_references_enc.c */; };
+		D017EAD832A7498CAD7E2F20 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/iterator_enc.c */ = {isa = PBXBuildFile; fileRef = 4C089FBA85784EBBBC581991 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/iterator_enc.c */; };
+		D34FE254509742328B325283 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/color_cache_utils.c */ = {isa = PBXBuildFile; fileRef = AE4EA1FEC1C54BB7AD41DF05 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/color_cache_utils.c */; };
+		D3C97943C4DE4E58971A5B8A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/cost_enc.h */ = {isa = PBXBuildFile; fileRef = AB6AAB7B9D7742928CD516BE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/cost_enc.h */; };
+		D6AF6C6BAABC4AC781FBA269 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_common.h */ = {isa = PBXBuildFile; fileRef = 19B2B88E8FF247189F99E524 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_common.h */; };
+		D7249436588C4DC080E84595 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/muxi.h */ = {isa = PBXBuildFile; fileRef = 3D9CC90C92064350927BF20F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/muxi.h */; };
+		D87EEBD06CF44CC1A5932C47 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/utils.c */ = {isa = PBXBuildFile; fileRef = A4AC685FD816480EBF71F906 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/utils.c */; };
+		D98721EDB3F84928A66B86E4 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8li_dec.h */ = {isa = PBXBuildFile; fileRef = 0A2F667B64F7453288FA3D53 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8li_dec.h */; };
+		DB0F225F576A465388616DC9 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/random_utils.h */ = {isa = PBXBuildFile; fileRef = F34016B8FA964F30A67AEB68 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/random_utils.h */; };
+		DD61A2F16A014D3DA4D2576C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/thread_utils.h */ = {isa = PBXBuildFile; fileRef = 20EBC15BA7BB4DB8A7F4AA97 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/thread_utils.h */; };
+		DEE39ADE8839454598972C8A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/argb.c */ = {isa = PBXBuildFile; fileRef = 1D68B49041CD4C8FB76FEF19 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/argb.c */; };
+		E4C81DB6B4CE4B1EAC6F8635 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_msa.c */ = {isa = PBXBuildFile; fileRef = 33D71000E1DC4523B2FE4B20 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_msa.c */; };
+		E68F8D4F94FE4977ADCAD1BB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_sse41.c */ = {isa = PBXBuildFile; fileRef = 290C044D69764A928DFC02E6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_sse41.c */; };
+		E7C3D677DE4B42998968F73B /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/mips_macro.h */ = {isa = PBXBuildFile; fileRef = 9A41FC1E1B324D2BBCDB0B5B /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/mips_macro.h */; };
+		E802A811433E4A52895259BE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/quant_enc.c */ = {isa = PBXBuildFile; fileRef = 6B23D6D6947149958A457E18 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/quant_enc.c */; };
+		E990FB2FF25D4351939DA792 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless.c */ = {isa = PBXBuildFile; fileRef = 0EEF51809CB043F0A5282313 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless.c */; };
+		E9A4B3831CCB4476B27057AB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dsp.h */ = {isa = PBXBuildFile; fileRef = 6E52F9CE04D640489A774BA0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dsp.h */; };
+		EC1207E33AA449038C5F371C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/alpha_enc.c */ = {isa = PBXBuildFile; fileRef = BF96E02D3BA94B2C958F060B /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/alpha_enc.c */; };
+		EC9C1CAB353745BC89E2181D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_mips32.c */ = {isa = PBXBuildFile; fileRef = 3AB098173E7F4378A92C11BF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_mips32.c */; };
+		ECFFBAAE495C45F693C3615D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/common_sse2.h */ = {isa = PBXBuildFile; fileRef = E25B293D314C427E95527DA9 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/common_sse2.h */; };
+		EFBA308AA4B74CC0A180E4E5 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/animi.h */ = {isa = PBXBuildFile; fileRef = 970EA987280D455FA1F3A94E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/animi.h */; };
+		F10F56D99D8F4B09AAA5C9D4 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/neon.h */ = {isa = PBXBuildFile; fileRef = 44203C30E5C7410E82DE1C26 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/neon.h */; };
+		F1BE25EE66364FEAAC822CB2 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/mux.h */ = {isa = PBXBuildFile; fileRef = 5AC7DB44649B473F847E8C23 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/mux.h */; };
+		F3756F9612404B12809ADB51 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_sse2.c */ = {isa = PBXBuildFile; fileRef = 2BA21A8F7F5A4437A9B9C2B3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_sse2.c */; };
+		F4A285FEA2414859AAA897ED /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters.c */ = {isa = PBXBuildFile; fileRef = 58684A432B2F44AC9D68A430 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters.c */; };
+		F6256E071ECD4AF0BC2940DB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_mips32.c */ = {isa = PBXBuildFile; fileRef = D00A60A0D8444175B712EE7F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_mips32.c */; };
+		F83AAEE77CC34CB2BC01E1A5 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/vp8i_enc.h */ = {isa = PBXBuildFile; fileRef = AEA57B606207455DBFCB13BB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/vp8i_enc.h */; };
+		F867D8845DC14DFC892EB341 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/huffman_utils.c */ = {isa = PBXBuildFile; fileRef = ECD2E647BD9542D6B876B6DE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/huffman_utils.c */; };
+		F8FF470D226B4290A803D912 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/huffman_utils.h */ = {isa = PBXBuildFile; fileRef = CE374DF972D242CCA419E670 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/huffman_utils.h */; };
+		FA06B73683EE4C33BE6308E6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_sse2.c */ = {isa = PBXBuildFile; fileRef = DBD87AE80CD34B6289847A3B /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_sse2.c */; };
+		FABD7EFF488C40589DDD5918 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8_dec.c */ = {isa = PBXBuildFile; fileRef = 3C7EE5FD5E8F4C20ABD98C06 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8_dec.c */; };
+		FD53A50FA2F5472DAAFB1E4E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/config_enc.c */ = {isa = PBXBuildFile; fileRef = 79EC954F6B494761A75DEC52 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/config_enc.c */; };
+		FDC27C6E5D83456DB20DA9FA /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/filters_utils.h */ = {isa = PBXBuildFile; fileRef = 9E4890CA388941F1B05113FE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/filters_utils.h */; };
+		FDCD0815691C4792840993A7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/token_enc.c */ = {isa = PBXBuildFile; fileRef = AF76ECDE1BA243C080027D4F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/token_enc.c */; };
+		FE8CE68803374E7C86210A5E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 000C2B97413549F2BEEFFD7E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_mips_dsp_r2.c */; };
+		FF9C3F8F9E1F47CE8141C448 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec.c */ = {isa = PBXBuildFile; fileRef = F498BF14C99E4237A4B8FD9F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		569B1FFCD3604FD5988B77E7 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		E983C12E919747AABE84738F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		3810F7161F3F48FFB2D91DC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECE8EA9A5AB4445A9B4E17FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F8D0B933CA540479DB39426;
+			remoteInfo = ALL_BUILD;
+		};
+		40590743FE104944B3BF1A44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECE8EA9A5AB4445A9B4E17FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F923EB758E864A328CA69ACE;
+			remoteInfo = ZERO_CHECK;
+		};
+		81484E06EA5E4146AEF5407A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECE8EA9A5AB4445A9B4E17FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F923EB758E864A328CA69ACE;
+			remoteInfo = ZERO_CHECK;
+		};
+		B260D17E7DB9476885C7FDE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECE8EA9A5AB4445A9B4E17FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F8D0B933CA540479DB39426;
+			remoteInfo = ALL_BUILD;
+		};
+		E86F27E7031447A1B9825F52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECE8EA9A5AB4445A9B4E17FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D9C86AF362B4348A6CCF335;
+			remoteInfo = libwebp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000C2B97413549F2BEEFFD7E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_processing_mips_dsp_r2.c; path = src/dsp/alpha_processing_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		0310715330344C46AE138E88 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cost.c; path = src/dsp/cost.c; sourceTree = SOURCE_ROOT; };
+		0432314AFE6245E7BCBB33DC /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_sse41.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_sse41.c; path = src/dsp/enc_sse41.c; sourceTree = SOURCE_ROOT; };
+		075E1B6A262541A9B9B6EBDF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_processing_neon.c; path = src/dsp/alpha_processing_neon.c; sourceTree = SOURCE_ROOT; };
+		079D921306A34F3A84147F1F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_msa.c; path = src/dsp/lossless_msa.c; sourceTree = SOURCE_ROOT; };
+		0A2F667B64F7453288FA3D53 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8li_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vp8li_dec.h; path = src/dec/vp8li_dec.h; sourceTree = SOURCE_ROOT; };
+		0ADC52B4B95A403B8B7BBCAD /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/analysis_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = analysis_enc.c; path = src/enc/analysis_enc.c; sourceTree = SOURCE_ROOT; };
+		0B3FAE2A62FE47D4834BABB3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = yuv_mips_dsp_r2.c; path = src/dsp/yuv_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		0CAA0ECF418D45A9AB3E577C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/demux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = demux.h; path = src/webp/demux.h; sourceTree = SOURCE_ROOT; };
+		0DFE3450FB3943BAA2DA890F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/muxinternal.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = muxinternal.c; path = src/mux/muxinternal.c; sourceTree = SOURCE_ROOT; };
+		0EEF51809CB043F0A5282313 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless.c; path = src/dsp/lossless.c; sourceTree = SOURCE_ROOT; };
+		0FDBABBB357F4291A3C0972F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/random_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = random_utils.c; path = src/utils/random_utils.c; sourceTree = SOURCE_ROOT; };
+		105FDA2C517B4109985E94EC /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/webp_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = webp_enc.c; path = src/enc/webp_enc.c; sourceTree = SOURCE_ROOT; };
+		116BCFFE26FD4939AC997EDD /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_mips32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc_mips32.c; path = src/dsp/lossless_enc_mips32.c; sourceTree = SOURCE_ROOT; };
+		19B2B88E8FF247189F99E524 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lossless_common.h; path = src/dsp/lossless_common.h; sourceTree = SOURCE_ROOT; };
+		1D68B49041CD4C8FB76FEF19 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/argb.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = argb.c; path = src/dsp/argb.c; sourceTree = SOURCE_ROOT; };
+		1E42785BCABB49A080909BE6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/cost_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cost_enc.c; path = src/enc/cost_enc.c; sourceTree = SOURCE_ROOT; };
+		1E5D30F176B94E4EB82D2496 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_neon.c; path = src/dsp/dec_neon.c; sourceTree = SOURCE_ROOT; };
+		1F8A91A33BAC4A84A1BDC696 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/decode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = decode.h; path = src/webp/decode.h; sourceTree = SOURCE_ROOT; };
+		2060D4BF944C4FD78EDDFCF1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_msa.c; path = src/dsp/enc_msa.c; sourceTree = SOURCE_ROOT; };
+		20EBC15BA7BB4DB8A7F4AA97 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/thread_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = thread_utils.h; path = src/utils/thread_utils.h; sourceTree = SOURCE_ROOT; };
+		23154A50C79C41B6BBBD94C1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/backward_references_cost_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = backward_references_cost_enc.c; path = src/enc/backward_references_cost_enc.c; sourceTree = SOURCE_ROOT; };
+		25C81CAA02E74BF8863A1B92 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8l_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vp8l_dec.c; path = src/dec/vp8l_dec.c; sourceTree = SOURCE_ROOT; };
+		280053DF62F1429A9C849413 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler_mips_dsp_r2.c; path = src/dsp/rescaler_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		290C044D69764A928DFC02E6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_sse41.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc_sse41.c; path = src/dsp/lossless_enc_sse41.c; sourceTree = SOURCE_ROOT; };
+		2ADA008C682F4E29833AED1D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/color_cache_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = color_cache_utils.h; path = src/utils/color_cache_utils.h; sourceTree = SOURCE_ROOT; };
+		2BA21A8F7F5A4437A9B9C2B3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_sse2.c; path = src/dsp/dec_sse2.c; sourceTree = SOURCE_ROOT; };
+		2C50FB2166B847A18EA9F47F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/alphai_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = alphai_dec.h; path = src/dec/alphai_dec.h; sourceTree = SOURCE_ROOT; };
+		2CA8631F1BD746F482BEDA8E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cost_sse2.c; path = src/dsp/cost_sse2.c; sourceTree = SOURCE_ROOT; };
+		2CE0A6942B8842289106EC75 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_neon.c; path = src/dsp/enc_neon.c; sourceTree = SOURCE_ROOT; };
+		2EB71426F20D40FFA0FC2969 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_avx2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_avx2.c; path = src/dsp/enc_avx2.c; sourceTree = SOURCE_ROOT; };
+		2EF2D3DBDEF34D31B4498E43 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc.c; path = src/dsp/enc.c; sourceTree = SOURCE_ROOT; };
+		33D71000E1DC4523B2FE4B20 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc_msa.c; path = src/dsp/lossless_enc_msa.c; sourceTree = SOURCE_ROOT; };
+		345CB39EB60B468FBD2C8498 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler_neon.c; path = src/dsp/rescaler_neon.c; sourceTree = SOURCE_ROOT; };
+		36234104446943D087E488A1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_sse2.c; path = src/dsp/enc_sse2.c; sourceTree = SOURCE_ROOT; };
+		37061A79F0D04E5FA4C322EE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vp8_dec.h; path = src/dec/vp8_dec.h; sourceTree = SOURCE_ROOT; };
+		3AB098173E7F4378A92C11BF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_mips32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_mips32.c; path = src/dsp/enc_mips32.c; sourceTree = SOURCE_ROOT; };
+		3AE5C7CE7A8B4E05B9C22AF5 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = upsampling_msa.c; path = src/dsp/upsampling_msa.c; sourceTree = SOURCE_ROOT; };
+		3BBF5B1970BF4C8BBBACEE11 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/argb_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = argb_mips_dsp_r2.c; path = src/dsp/argb_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		3C7EE5FD5E8F4C20ABD98C06 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vp8_dec.c; path = src/dec/vp8_dec.c; sourceTree = SOURCE_ROOT; };
+		3D9CC90C92064350927BF20F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/muxi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = muxi.h; path = src/mux/muxi.h; sourceTree = SOURCE_ROOT; };
+		43AF7135736F4C4A8D8710CA /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_processing.c; path = src/dsp/alpha_processing.c; sourceTree = SOURCE_ROOT; };
+		44203C30E5C7410E82DE1C26 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/neon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = neon.h; path = src/dsp/neon.h; sourceTree = SOURCE_ROOT; };
+		4534A00D62134670A4C65935 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/common_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common_dec.h; path = src/dec/common_dec.h; sourceTree = SOURCE_ROOT; };
+		47AF67A9085B4946978F176A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = upsampling.c; path = src/dsp/upsampling.c; sourceTree = SOURCE_ROOT; };
+		48858EE7AD6541DCA0D84EE0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/tree_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tree_dec.c; path = src/dec/tree_dec.c; sourceTree = SOURCE_ROOT; };
+		4C089FBA85784EBBBC581991 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/iterator_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iterator_enc.c; path = src/enc/iterator_enc.c; sourceTree = SOURCE_ROOT; };
+		4C7A8394766544B2ADA8CCC6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cost_mips_dsp_r2.c; path = src/dsp/cost_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		4E571B6F6BBA40E796BA3186 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/muxedit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = muxedit.c; path = src/mux/muxedit.c; sourceTree = SOURCE_ROOT; };
+		4E9687B6AABF4D7D821100FD /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_mips32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_mips32.c; path = src/dsp/dec_mips32.c; sourceTree = SOURCE_ROOT; };
+		4FA7FE3B905E43139DE0C74A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_writer_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bit_writer_utils.h; path = src/utils/bit_writer_utils.h; sourceTree = SOURCE_ROOT; };
+		507C5A4BA9E64BA39BD66CCF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_reader_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bit_reader_utils.c; path = src/utils/bit_reader_utils.c; sourceTree = SOURCE_ROOT; };
+		5455272876DB45B1A3EF1489 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc_mips_dsp_r2.c; path = src/dsp/lossless_enc_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		5619B629EB554E809E79A934 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yuv.h; path = src/dsp/yuv.h; sourceTree = SOURCE_ROOT; };
+		568201D8F9814231AD5AC264 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/histogram_enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = histogram_enc.h; path = src/enc/histogram_enc.h; sourceTree = SOURCE_ROOT; };
+		5799DEAC87284D81B3838E0A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/backward_references_enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = backward_references_enc.h; path = src/enc/backward_references_enc.h; sourceTree = SOURCE_ROOT; };
+		58684A432B2F44AC9D68A430 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filters.c; path = src/dsp/filters.c; sourceTree = SOURCE_ROOT; };
+		5902B93A9377436BA8B91350 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = types.h; path = src/webp/types.h; sourceTree = SOURCE_ROOT; };
+		5AB4442A5FE848BEA2342259 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filters_sse2.c; path = src/dsp/filters_sse2.c; sourceTree = SOURCE_ROOT; };
+		5AC7DB44649B473F847E8C23 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/mux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mux.h; path = src/webp/mux.h; sourceTree = SOURCE_ROOT; };
+		5AE9265E68524043BA65EF10 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_clip_tables.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_clip_tables.c; path = src/dsp/dec_clip_tables.c; sourceTree = SOURCE_ROOT; };
+		5F19773F2BF54DCBA74270AF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/filter_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filter_enc.c; path = src/enc/filter_enc.c; sourceTree = SOURCE_ROOT; };
+		61893F364AD744EE85063B61 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/muxread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = muxread.c; path = src/mux/muxread.c; sourceTree = SOURCE_ROOT; };
+		6877127BB539499681BDFEE7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/syntax_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = syntax_enc.c; path = src/enc/syntax_enc.c; sourceTree = SOURCE_ROOT; };
+		6A104E35534C4D748940DA89 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_mips_dsp_r2.c; path = src/dsp/dec_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		6AE12978F1814EE6971D164D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_writer_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bit_writer_utils.c; path = src/utils/bit_writer_utils.c; sourceTree = SOURCE_ROOT; };
+		6B23D6D6947149958A457E18 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/quant_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quant_enc.c; path = src/enc/quant_enc.c; sourceTree = SOURCE_ROOT; };
+		6B34D7A3FBC7418F87BD3771 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/near_lossless_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = near_lossless_enc.c; path = src/enc/near_lossless_enc.c; sourceTree = SOURCE_ROOT; };
+		6CDB6D6A08C54FD1B20BAEB0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler_msa.c; path = src/dsp/rescaler_msa.c; sourceTree = SOURCE_ROOT; };
+		6D84DEF2BAD04DBBB1EDD5AF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/vp8l_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vp8l_enc.c; path = src/enc/vp8l_enc.c; sourceTree = SOURCE_ROOT; };
+		6E52F9CE04D640489A774BA0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dsp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dsp.h; path = src/dsp/dsp.h; sourceTree = SOURCE_ROOT; };
+		6F3E2DF3662A4BD6939160F8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = picture_enc.c; path = src/enc/picture_enc.c; sourceTree = SOURCE_ROOT; };
+		6FDA6040612143C7BF23E3B1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/webp_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = webp_dec.c; path = src/dec/webp_dec.c; sourceTree = SOURCE_ROOT; };
+		7076927EE3324F13B92E46F7 /* libwebp */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibwebp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E1A7CB51604F1696B8844A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/format_constants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = format_constants.h; path = src/webp/format_constants.h; sourceTree = SOURCE_ROOT; };
+		72C009C2DEC645E08E23D397 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = yuv_sse2.c; path = src/dsp/yuv_sse2.c; sourceTree = SOURCE_ROOT; };
+		736396B9C71F429DA54736AC /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_psnr_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = picture_psnr_enc.c; path = src/enc/picture_psnr_enc.c; sourceTree = SOURCE_ROOT; };
+		74773EFC0D944F2194A53C6A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/rescaler_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler_utils.c; path = src/utils/rescaler_utils.c; sourceTree = SOURCE_ROOT; };
+		74F95852352646929AA3E46A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/mux_types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mux_types.h; path = src/webp/mux_types.h; sourceTree = SOURCE_ROOT; };
+		79EC954F6B494761A75DEC52 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/config_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = config_enc.c; path = src/enc/config_enc.c; sourceTree = SOURCE_ROOT; };
+		7B8FCE1E01834654950F5791 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/webpi_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = webpi_dec.h; path = src/dec/webpi_dec.h; sourceTree = SOURCE_ROOT; };
+		7D88B72BBAE84D21BFAC93D0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filters_mips_dsp_r2.c; path = src/dsp/filters_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		7F4E02BDD277405C8BAF1315 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cpu.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cpu.c; path = src/dsp/cpu.c; sourceTree = SOURCE_ROOT; };
+		7F7AA77FCD4649AB82D7CB4D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc_neon.c; path = src/dsp/lossless_enc_neon.c; sourceTree = SOURCE_ROOT; };
+		7FEA9802BB714B75863AC0CE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_sse41.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_sse41.c; path = src/dsp/dec_sse41.c; sourceTree = SOURCE_ROOT; };
+		82EEE38ED0D74C3FB55CA02C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_msa.c; path = src/dsp/dec_msa.c; sourceTree = SOURCE_ROOT; };
+		850E67F075E94539834E2B12 /* /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp/CMakeFiles/libwebp.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../../ios/build/build-i386-iphonesimulator/3rdparty/libwebp/CMakeFiles/libwebp.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		857FF810C3434DE48B7E13C2 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/rescaler_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rescaler_utils.h; path = src/utils/rescaler_utils.h; sourceTree = SOURCE_ROOT; };
+		85F31C6F8C054401BCE0196F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/endian_inl_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = endian_inl_utils.h; path = src/utils/endian_inl_utils.h; sourceTree = SOURCE_ROOT; };
+		88E823792E0B46B28E5F3E73 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/quant_levels_dec_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quant_levels_dec_utils.c; path = src/utils/quant_levels_dec_utils.c; sourceTree = SOURCE_ROOT; };
+		89581DFFCEE8450EB648DC04 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filters_msa.c; path = src/dsp/filters_msa.c; sourceTree = SOURCE_ROOT; };
+		89DF8457DA2A4E33B0E0525E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_processing_sse2.c; path = src/dsp/alpha_processing_sse2.c; sourceTree = SOURCE_ROOT; };
+		8AFDEF830F8E43D29B065822 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/delta_palettization_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = delta_palettization_enc.c; path = src/enc/delta_palettization_enc.c; sourceTree = SOURCE_ROOT; };
+		8B3BF521A991450495F751B6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = upsampling_neon.c; path = src/dsp/upsampling_neon.c; sourceTree = SOURCE_ROOT; };
+		8CBC0788A90E4CD3944D0158 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc_sse2.c; path = src/dsp/lossless_enc_sse2.c; sourceTree = SOURCE_ROOT; };
+		8EF208EDA83C4ACCA7D90DF8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/quant_levels_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quant_levels_utils.h; path = src/utils/quant_levels_utils.h; sourceTree = SOURCE_ROOT; };
+		8F4DC3B62D1041DB9842CE06 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/quant_levels_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quant_levels_utils.c; path = src/utils/quant_levels_utils.c; sourceTree = SOURCE_ROOT; };
+		8F6B537FF7404E949AE51C33 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/thread_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = thread_utils.c; path = src/utils/thread_utils.c; sourceTree = SOURCE_ROOT; };
+		8FEF52E48B4D4F8CB9FF7D2C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = yuv_neon.c; path = src/dsp/yuv_neon.c; sourceTree = SOURCE_ROOT; };
+		95647835E47F4CA9AD67A145 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler_sse2.c; path = src/dsp/rescaler_sse2.c; sourceTree = SOURCE_ROOT; };
+		969902FEC60E44D89503C07D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/huffman_encode_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = huffman_encode_utils.h; path = src/utils/huffman_encode_utils.h; sourceTree = SOURCE_ROOT; };
+		970EA987280D455FA1F3A94E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/animi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = animi.h; path = src/mux/animi.h; sourceTree = SOURCE_ROOT; };
+		976E4265FB3840109A29CD2C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_sse41.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_processing_sse41.c; path = src/dsp/alpha_processing_sse41.c; sourceTree = SOURCE_ROOT; };
+		98A66F1342FC4A5EAAD52AD8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_mips_dsp_r2.c; path = src/dsp/lossless_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		98B0EC80EAF84648BAE2EDF3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/histogram_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = histogram_enc.c; path = src/enc/histogram_enc.c; sourceTree = SOURCE_ROOT; };
+		9958962DD9894F3FB63F9A32 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/msa_macro.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = msa_macro.h; path = src/dsp/msa_macro.h; sourceTree = SOURCE_ROOT; };
+		9A17B8FA90B344C89DF42619 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/delta_palettization_enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = delta_palettization_enc.h; path = src/enc/delta_palettization_enc.h; sourceTree = SOURCE_ROOT; };
+		9A41FC1E1B324D2BBCDB0B5B /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/mips_macro.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mips_macro.h; path = src/dsp/mips_macro.h; sourceTree = SOURCE_ROOT; };
+		9E4890CA388941F1B05113FE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/filters_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = filters_utils.h; path = src/utils/filters_utils.h; sourceTree = SOURCE_ROOT; };
+		9F0001277BEC45D6BDD01564 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/demux/demux.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = demux.c; path = src/demux/demux.c; sourceTree = SOURCE_ROOT; };
+		9F7B4D320EE8433FAFDCFD61 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8i_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vp8i_dec.h; path = src/dec/vp8i_dec.h; sourceTree = SOURCE_ROOT; };
+		9FA4F8BDC98B4D3A8C8F1D91 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/frame_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = frame_enc.c; path = src/enc/frame_enc.c; sourceTree = SOURCE_ROOT; };
+		A0EAF33D79DE4973B56784D3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost_mips32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cost_mips32.c; path = src/dsp/cost_mips32.c; sourceTree = SOURCE_ROOT; };
+		A2F2B91AF7D94E4AA2650B3A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_reader_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bit_reader_utils.h; path = src/utils/bit_reader_utils.h; sourceTree = SOURCE_ROOT; };
+		A4AC685FD816480EBF71F906 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = utils.c; path = src/utils/utils.c; sourceTree = SOURCE_ROOT; };
+		A56B00481F974CA28C8933F7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler.c; path = src/dsp/rescaler.c; sourceTree = SOURCE_ROOT; };
+		A7E7F45800644107BB35C526 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_sse2.c; path = src/dsp/lossless_sse2.c; sourceTree = SOURCE_ROOT; };
+		A8A50433181D49BAAA41E8BB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/quant_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quant_dec.c; path = src/dec/quant_dec.c; sourceTree = SOURCE_ROOT; };
+		AB51B7C5D97148EF821E709B /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_reader_inl_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bit_reader_inl_utils.h; path = src/utils/bit_reader_inl_utils.h; sourceTree = SOURCE_ROOT; };
+		AB6AAB7B9D7742928CD516BE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/cost_enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cost_enc.h; path = src/enc/cost_enc.h; sourceTree = SOURCE_ROOT; };
+		ACA637D6B0B44E1B9C3816F9 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = upsampling_mips_dsp_r2.c; path = src/dsp/upsampling_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		ADC743DBCA8D405BAF6680FE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_mips_dsp_r2.c; path = src/dsp/enc_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		ADEA330DDF724529A3BAB9E6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/frame_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = frame_dec.c; path = src/dec/frame_dec.c; sourceTree = SOURCE_ROOT; };
+		AE4EA1FEC1C54BB7AD41DF05 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/color_cache_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = color_cache_utils.c; path = src/utils/color_cache_utils.c; sourceTree = SOURCE_ROOT; };
+		AEA57B606207455DBFCB13BB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/vp8i_enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vp8i_enc.h; path = src/enc/vp8i_enc.h; sourceTree = SOURCE_ROOT; };
+		AF76ECDE1BA243C080027D4F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/token_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = token_enc.c; path = src/enc/token_enc.c; sourceTree = SOURCE_ROOT; };
+		AF9D170FFA4C4359A925A09C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B0C3C24032D94D60B97DDF85 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_neon.c; path = src/dsp/lossless_neon.c; sourceTree = SOURCE_ROOT; };
+		B69AD91434A34FA8A2904870 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = yuv.c; path = src/dsp/yuv.c; sourceTree = SOURCE_ROOT; };
+		BE0B8EC298334C25B80DC684 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/encode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = encode.h; path = src/webp/encode.h; sourceTree = SOURCE_ROOT; };
+		BF96E02D3BA94B2C958F060B /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/alpha_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_enc.c; path = src/enc/alpha_enc.c; sourceTree = SOURCE_ROOT; };
+		C40B6C9630D14D6CBB9C82B1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc.c; path = src/dsp/lossless_enc.c; sourceTree = SOURCE_ROOT; };
+		C79FEC524B02416BBE6B9116 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/filters_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filters_utils.c; path = src/utils/filters_utils.c; sourceTree = SOURCE_ROOT; };
+		C956EF33424540B596A8F8E2 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/ssim_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ssim_sse2.c; path = src/dsp/ssim_sse2.c; sourceTree = SOURCE_ROOT; };
+		CB328CD76D9D4C1BABB45136 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/tree_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tree_enc.c; path = src/enc/tree_enc.c; sourceTree = SOURCE_ROOT; };
+		CBED2AFBEA8647D78D4D9466 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filters_neon.c; path = src/dsp/filters_neon.c; sourceTree = SOURCE_ROOT; };
+		CDC297A21CA8461D9A7AD529 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/vp8li_enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vp8li_enc.h; path = src/enc/vp8li_enc.h; sourceTree = SOURCE_ROOT; };
+		CE374DF972D242CCA419E670 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/huffman_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = huffman_utils.h; path = src/utils/huffman_utils.h; sourceTree = SOURCE_ROOT; };
+		D00A60A0D8444175B712EE7F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_mips32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler_mips32.c; path = src/dsp/rescaler_mips32.c; sourceTree = SOURCE_ROOT; };
+		D0DD84C3A1804CDE995169A6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/demux/anim_decode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = anim_decode.c; path = src/demux/anim_decode.c; sourceTree = SOURCE_ROOT; };
+		D7705BF35E8F4670B9993DBF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/quant_levels_dec_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quant_levels_dec_utils.h; path = src/utils/quant_levels_dec_utils.h; sourceTree = SOURCE_ROOT; };
+		D78E31C2B60A4836BBF97F5C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_mips32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = yuv_mips32.c; path = src/dsp/yuv_mips32.c; sourceTree = SOURCE_ROOT; };
+		D83A83226DE749AC85392217 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_tools_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = picture_tools_enc.c; path = src/enc/picture_tools_enc.c; sourceTree = SOURCE_ROOT; };
+		DB0D754E6D5349E895697F11 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/backward_references_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = backward_references_enc.c; path = src/enc/backward_references_enc.c; sourceTree = SOURCE_ROOT; };
+		DBD87AE80CD34B6289847A3B /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = upsampling_sse2.c; path = src/dsp/upsampling_sse2.c; sourceTree = SOURCE_ROOT; };
+		DBF014DDC5F14E4697E0A8E4 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/alpha_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_dec.c; path = src/dec/alpha_dec.c; sourceTree = SOURCE_ROOT; };
+		DF948DC2D36C4D16BFBF73D1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lossless.h; path = src/dsp/lossless.h; sourceTree = SOURCE_ROOT; };
+		DFB0A402D07A478CB88F3FDD /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/anim_encode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = anim_encode.c; path = src/mux/anim_encode.c; sourceTree = SOURCE_ROOT; };
+		E012978210C74991A853ECDE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/idec_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = idec_dec.c; path = src/dec/idec_dec.c; sourceTree = SOURCE_ROOT; };
+		E1496B2EBFD2461B9A87358C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/io_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = io_dec.c; path = src/dec/io_dec.c; sourceTree = SOURCE_ROOT; };
+		E25B293D314C427E95527DA9 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/common_sse2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common_sse2.h; path = src/dsp/common_sse2.h; sourceTree = SOURCE_ROOT; };
+		E44751972CE54B52AF2FE351 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utils.h; path = src/utils/utils.h; sourceTree = SOURCE_ROOT; };
+		E591CAE8B1C043CD9A2FDDD3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/ssim.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ssim.c; path = src/dsp/ssim.c; sourceTree = SOURCE_ROOT; };
+		E64883F5FA8541659AEC2C5D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/predictor_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = predictor_enc.c; path = src/enc/predictor_enc.c; sourceTree = SOURCE_ROOT; };
+		E8FA61C0330E4B0A82671D3E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/buffer_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = buffer_dec.c; path = src/dec/buffer_dec.c; sourceTree = SOURCE_ROOT; };
+		EA338B56F5B04ABC8008DF28 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EA86F6A812FA42C1AE83E136 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_csp_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = picture_csp_enc.c; path = src/enc/picture_csp_enc.c; sourceTree = SOURCE_ROOT; };
+		ECD2E647BD9542D6B876B6DE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/huffman_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = huffman_utils.c; path = src/utils/huffman_utils.c; sourceTree = SOURCE_ROOT; };
+		F0212C8770244734B187836C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/argb_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = argb_sse2.c; path = src/dsp/argb_sse2.c; sourceTree = SOURCE_ROOT; };
+		F34016B8FA964F30A67AEB68 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/random_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = random_utils.h; path = src/utils/random_utils.h; sourceTree = SOURCE_ROOT; };
+		F498BF14C99E4237A4B8FD9F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec.c; path = src/dsp/dec.c; sourceTree = SOURCE_ROOT; };
+		F8A63620E0314800838DAAAF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_rescale_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = picture_rescale_enc.c; path = src/enc/picture_rescale_enc.c; sourceTree = SOURCE_ROOT; };
+		FADB12E59C874750B8C2247D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/huffman_encode_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = huffman_encode_utils.c; path = src/utils/huffman_encode_utils.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01FFAACE80CB42D7913851B8 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		0C4A754C829842E5A711408F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				850E67F075E94539834E2B12 /* /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp/CMakeFiles/libwebp.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		383E580C9E8F4D979EE8DFA3 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				73F8C48461CC435CA7C05A8D /* libwebp */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		64B2AA80208B4624A81287EC = {
+			isa = PBXGroup;
+			children = (
+				383E580C9E8F4D979EE8DFA3 /* 3rdparty */,
+				EA58DACF8A7E40CC8785FD73 /* ALL_BUILD */,
+				F6C175032ACD4B6FADC45990 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73F8C48461CC435CA7C05A8D /* libwebp */ = {
+			isa = PBXGroup;
+			children = (
+				BA82DCAE8520470C8941B304 /* Source Files */,
+				CD93F495C308403CA3B78F78 /* Header Files */,
+				0C4A754C829842E5A711408F /* Resources */,
+				AF9D170FFA4C4359A925A09C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/CMakeLists.txt */,
+			);
+			name = libwebp;
+			sourceTree = "<group>";
+		};
+		BA82DCAE8520470C8941B304 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF014DDC5F14E4697E0A8E4 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/alpha_dec.c */,
+				E8FA61C0330E4B0A82671D3E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/buffer_dec.c */,
+				ADEA330DDF724529A3BAB9E6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/frame_dec.c */,
+				E012978210C74991A853ECDE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/idec_dec.c */,
+				E1496B2EBFD2461B9A87358C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/io_dec.c */,
+				A8A50433181D49BAAA41E8BB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/quant_dec.c */,
+				48858EE7AD6541DCA0D84EE0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/tree_dec.c */,
+				3C7EE5FD5E8F4C20ABD98C06 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8_dec.c */,
+				25C81CAA02E74BF8863A1B92 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8l_dec.c */,
+				6FDA6040612143C7BF23E3B1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/webp_dec.c */,
+				D0DD84C3A1804CDE995169A6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/demux/anim_decode.c */,
+				9F0001277BEC45D6BDD01564 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/demux/demux.c */,
+				43AF7135736F4C4A8D8710CA /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing.c */,
+				000C2B97413549F2BEEFFD7E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_mips_dsp_r2.c */,
+				075E1B6A262541A9B9B6EBDF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_neon.c */,
+				89DF8457DA2A4E33B0E0525E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_sse2.c */,
+				976E4265FB3840109A29CD2C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_sse41.c */,
+				1D68B49041CD4C8FB76FEF19 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/argb.c */,
+				3BBF5B1970BF4C8BBBACEE11 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/argb_mips_dsp_r2.c */,
+				F0212C8770244734B187836C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/argb_sse2.c */,
+				0310715330344C46AE138E88 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost.c */,
+				A0EAF33D79DE4973B56784D3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost_mips32.c */,
+				4C7A8394766544B2ADA8CCC6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost_mips_dsp_r2.c */,
+				2CA8631F1BD746F482BEDA8E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost_sse2.c */,
+				7F4E02BDD277405C8BAF1315 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cpu.c */,
+				F498BF14C99E4237A4B8FD9F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec.c */,
+				5AE9265E68524043BA65EF10 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_clip_tables.c */,
+				4E9687B6AABF4D7D821100FD /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_mips32.c */,
+				6A104E35534C4D748940DA89 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_mips_dsp_r2.c */,
+				82EEE38ED0D74C3FB55CA02C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_msa.c */,
+				1E5D30F176B94E4EB82D2496 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_neon.c */,
+				2BA21A8F7F5A4437A9B9C2B3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_sse2.c */,
+				7FEA9802BB714B75863AC0CE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_sse41.c */,
+				2EF2D3DBDEF34D31B4498E43 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc.c */,
+				2EB71426F20D40FFA0FC2969 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_avx2.c */,
+				3AB098173E7F4378A92C11BF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_mips32.c */,
+				ADC743DBCA8D405BAF6680FE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_mips_dsp_r2.c */,
+				2060D4BF944C4FD78EDDFCF1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_msa.c */,
+				2CE0A6942B8842289106EC75 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_neon.c */,
+				36234104446943D087E488A1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_sse2.c */,
+				0432314AFE6245E7BCBB33DC /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_sse41.c */,
+				58684A432B2F44AC9D68A430 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters.c */,
+				7D88B72BBAE84D21BFAC93D0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_mips_dsp_r2.c */,
+				89581DFFCEE8450EB648DC04 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_msa.c */,
+				CBED2AFBEA8647D78D4D9466 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_neon.c */,
+				5AB4442A5FE848BEA2342259 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_sse2.c */,
+				0EEF51809CB043F0A5282313 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless.c */,
+				C40B6C9630D14D6CBB9C82B1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc.c */,
+				116BCFFE26FD4939AC997EDD /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_mips32.c */,
+				5455272876DB45B1A3EF1489 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_mips_dsp_r2.c */,
+				33D71000E1DC4523B2FE4B20 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_msa.c */,
+				7F7AA77FCD4649AB82D7CB4D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_neon.c */,
+				8CBC0788A90E4CD3944D0158 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_sse2.c */,
+				290C044D69764A928DFC02E6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_sse41.c */,
+				98A66F1342FC4A5EAAD52AD8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_mips_dsp_r2.c */,
+				079D921306A34F3A84147F1F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_msa.c */,
+				B0C3C24032D94D60B97DDF85 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_neon.c */,
+				A7E7F45800644107BB35C526 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_sse2.c */,
+				A56B00481F974CA28C8933F7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler.c */,
+				D00A60A0D8444175B712EE7F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_mips32.c */,
+				280053DF62F1429A9C849413 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_mips_dsp_r2.c */,
+				6CDB6D6A08C54FD1B20BAEB0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_msa.c */,
+				345CB39EB60B468FBD2C8498 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_neon.c */,
+				95647835E47F4CA9AD67A145 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_sse2.c */,
+				E591CAE8B1C043CD9A2FDDD3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/ssim.c */,
+				C956EF33424540B596A8F8E2 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/ssim_sse2.c */,
+				47AF67A9085B4946978F176A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling.c */,
+				ACA637D6B0B44E1B9C3816F9 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_mips_dsp_r2.c */,
+				3AE5C7CE7A8B4E05B9C22AF5 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_msa.c */,
+				8B3BF521A991450495F751B6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_neon.c */,
+				DBD87AE80CD34B6289847A3B /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_sse2.c */,
+				B69AD91434A34FA8A2904870 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv.c */,
+				D78E31C2B60A4836BBF97F5C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_mips32.c */,
+				0B3FAE2A62FE47D4834BABB3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_mips_dsp_r2.c */,
+				8FEF52E48B4D4F8CB9FF7D2C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_neon.c */,
+				72C009C2DEC645E08E23D397 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_sse2.c */,
+				BF96E02D3BA94B2C958F060B /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/alpha_enc.c */,
+				0ADC52B4B95A403B8B7BBCAD /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/analysis_enc.c */,
+				23154A50C79C41B6BBBD94C1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/backward_references_cost_enc.c */,
+				DB0D754E6D5349E895697F11 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/backward_references_enc.c */,
+				79EC954F6B494761A75DEC52 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/config_enc.c */,
+				1E42785BCABB49A080909BE6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/cost_enc.c */,
+				8AFDEF830F8E43D29B065822 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/delta_palettization_enc.c */,
+				5F19773F2BF54DCBA74270AF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/filter_enc.c */,
+				9FA4F8BDC98B4D3A8C8F1D91 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/frame_enc.c */,
+				98B0EC80EAF84648BAE2EDF3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/histogram_enc.c */,
+				4C089FBA85784EBBBC581991 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/iterator_enc.c */,
+				6B34D7A3FBC7418F87BD3771 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/near_lossless_enc.c */,
+				EA86F6A812FA42C1AE83E136 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_csp_enc.c */,
+				6F3E2DF3662A4BD6939160F8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_enc.c */,
+				736396B9C71F429DA54736AC /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_psnr_enc.c */,
+				F8A63620E0314800838DAAAF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_rescale_enc.c */,
+				D83A83226DE749AC85392217 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_tools_enc.c */,
+				E64883F5FA8541659AEC2C5D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/predictor_enc.c */,
+				6B23D6D6947149958A457E18 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/quant_enc.c */,
+				6877127BB539499681BDFEE7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/syntax_enc.c */,
+				AF76ECDE1BA243C080027D4F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/token_enc.c */,
+				CB328CD76D9D4C1BABB45136 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/tree_enc.c */,
+				6D84DEF2BAD04DBBB1EDD5AF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/vp8l_enc.c */,
+				105FDA2C517B4109985E94EC /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/webp_enc.c */,
+				DFB0A402D07A478CB88F3FDD /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/anim_encode.c */,
+				4E571B6F6BBA40E796BA3186 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/muxedit.c */,
+				0DFE3450FB3943BAA2DA890F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/muxinternal.c */,
+				61893F364AD744EE85063B61 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/muxread.c */,
+				507C5A4BA9E64BA39BD66CCF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_reader_utils.c */,
+				6AE12978F1814EE6971D164D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_writer_utils.c */,
+				AE4EA1FEC1C54BB7AD41DF05 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/color_cache_utils.c */,
+				C79FEC524B02416BBE6B9116 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/filters_utils.c */,
+				FADB12E59C874750B8C2247D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/huffman_encode_utils.c */,
+				ECD2E647BD9542D6B876B6DE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/huffman_utils.c */,
+				88E823792E0B46B28E5F3E73 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/quant_levels_dec_utils.c */,
+				8F4DC3B62D1041DB9842CE06 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/quant_levels_utils.c */,
+				0FDBABBB357F4291A3C0972F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/random_utils.c */,
+				74773EFC0D944F2194A53C6A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/rescaler_utils.c */,
+				8F6B537FF7404E949AE51C33 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/thread_utils.c */,
+				A4AC685FD816480EBF71F906 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/utils.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		CD93F495C308403CA3B78F78 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C50FB2166B847A18EA9F47F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/alphai_dec.h */,
+				4534A00D62134670A4C65935 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/common_dec.h */,
+				37061A79F0D04E5FA4C322EE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8_dec.h */,
+				9F7B4D320EE8433FAFDCFD61 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8i_dec.h */,
+				0A2F667B64F7453288FA3D53 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8li_dec.h */,
+				7B8FCE1E01834654950F5791 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/webpi_dec.h */,
+				E25B293D314C427E95527DA9 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/common_sse2.h */,
+				6E52F9CE04D640489A774BA0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dsp.h */,
+				DF948DC2D36C4D16BFBF73D1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless.h */,
+				19B2B88E8FF247189F99E524 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_common.h */,
+				9A41FC1E1B324D2BBCDB0B5B /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/mips_macro.h */,
+				9958962DD9894F3FB63F9A32 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/msa_macro.h */,
+				44203C30E5C7410E82DE1C26 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/neon.h */,
+				5619B629EB554E809E79A934 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv.h */,
+				5799DEAC87284D81B3838E0A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/backward_references_enc.h */,
+				AB6AAB7B9D7742928CD516BE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/cost_enc.h */,
+				9A17B8FA90B344C89DF42619 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/delta_palettization_enc.h */,
+				568201D8F9814231AD5AC264 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/histogram_enc.h */,
+				AEA57B606207455DBFCB13BB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/vp8i_enc.h */,
+				CDC297A21CA8461D9A7AD529 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/vp8li_enc.h */,
+				970EA987280D455FA1F3A94E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/animi.h */,
+				3D9CC90C92064350927BF20F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/muxi.h */,
+				AB51B7C5D97148EF821E709B /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_reader_inl_utils.h */,
+				A2F2B91AF7D94E4AA2650B3A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_reader_utils.h */,
+				4FA7FE3B905E43139DE0C74A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_writer_utils.h */,
+				2ADA008C682F4E29833AED1D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/color_cache_utils.h */,
+				85F31C6F8C054401BCE0196F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/endian_inl_utils.h */,
+				9E4890CA388941F1B05113FE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/filters_utils.h */,
+				969902FEC60E44D89503C07D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/huffman_encode_utils.h */,
+				CE374DF972D242CCA419E670 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/huffman_utils.h */,
+				D7705BF35E8F4670B9993DBF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/quant_levels_dec_utils.h */,
+				8EF208EDA83C4ACCA7D90DF8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/quant_levels_utils.h */,
+				F34016B8FA964F30A67AEB68 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/random_utils.h */,
+				857FF810C3434DE48B7E13C2 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/rescaler_utils.h */,
+				20EBC15BA7BB4DB8A7F4AA97 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/thread_utils.h */,
+				E44751972CE54B52AF2FE351 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/utils.h */,
+				1F8A91A33BAC4A84A1BDC696 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/decode.h */,
+				0CAA0ECF418D45A9AB3E577C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/demux.h */,
+				BE0B8EC298334C25B80DC684 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/encode.h */,
+				71E1A7CB51604F1696B8844A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/format_constants.h */,
+				5AC7DB44649B473F847E8C23 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/mux.h */,
+				74F95852352646929AA3E46A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/mux_types.h */,
+				5902B93A9377436BA8B91350 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/webp/types.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		EA58DACF8A7E40CC8785FD73 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				01FFAACE80CB42D7913851B8 /* CMake Rules */,
+				EA338B56F5B04ABC8008DF28 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		F6C175032ACD4B6FADC45990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7076927EE3324F13B92E46F7 /* libwebp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D9C86AF362B4348A6CCF335 /* libwebp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF05412125A94602A38FB804 /* Build configuration list for PBXNativeTarget "libwebp" */;
+			buildPhases = (
+				DD3931DBD3D54641A8EAFDFE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339F331774084392A9739283 /* PBXTargetDependency */,
+			);
+			name = libwebp;
+			productName = libwebp;
+			productReference = 7076927EE3324F13B92E46F7 /* libwebp */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECE8EA9A5AB4445A9B4E17FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = AB43C012711A49AEAE74873B /* Build configuration list for PBXProject "libwebp" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				E983C12E919747AABE84738F /* Debug */,
+				569B1FFCD3604FD5988B77E7 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 64B2AA80208B4624A81287EC;
+			projectDirPath = /Users/ameerspincar/Documents/opencv/3rdparty/libwebp;
+			projectRoot = "";
+			targets = (
+				1F8D0B933CA540479DB39426 /* ALL_BUILD */,
+				B8932E779E3E453AAE681213 /* RUN_TESTS */,
+				F923EB758E864A328CA69ACE /* ZERO_CHECK */,
+				5B24F72EAAC546719498FBAC /* install */,
+				4D9C86AF362B4348A6CCF335 /* libwebp */,
+				86B3817457384F1186027A72 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0937E0F9EAF144FA90D199A8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		0DF7E664F796474EB4D62168 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp -f /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3AF34BD5AF6E4BD2BE22A430 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp -f /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		5BC0C7DD272B456AA65229D1 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp -f /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		7850A151E62A4D61859BE036 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp -f /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		878EC6139C9C44C2B5AF1775 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8F665B21B4FE47E286E21622 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp -f /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		9FA6777300274374B54EF4E2 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C03D9603715B4DECB8DCE544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C4F5F00376A24FB6A36476A4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD3931DBD3D54641A8EAFDFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F9B16F27B24F1D8564B4B1 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/alpha_dec.c */,
+				6EC6DBFC02D84FEF92C9F068 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/buffer_dec.c */,
+				93EEE30A78CD4AC0B91F0CDA /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/frame_dec.c */,
+				91ABDAE09AFD49F899D26B8A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/idec_dec.c */,
+				094ACFFDDA984D18A7623C48 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/io_dec.c */,
+				35937E4603714EF7BCAA7550 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/quant_dec.c */,
+				51145D406A8D41F58424D001 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/tree_dec.c */,
+				FABD7EFF488C40589DDD5918 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8_dec.c */,
+				78AE065565834D3A9F302B04 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/vp8l_dec.c */,
+				52F5B30CD9744FF1B59051A0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dec/webp_dec.c */,
+				9ADC4CD29B65496BAFAA0291 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/demux/anim_decode.c */,
+				8335A845832C4C2FAF36EC30 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/demux/demux.c */,
+				B13EE15C494F43B7B6AA82DC /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing.c */,
+				FE8CE68803374E7C86210A5E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_mips_dsp_r2.c */,
+				84BFAB65BB0B42F9B1D7D7CF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_neon.c */,
+				49AE865D4E854C8185370AA7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_sse2.c */,
+				6A69CF3F263743219D0A88A8 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/alpha_processing_sse41.c */,
+				DEE39ADE8839454598972C8A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/argb.c */,
+				A930D500433148F69CFCAC55 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/argb_mips_dsp_r2.c */,
+				9E7583AADDAD463D95988167 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/argb_sse2.c */,
+				57538D6E01364218B809AF11 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost.c */,
+				964A7643241E41B9A1089723 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost_mips32.c */,
+				AD063A6673B54532BCD8280A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost_mips_dsp_r2.c */,
+				5A8EAD3C049B4CEF92136AA7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cost_sse2.c */,
+				B516BE428F394BAA99B16B9F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/cpu.c */,
+				FF9C3F8F9E1F47CE8141C448 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec.c */,
+				7F98034D255C405D91D40C1A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_clip_tables.c */,
+				914B34B7859442F9AA81FE67 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_mips32.c */,
+				5FB5E1FDB25E475BB03E099A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_mips_dsp_r2.c */,
+				649B6ABF869F413583EC7774 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_msa.c */,
+				450565214F55431B9361BEF2 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_neon.c */,
+				F3756F9612404B12809ADB51 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_sse2.c */,
+				4EA6165AA2E9442989506D37 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/dec_sse41.c */,
+				AA3C15B22F354A51868DC8FE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc.c */,
+				088292EDE6184DBD84D266CB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_avx2.c */,
+				EC9C1CAB353745BC89E2181D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_mips32.c */,
+				3F5C3395CF6E42758FD8B0F4 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_mips_dsp_r2.c */,
+				4033EA405C43404685F735C4 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_msa.c */,
+				26FF5815DA3847879F637D37 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_neon.c */,
+				3E251BDA0B2D4AE584EE3E50 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_sse2.c */,
+				849481F5E3DC408D92DA0849 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/enc_sse41.c */,
+				F4A285FEA2414859AAA897ED /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters.c */,
+				6B7257968BF04080A8DD6C85 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_mips_dsp_r2.c */,
+				618669E1901B4D1993F6065D /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_msa.c */,
+				C1F4B08668974DFF8199C115 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_neon.c */,
+				786A33BD380E441E92D48B1F /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/filters_sse2.c */,
+				E990FB2FF25D4351939DA792 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless.c */,
+				33611E469775422785E91691 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc.c */,
+				30ECB96EE9224D00A28D3143 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_mips32.c */,
+				90EAE06BBCC646CFB3C0F8EF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_mips_dsp_r2.c */,
+				E4C81DB6B4CE4B1EAC6F8635 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_msa.c */,
+				1C172AC8BD49496BBFEC9388 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_neon.c */,
+				5DB34331BAF64344BEE2FC29 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_sse2.c */,
+				E68F8D4F94FE4977ADCAD1BB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_enc_sse41.c */,
+				66C2437F6B52452DA6E91702 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_mips_dsp_r2.c */,
+				305B8E6B2650448CB095EF94 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_msa.c */,
+				B7C4BC25020A4D8EB4AF7059 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_neon.c */,
+				2734A62898034FA4ADEFE606 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/lossless_sse2.c */,
+				924AB618ABEA4D268FB2B187 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler.c */,
+				F6256E071ECD4AF0BC2940DB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_mips32.c */,
+				8F42E4B98B81415D93FF6C62 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_mips_dsp_r2.c */,
+				C8D8263FF57C4085B8093401 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_msa.c */,
+				1D416B02FAFD450FAA2C16DF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_neon.c */,
+				3620CBBA378A41D48FD02BCE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/rescaler_sse2.c */,
+				CCECD9F167BD4ECFB3AA4C69 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/ssim.c */,
+				31E3B946140845CDACD4AA8C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/ssim_sse2.c */,
+				649EC783523D4819BE53B0EC /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling.c */,
+				03FB09FF53D44566BA0606C3 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_mips_dsp_r2.c */,
+				BAFBD76EA68F43A9A1CBD9DF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_msa.c */,
+				4FCE6AB1731C4C059A7E6BE6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_neon.c */,
+				FA06B73683EE4C33BE6308E6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/upsampling_sse2.c */,
+				C758A274648D49138EEEC7D0 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv.c */,
+				045032770D81462A8827CA39 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_mips32.c */,
+				422CCC322C444DC4A8684E76 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_mips_dsp_r2.c */,
+				575BEEF5828B4D76933218E4 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_neon.c */,
+				79A9BC424CDB42F78C07DD6A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/dsp/yuv_sse2.c */,
+				EC1207E33AA449038C5F371C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/alpha_enc.c */,
+				5D6DCA9D0F4749F7B60554BD /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/analysis_enc.c */,
+				41FB0BB061174BE699244399 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/backward_references_cost_enc.c */,
+				CF0748708EB64B7799BFC2AC /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/backward_references_enc.c */,
+				FD53A50FA2F5472DAAFB1E4E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/config_enc.c */,
+				21E368E68BDE4B1585E396B2 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/cost_enc.c */,
+				52401979794E4B53842EE678 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/delta_palettization_enc.c */,
+				92A38682AF1F4D83840D3C8C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/filter_enc.c */,
+				670775E471484785B29264DE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/frame_enc.c */,
+				4284C6745851441E960E1FAE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/histogram_enc.c */,
+				D017EAD832A7498CAD7E2F20 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/iterator_enc.c */,
+				BEED0AB23A2D44F98B57C433 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/near_lossless_enc.c */,
+				45A347F0C079414399072EBD /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_csp_enc.c */,
+				2E05CBB014D549ADA04EA978 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_enc.c */,
+				365149C525E9485194E66A7C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_psnr_enc.c */,
+				A0A1C1A6DF6B4FA2930754FC /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_rescale_enc.c */,
+				66953D44BB46446DAECD2A8A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/picture_tools_enc.c */,
+				60B6911E72D741E58D947E9A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/predictor_enc.c */,
+				E802A811433E4A52895259BE /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/quant_enc.c */,
+				8F10992E118D423E8B518913 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/syntax_enc.c */,
+				FDCD0815691C4792840993A7 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/token_enc.c */,
+				C9A4A9D17A004763A6A24763 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/tree_enc.c */,
+				970406E99823482993C108D6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/vp8l_enc.c */,
+				9A318377EA8A45B182028FEC /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/enc/webp_enc.c */,
+				BE3573375D4142CBBE16C787 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/anim_encode.c */,
+				A55FA37253AD46F89CCC6A02 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/muxedit.c */,
+				CB67E5AB51A34470BF5D55FB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/muxinternal.c */,
+				5AD5531881264DE7B103CD2E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/mux/muxread.c */,
+				126CF617B6264B43BA66F079 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_reader_utils.c */,
+				9CAF1EBCF61946AABB9B5E9B /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/bit_writer_utils.c */,
+				D34FE254509742328B325283 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/color_cache_utils.c */,
+				82147A73049C478AA5698C9A /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/filters_utils.c */,
+				24EF6C24D055450083803D1C /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/huffman_encode_utils.c */,
+				F867D8845DC14DFC892EB341 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/huffman_utils.c */,
+				44ECE81E521D450DACB893E6 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/quant_levels_dec_utils.c */,
+				200AC1B224234ED1AD2F10EB /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/quant_levels_utils.c */,
+				A6C3812CE1024F9FB4CAF0DF /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/random_utils.c */,
+				4634939BC2CB4B719AED3A46 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/rescaler_utils.c */,
+				5EC1984C20AF4A0A81A2AD2E /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/thread_utils.c */,
+				D87EEBD06CF44CC1A5932C47 /* /Users/ameerspincar/Documents/opencv/3rdparty/libwebp/src/utils/utils.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		339F331774084392A9739283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F923EB758E864A328CA69ACE /* ZERO_CHECK */;
+			targetProxy = 40590743FE104944B3BF1A44 /* PBXContainerItemProxy */;
+		};
+		697C5E56B2834A8B875AC54C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F8D0B933CA540479DB39426 /* ALL_BUILD */;
+			targetProxy = 3810F7161F3F48FFB2D91DC7 /* PBXContainerItemProxy */;
+		};
+		72AA3100640446ADA5874256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F8D0B933CA540479DB39426 /* ALL_BUILD */;
+			targetProxy = B260D17E7DB9476885C7FDE7 /* PBXContainerItemProxy */;
+		};
+		AAE3E2057C4F45F0A41B934F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F923EB758E864A328CA69ACE /* ZERO_CHECK */;
+			targetProxy = 81484E06EA5E4146AEF5407A /* PBXContainerItemProxy */;
+		};
+		B35C43331FE3454A84423AC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D9C86AF362B4348A6CCF335 /* libwebp */;
+			targetProxy = E86F27E7031447A1B9825F52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08CA907F1434469FA26EB60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		152BF51AC36C42378BC0DA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp/build";
+			};
+			name = Release;
+		};
+		1AEDD298092848029D332427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		556B884D72E44BEB8A96B036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		59A7981099114A2A914D27F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		66292B9A7A714345B4F58126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp/build";
+			};
+			name = Debug;
+		};
+		8E04FACC5BB847599A7602C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		981D6921907A4B5AA21B3A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A663EDF98C074A74B7C9F26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B4A90CCFD5E0408982778579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",WEBP_USE_THREAD);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ameerspincar/Documents/opencv/3rdparty/libwebp);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -msse -msse2 -Wno-unused-variable -Wno-unused-function -Wno-shadow -Wno-missing-prototypes -Wno-missing-declarations         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libwebp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C53F4A60DD774DD782D8B09B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C6667F78885F44DBB8B6B86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DAA8B93627724110AD52D149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",WEBP_USE_THREAD);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ameerspincar/Documents/opencv/3rdparty/libwebp);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual -Wno-unused-function -Wno-overloaded-virtual   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -msse -msse2 -Wno-unused-variable -Wno-unused-function -Wno-shadow -Wno-missing-prototypes -Wno-missing-declarations     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libwebp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F85ECC2DE6714C6F9E1D435E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CA3BF7851F940E6917B4BD7 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85ECC2DE6714C6F9E1D435E /* Debug */,
+				59A7981099114A2A914D27F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4DF43643BE11434BB3787244 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E04FACC5BB847599A7602C4 /* Debug */,
+				C6667F78885F44DBB8B6B86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9CA5CEA01D6E4499AD804FBC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981D6921907A4B5AA21B3A49 /* Debug */,
+				08CA907F1434469FA26EB60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AB43C012711A49AEAE74873B /* Build configuration list for PBXProject "libwebp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66292B9A7A714345B4F58126 /* Debug */,
+				152BF51AC36C42378BC0DA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BF05412125A94602A38FB804 /* Build configuration list for PBXNativeTarget "libwebp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A90CCFD5E0408982778579 /* Debug */,
+				DAA8B93627724110AD52D149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C1122534C13C48D5A99192A1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53F4A60DD774DD782D8B09B /* Debug */,
+				1AEDD298092848029D332427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D077510762AF42599F30DAE4 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A663EDF98C074A74B7C9F26B /* Debug */,
+				556B884D72E44BEB8A96B036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECE8EA9A5AB4445A9B4E17FE /* Project object */;
+}

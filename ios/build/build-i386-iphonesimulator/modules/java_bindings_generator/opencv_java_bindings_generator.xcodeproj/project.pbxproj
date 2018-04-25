@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1F8D0B933CA540479DB39426 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3D98D6A9E0CD4E84BCB03604 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				236CE2A9E9754CA79EB9095E /* CMake Rules */,
+			);
+			dependencies = (
+				E9783CF9C9964BE69B096CAE /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		5B24F72EAAC546719498FBAC /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6F5A5B1BB5644E29B534EB4E /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				48183C21A6114BA18E7C90B9 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				4A9D71DA52164131A53543B4 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		86B3817457384F1186027A72 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5DBC79E3D97E4CBA938CCBDE /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				AB74BC0D86F84E03A0183A35 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				13FF8601DAD1478B991F3143 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		B8932E779E3E453AAE681213 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A0A88C427CF1454B8B1E152B /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				78F6C0BE8F8344A5987EEF1A /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		BD1C17FA7C3543C0AFFC1F25 /* gen_opencv_java_source */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B0BF43D683E74376BB3A36FE /* Build configuration list for PBXAggregateTarget "gen_opencv_java_source" */;
+			buildPhases = (
+				08BF087F78D64EEE9EAB1E9C /* CMake Rules */,
+			);
+			dependencies = (
+				4C3E743E101A486F8E8ACC39 /* PBXTargetDependency */,
+			);
+			name = gen_opencv_java_source;
+			productName = gen_opencv_java_source;
+		};
+		F923EB758E864A328CA69ACE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FE9B8B0D898C4F2AB1F54A57 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				BF83B2D5D8F94B85B0077720 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildStyle section */
+		DBE4F3FD0D154C46B2D84D2D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		DFA0C3E992274561919E4009 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		012274687EFC4851B40FC3B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19785C853A8B48859C782BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F8D0B933CA540479DB39426;
+			remoteInfo = ALL_BUILD;
+		};
+		43F1428554C54F7F9B3BE1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19785C853A8B48859C782BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F8D0B933CA540479DB39426;
+			remoteInfo = ALL_BUILD;
+		};
+		99E5D9D0B9A34FF1951CC0EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19785C853A8B48859C782BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F923EB758E864A328CA69ACE;
+			remoteInfo = ZERO_CHECK;
+		};
+		F14B9734EC1443589D342141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19785C853A8B48859C782BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F923EB758E864A328CA69ACE;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		231B2F2E039A45A69A0921E5 /* /Users/ameerspincar/Documents/opencv/modules/java/generator/gen_java.py */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = gen_java.py; path = gen_java.py; sourceTree = SOURCE_ROOT; };
+		3B22CE1865EC4F9683822CC4 /* /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator/gen_java.json */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = gen_java.json; path = "../../../../ios/build/build-i386-iphonesimulator/modules/java_bindings_generator/gen_java.json"; sourceTree = SOURCE_ROOT; };
+		7612225029FA4A21AD98A027 /* /Users/ameerspincar/Documents/opencv/modules/java/generator/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CB2CDDB92AE145CFBF2413E3 /* /Users/ameerspincar/Documents/opencv/modules/java/generator/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4DFE0837B5DB454EA104C2C9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		5B0F5018914241B690294D9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63E0C580774640C0A416F820 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		707F55F98EE04687902536E9 /* gen_opencv_java_source */ = {
+			isa = PBXGroup;
+			children = (
+				63E0C580774640C0A416F820 /* CMake Rules */,
+				231B2F2E039A45A69A0921E5 /* /Users/ameerspincar/Documents/opencv/modules/java/generator/gen_java.py */,
+				3B22CE1865EC4F9683822CC4 /* /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator/gen_java.json */,
+				CB2CDDB92AE145CFBF2413E3 /* /Users/ameerspincar/Documents/opencv/modules/java/generator/CMakeLists.txt */,
+			);
+			name = gen_opencv_java_source;
+			sourceTree = "<group>";
+		};
+		918F55B7070D4E66B517B6E4 = {
+			isa = PBXGroup;
+			children = (
+				707F55F98EE04687902536E9 /* gen_opencv_java_source */,
+				BFC313ED08CB441B8097ADCA /* ALL_BUILD */,
+				5B0F5018914241B690294D9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFC313ED08CB441B8097ADCA /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				4DFE0837B5DB454EA104C2C9 /* CMake Rules */,
+				7612225029FA4A21AD98A027 /* /Users/ameerspincar/Documents/opencv/modules/java/generator/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		19785C853A8B48859C782BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 86F3C5F8CFC34CD88AFF916B /* Build configuration list for PBXProject "opencv_java_bindings_generator" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				DBE4F3FD0D154C46B2D84D2D /* Debug */,
+				DFA0C3E992274561919E4009 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 918F55B7070D4E66B517B6E4;
+			projectDirPath = /Users/ameerspincar/Documents/opencv/modules/java/generator;
+			projectRoot = "";
+			targets = (
+				1F8D0B933CA540479DB39426 /* ALL_BUILD */,
+				B8932E779E3E453AAE681213 /* RUN_TESTS */,
+				F923EB758E864A328CA69ACE /* ZERO_CHECK */,
+				BD1C17FA7C3543C0AFFC1F25 /* gen_opencv_java_source */,
+				5B24F72EAAC546719498FBAC /* install */,
+				86B3817457384F1186027A72 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08BF087F78D64EEE9EAB1E9C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator -f /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator/CMakeScripts/gen_opencv_java_source_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		098E98E5F43A493A80312D3E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		236CE2A9E9754CA79EB9095E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator -f /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		48183C21A6114BA18E7C90B9 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator -f /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		7776C4F60C7B4D0F92E0AAA6 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		78F6C0BE8F8344A5987EEF1A /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator -f /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A56A49DF241B482890545711 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A66552EE869C4DF19CDBF5FF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A75A950FA9584CB9917827E8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AB74BC0D86F84E03A0183A35 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator -f /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		BF83B2D5D8F94B85B0077720 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator -f /Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F108DF593E2F473695165A5E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13FF8601DAD1478B991F3143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F8D0B933CA540479DB39426 /* ALL_BUILD */;
+			targetProxy = 43F1428554C54F7F9B3BE1DF /* PBXContainerItemProxy */;
+		};
+		4A9D71DA52164131A53543B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F8D0B933CA540479DB39426 /* ALL_BUILD */;
+			targetProxy = 012274687EFC4851B40FC3B7 /* PBXContainerItemProxy */;
+		};
+		4C3E743E101A486F8E8ACC39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F923EB758E864A328CA69ACE /* ZERO_CHECK */;
+			targetProxy = 99E5D9D0B9A34FF1951CC0EB /* PBXContainerItemProxy */;
+		};
+		E9783CF9C9964BE69B096CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F923EB758E864A328CA69ACE /* ZERO_CHECK */;
+			targetProxy = F14B9734EC1443589D342141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13BE1297A29C4C3983602357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		17D5B4F2E99848F7A8822146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		240A3BAEBB004613AD9D5C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3A009B9FC657467599BC65C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4091A3BDDC314C159CF1F1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4991970CB7BC42A4AC73B021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		60CDDC52FB3F4A1A9AA323E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7143646D22E44A9DA7C2DD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gen_opencv_java_source;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7627DE1BD9D74D909C3E571E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		852944B9E59F4F13A9C9A59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9847477AC96C4595831F88B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B3647CCFEBA24CA991D74B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gen_opencv_java_source;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C171603336D647668008220F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator/build";
+			};
+			name = Debug;
+		};
+		C8590E4549B04BBAB5EB5259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/ameerspincar/Documents/ios/build/build-i386-iphonesimulator/modules/java_bindings_generator/build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D98D6A9E0CD4E84BCB03604 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7627DE1BD9D74D909C3E571E /* Debug */,
+				852944B9E59F4F13A9C9A59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5DBC79E3D97E4CBA938CCBDE /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A009B9FC657467599BC65C4 /* Debug */,
+				4091A3BDDC314C159CF1F1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6F5A5B1BB5644E29B534EB4E /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CDDC52FB3F4A1A9AA323E6 /* Debug */,
+				9847477AC96C4595831F88B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		86F3C5F8CFC34CD88AFF916B /* Build configuration list for PBXProject "opencv_java_bindings_generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C171603336D647668008220F /* Debug */,
+				C8590E4549B04BBAB5EB5259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0A88C427CF1454B8B1E152B /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BE1297A29C4C3983602357 /* Debug */,
+				240A3BAEBB004613AD9D5C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B0BF43D683E74376BB3A36FE /* Build configuration list for PBXAggregateTarget "gen_opencv_java_source" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3647CCFEBA24CA991D74B75 /* Debug */,
+				7143646D22E44A9DA7C2DD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FE9B8B0D898C4F2AB1F54A57 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4991970CB7BC42A4AC73B021 /* Debug */,
+				17D5B4F2E99848F7A8822146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19785C853A8B48859C782BDA /* Project object */;
+}

@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/bin/xcodebuild IPHONEOS_DEPLOYMENT_TARGET=6.0 ARCHS=armv7 -sdk iphoneos $*
