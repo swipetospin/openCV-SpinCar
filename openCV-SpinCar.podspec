@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     :git => "https://github.com/swipetospin/opencv.git"
   }
 
-  s.prepare_command = "mv ios/opencv2.framework/Versions/A/opencv2.txt ios/opencv2.framework/Versions/A/opencv2.a"
+  s.prepare_command = "mv ios/opencv2.framework/Versions/A/opencv2.txt ios/opencv2.framework/Versions/A/opencv2"
   s.source_files = 'Empty.m', 'ios/include/**/*.{h,hpp}'
   s.public_header_files = 'ios/include/**/*.{h,hpp}'
   s.header_dir = 'ios/include/**/*.{h,hpp}'
