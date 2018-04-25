@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.header_dir = 'ios/include/**/*.{h,hpp}'
   s.header_mappings_dir = 'ios/include/'
   s.libraries    = 'c++', 'stdc++'  
-  s.preserve_paths = 'ios/libopencv2Static.a','opencv2.framework'
+  s.preserve_paths = 'ios/opencv2.a','opencv2.framework'
   s.frameworks = 'opencv2', 'Accelerate', 'AssetsLibrary', 'AVFoundation', 'CoreGraphics', 'CoreImage', 'CoreMedia', 'CoreVideo', 'Foundation', 'opencv2', 'QuartzCore', 'UIKit'
   s.xcconfig = {'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/OpenCV', 'OTHER_LDFLAGS' => '-all_load'}
 end
