@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   }
 
   s.prepare_command = "mv ios/opencv2.framework/Versions/A/opencv2.txt ios/opencv2.framework/Versions/A/opencv2"
-  s.source_files = 'Empty.m', 'ios/include/**/*.{h,hpp}'
+  s.source_files = 'ios/include/**/*.{h,hpp}'
   s.public_header_files = 'ios/include/**/*.{h,hpp}'
   s.header_dir = 'ios/include/**/*.{h,hpp}'
   s.header_mappings_dir = 'ios/include/'
