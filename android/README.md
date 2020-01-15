@@ -4,5 +4,6 @@ This is a sample Android app containing OpenCV for Android. It includes a maven 
 
 To update opencv versions:
 	1. Place the updated source code into ProbeApplication/opencv/src
-	2. Update library version in ProbeApplication/opencv/build.gradle
-	3. Publish
+	2. Update libraryVersion, compileSdkVersion, targetSdkVersion and minSdkVersion in ProbeApplication/opencv/build.gradle
+	3. Build the opencv aar file. In the opencv module, run the gradle build task (Tasks/build/build)
+	4. Publish to maven. In the opencv module, run the gradle build task (Tasks/publishing/publish)
