@@ -23,7 +23,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "OpenCV",
-            path: "opencv2.xcframework"
+            url: "https://github.com/swipetospin/openCV-SpinCar/releases/download/4.6.0/opencv2.xcframework.zip",
+            checksum: "6b4c436c51083796aa7e49935f4225518decac0bcc30a93172791311ee6d08e1"
         )
     ]
 )
